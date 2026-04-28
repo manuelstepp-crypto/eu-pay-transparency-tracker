@@ -46,7 +46,7 @@
 html, body { margin: 0; padding: 0; }
 html { -webkit-text-size-adjust: 100%; }
 body {
-  font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.55;
@@ -55,13 +55,13 @@ body {
   font-feature-settings: 'cv11', 'ss01';
 }
 h1, h2, h3, h4 {
-  font-family: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   color: var(--ink);
   margin: 0;
-  letter-spacing: -0.01em;
-  font-weight: 400;
+  letter-spacing: -0.02em;
+  font-weight: 700;
 }
-em { font-style: italic; }
+em { font-style: normal; color: var(--accent); }
 a { color: var(--ink-700); text-decoration: none; transition: color var(--t-fast); }
 a:hover { color: var(--ink-900); text-decoration: underline; }
 
@@ -118,7 +118,7 @@ a:hover { color: var(--ink-900); text-decoration: underline; }
   box-shadow: 0 0 0 2px #fff, 0 2px 8px rgba(10,31,61,0.18);
   background-size: cover;
   background-position: center;
-  font-family: 'Geist', sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 .avatar.has-photo { background-image: var(--avatar-image); }
 .avatar.has-photo::before { content: ''; }
@@ -268,12 +268,12 @@ a:hover { color: var(--ink-900); text-decoration: underline; }
 .hero h1 {
   color: #fff;
   font-size: clamp(32px, 4.6vw, 54px);
-  font-weight: 600;
+  font-weight: 800;
   line-height: 1.05;
   margin-bottom: 12px;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.03em;
 }
-.hero h1 em { color: var(--accent); font-style: italic; }
+.hero h1 em { color: var(--accent); font-style: normal; font-weight: 800; }
 .hero .lead {
   font-size: clamp(15px, 1.5vw, 18px);
   opacity: 0.78;
@@ -308,15 +308,16 @@ a:hover { color: var(--ink-900); text-decoration: underline; }
   color: var(--accent);
 }
 .hero-deadline-date {
-  font-family: 'Instrument Serif', Georgia, 'Times New Roman', serif;
-  font-size: clamp(26px, 3.6vw, 38px);
-  font-weight: 600; color: #fff; line-height: 1.1;
-  letter-spacing: -0.02em; font-variant-numeric: lining-nums;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: clamp(24px, 3.4vw, 34px);
+  font-weight: 700; color: #fff; line-height: 1.1;
+  letter-spacing: -0.025em; font-variant-numeric: lining-nums;
 }
 .hero-deadline-count {
-  font-family: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   font-size: clamp(36px, 5vw, 52px);
-  font-weight: 600; color: var(--accent); line-height: 1;
+  font-weight: 800; color: var(--accent); line-height: 1;
+  letter-spacing: -0.03em;
   font-variant-numeric: tabular-nums;
 }
 .hero-deadline-divider {
@@ -443,7 +444,7 @@ a:hover { color: var(--ink-900); text-decoration: underline; }
 }
 .quicklinks { margin-bottom: 18px; }
 .quicklinks h4 {
-  font-family: 'Geist', sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -505,7 +506,7 @@ a:hover { color: var(--ink-900); text-decoration: underline; }
 }
 .methodology > summary {
   cursor: pointer; list-style: none;
-  font-family: 'Geist', sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   font-size: 11px; font-weight: 700;
   letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--muted);
@@ -547,7 +548,7 @@ a:hover { color: var(--ink-900); text-decoration: underline; }
   font-size: 13px;
   color: var(--ink-700);
   border: 1px solid var(--line);
-  font-family: 'Geist', sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   letter-spacing: 0.04em;
 }
 .status-badge {
@@ -566,7 +567,7 @@ a:hover { color: var(--ink-900); text-decoration: underline; }
   font-weight: 600;
   color: var(--ink);
   margin: 14px 0 8px;
-  font-family: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   line-height: 1.3;
 }
 .detail-content .summary {
@@ -575,7 +576,7 @@ a:hover { color: var(--ink-900); text-decoration: underline; }
 }
 
 .section-label {
-  font-family: 'Geist', sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.1em;
