@@ -25,8 +25,9 @@ const daysBetween = (isoFuture) => {
 };
 
 async function init() {
+  const bust = '?t=' + Date.now();
   const [data, topo] = await Promise.all([
-    fetch('data.json').then(r => r.json()),
+    fetch('data.json' + bust).then(r => r.json()),
     fetch('europe.topojson').then(r => r.json())
   ]);
   STATE.data = data;
@@ -78,7 +79,9 @@ function renderHeader() {
     meetingLinkLg.href = author.meetingUrl;
   }
   if (author.photoUrl) {
-    avatar.style.setProperty('--avatar-image', `url(${JSON.stringify(author.photoUrl)})`);
+    const isData = author.photoUrl.startsWith('data:');
+    const photoSrc = isData ? author.photoUrl : author.photoUrl + '?t=' + Date.now();
+    avatar.style.setProperty('--avatar-image', `url(${JSON.stringify(photoSrc)})`);
     avatar.classList.add('has-photo');
     avatar.textContent = '';
   }
