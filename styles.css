@@ -643,24 +643,32 @@ a:hover { color: var(--ink-900); text-decoration: underline; }
   margin-top: 24px;
 }
 .foot-inner { max-width: var(--max); margin: 0 auto; }
-.foot-cta {
+
+/* ---------- discuss CTA band (sits between hero and main) ---------- */
+.discuss-band {
+  max-width: var(--max);
+  margin: 24px auto 0;
+  padding: 0 var(--gutter);
+}
+.discuss-cta {
   display: flex; align-items: center; gap: 24px;
   padding: 28px 32px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(212,167,63,0.25);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
   border-radius: var(--radius);
-  margin-bottom: 28px;
+  box-shadow: var(--shadow-md);
   flex-wrap: wrap;
 }
-.foot-cta-text { flex: 1; min-width: 280px; }
-.foot-cta-text h3 {
-  color: #fff;
+.discuss-cta-text { flex: 1; min-width: 280px; }
+.discuss-cta-text h3 {
   font-size: clamp(20px, 2.4vw, 26px);
   font-weight: 600;
-  margin-bottom: 6px;
+  margin: 0 0 6px;
+  color: var(--ink);
 }
-.foot-cta-text p {
-  color: rgba(255,255,255,0.7);
+.discuss-cta-text p {
+  color: var(--muted);
   margin: 0;
   font-size: 14.5px;
   max-width: 560px;
@@ -717,7 +725,7 @@ a:hover { color: var(--ink-900); text-decoration: underline; }
   .filter-pills { width: 100%; }
   .pill { flex: 1; justify-content: center; }
 
-  .foot-cta { padding: 22px 20px; gap: 16px; }
+  .discuss-cta { padding: 22px 20px; gap: 16px; }
   .cta-meeting--lg { width: 100%; justify-content: center; }
 }
 
