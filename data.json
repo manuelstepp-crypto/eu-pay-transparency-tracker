@@ -3,10 +3,11 @@
     "title": "EU Pay Transparency Directive — Member State Tracker",
     "subtitle": "Where the 27 Member States Stand",
     "lastUpdated": "2026-04-28",
+    "isoWeek": "2026-W18",
     "deadlineTransposition": "2026-06-07",
     "deadlineFirstReport": "2027-06-07",
     "deadlinePhaseInComplete": "2031-06-07",
-    "disclaimer": "Status and sources verified on 28 April 2026. This page does not constitute legal advice."
+    "disclaimer": "Status and sources verified for ISO week 2026-W18 (28 April 2026). This page does not constitute legal advice."
   },
   "author": {
     "name": "Manuel Stepp",
@@ -63,11 +64,13 @@
       "code": "SK",
       "name": "Slovakia",
       "status": "green",
-      "headline": "Equal Pay Act adopted 15 April 2026",
-      "summary": "First Member State across the line — law enters into force on the deadline (7 June 2026). Mirrors the Directive closely with national reporting templates.",
+      "headline": "First past the post — Equal Pay Act adopted 15 April 2026",
+      "summary": "First Member State across the line. The Equal Pay Act enters into force on 7 June 2026 (the EU deadline). Compliant pay structures are required by 31 July 2026 — barely seven weeks later. Same-sex equal pay claims are in scope (gold-plating). First reports by 7 June 2027 cover only 1 Aug – 31 Dec 2026 (not a full calendar year). Reporting fines €4,000–€8,000, supplemented by broader Labour Inspectorate sanctioning powers.",
       "keyDates": [
         { "label": "Act adopted by National Council", "date": "2026-04-15" },
-        { "label": "Entry into force", "date": "2026-06-07" }
+        { "label": "Entry into force", "date": "2026-06-07" },
+        { "label": "Compliant pay structures required", "date": "2026-07-31" },
+        { "label": "First pay-gap report (≥150 staff, covers 1 Aug–31 Dec 2026)", "date": "2027-06-07" }
       ],
       "sources": [
         { "title": "Slovakia becomes the first EU Member State to transpose", "publisher": "Lewis Silkin", "url": "https://www.lewissilkin.com/insights/2026/04/24/slovakia-becomes-the-first-eu-member-state-to-transpose-the-pay-transparency-directive" }
@@ -147,14 +150,18 @@
       "code": "CZ",
       "name": "Czech Republic",
       "status": "amber",
-      "headline": "Draft 16 March 2026; rules from 1 January 2027",
-      "summary": "Draft introduced by the Ministry of Labour on 16 March 2026; entry into force targeted 1 January 2027; reporting obligations phased in from 2028.",
+      "headline": "Public consultation closed 27 April 2026 — minimalist transposition",
+      "summary": "Draft published by the Ministry of Labour on 26 March 2026; public consultation closed 27 April 2026 (week 18). Explicitly a 'minimalist transposition'. General entry into force targeted 1 January 2027, but most substantive obligations (Right to Information, pay reporting, joint pay assessments) only apply from 1 January 2028; some provisions phased in to 2031. Czechia does not intend to meet the 7 June 2026 deadline. Notable gold-plating: a dual-report structure (Ministry-prepared headline report + employer-prepared job-group report due 30 April annually) and a mandatory documented remuneration system for every employer.",
       "keyDates": [
         { "label": "Draft presented by Ministry of Labour", "date": "2026-03-16" },
-        { "label": "Targeted entry into force", "date": "2027-01-01" }
+        { "label": "Draft published for consultation", "date": "2026-03-26" },
+        { "label": "Consultation closed", "date": "2026-04-27" },
+        { "label": "Targeted general entry into force", "date": "2027-01-01" },
+        { "label": "Substantive obligations (RTI, reporting, JPA) apply", "date": "2028-01-01" }
       ],
       "sources": [
-        { "title": "Analyzing Czechia's Draft Legislation to Transpose the EU Pay Transparency Directive", "publisher": "Trusaic", "url": "https://trusaic.com/blog/analyzing-czechias-draft-legislation-to-transpose-the-eu-pay-transparency-directive/" }
+        { "title": "Analyzing Czechia's Draft Legislation to Transpose the EU Pay Transparency Directive", "publisher": "Trusaic", "url": "https://trusaic.com/blog/analyzing-czechias-draft-legislation-to-transpose-the-eu-pay-transparency-directive/" },
+        { "title": "Czech Republic publishes draft Pay Transparency Act: key deviations and practical issues for employers", "publisher": "Wolf Theiss", "url": "https://www.wolftheiss.com/insights/czech-republic-publishes-draft-pay-transparency-act/" }
       ]
     },
     "PL": {
@@ -242,42 +249,47 @@
       "code": "BE",
       "name": "Belgium",
       "status": "amber",
-      "headline": "Public-sector partial; private draft pending",
-      "summary": "The French Community adopted a decree for the public sector (12 September 2024 / in force 1 January 2025). The Flemish Government is preparing a similar draft. Private sector transposition still pending.",
+      "headline": "Minister Clarinval confirms full federal transposition by 7 June 2026 (week of 13 April)",
+      "summary": "Belgium remains a jurisdictional patchwork: the French Community decree has been in force since 1 January 2025; the Flemish public-sector decree (approved March 2026) targets entry into force on 7 June 2026. In a Committee on Social Affairs session in the week of 13 April 2026, federal Minister Clarinval confirmed the intention to fully transpose the Directive into Belgian law by 7 June 2026. The federal private-sector draft is 'expected to circulate shortly'; no public text yet.",
       "keyDates": [
         { "label": "French Community public-sector decree", "date": "2024-09-12" },
-        { "label": "Decree in force (public sector)", "date": "2025-01-01" }
+        { "label": "Decree in force (public sector, French Community)", "date": "2025-01-01" },
+        { "label": "Flemish public-sector decree approved", "date": "2026-03-13" },
+        { "label": "Minister Clarinval confirms full federal transposition", "date": "2026-04-13" }
       ],
       "sources": [
-        { "title": "Decree partially transposes EU Pay Transparency Directive (Flemish public sector)", "publisher": "Deloitte Belgium", "url": "https://www.deloitte.com/be/en/services/tax/blogs/decree-partially-transposes-eu-pay-transparency-directive-for-flemish-public-sector.html" }
+        { "title": "Decree partially transposes EU Pay Transparency Directive (Flemish public sector)", "publisher": "Deloitte Belgium", "url": "https://www.deloitte.com/be/en/services/tax/blogs/decree-partially-transposes-eu-pay-transparency-directive-for-flemish-public-sector.html" },
+        { "title": "Belgium Pay Transparency Reporting Law Guide (Minister Clarinval, week of 13 April 2026)", "publisher": "Trusaic", "url": "https://trusaic.com/resources/global-pay-transparency-center/belgium/" }
       ]
     },
     "IE": {
       "code": "IE",
       "name": "Ireland",
       "status": "amber",
-      "headline": "Pre-employment draft; pay-gap law already in force",
-      "summary": "The existing Gender Pay Gap Information Act is in force. A new draft (General Scheme of the Equality (Miscellaneous Provisions) Bill, January 2025) focuses on pre-employment transparency obligations.",
+      "headline": "Government confirms phased rollout — deadline will be missed (22 April 2026)",
+      "summary": "Two-bill strategy: the Equality (Miscellaneous Provisions) Bill 2024 covers the salary-history ban (Article 5); a standalone Pay Transparency Bill is still in Heads-of-Bill drafting. Government has confirmed Ireland will not be fully compliant by 7 June 2026 and will introduce a phased rollout starting with pre-employment obligations. A Mason Hayes & Curran survey of 500 employers (published 22 April 2026) found over 1 in 5 view the new rules as an 'unnecessary burden' and only 31% expect a positive effect.",
       "keyDates": [
-        { "label": "General Scheme published", "date": "2025-01-01" }
+        { "label": "General Scheme of the Equality (Misc. Provisions) Bill", "date": "2025-01-01" },
+        { "label": "MHC employer survey published", "date": "2026-04-22" }
       ],
       "sources": [
-        { "title": "What's new for employers in 2026", "publisher": "McCann FitzGerald", "url": "https://www.mccannfitzgerald.com/knowledge/employment/whats-new-for-employers-in-2026" },
-        { "title": "Ireland — Gender Pay Gap Reporting", "publisher": "Trusaic", "url": "https://trusaic.com/resources/global-pay-transparency-center/ireland/" }
+        { "title": "One in five employers see pay transparency rule as 'unnecessary burden'", "publisher": "Irish Times", "url": "https://www.irishtimes.com/business/2026/04/22/one-in-five-employers-see-pay-transparency-rule-as-unnecessary-burden/" },
+        { "title": "Employers running out of time as changes on pay transparency and retirement loom", "publisher": "Irish Times", "url": "https://www.irishtimes.com/business/work/2026/04/23/employers-running-out-of-time-as-changes-on-pay-transparency-and-retirement-loom/" },
+        { "title": "EU Pay Transparency Directive Tracker — Ireland", "publisher": "Figures", "url": "https://figures.hr/solutions/pay-transparency" }
       ]
     },
     "ES": {
       "code": "ES",
       "name": "Spain",
       "status": "amber",
-      "headline": "Draft Royal Decree consulting 24 April – 8 May 2026",
-      "summary": "Public consultation on the draft Royal Decree implementing the Directive: 24 April to 8 May 2026.",
+      "headline": "Public consultation live — 24 April to 8 May 2026",
+      "summary": "Public consultation on the draft Royal Decree opened 24 April and closes 8 May 2026 (currently live, week 18). The Decree would broaden workers' rights to information and impose stricter duties on employers in job advertising, pay-setting, career progression and pay audits. Working against the 7 June 2026 deadline; full transposition by that date is not yet certain.",
       "keyDates": [
         { "label": "Consultation opens", "date": "2026-04-24" },
         { "label": "Consultation closes", "date": "2026-05-08" }
       ],
       "sources": [
-        { "title": "Spain moves to strengthen pay transparency and implement EU Gender Pay Transparency Directive", "publisher": "DLA Piper", "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/Spain-moves-to-strengthen-pay-transparency-and-implement-eu-gender-pay-transparency-directive" }
+        { "title": "Spain moves to strengthen pay transparency and implement EU Gender Pay Transparency Directive", "publisher": "DLA Piper", "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/Spain-moves-to-strengthen-pay-transparency-and-implement-EU-Gender-Pay-Transparency-Directive" }
       ]
     },
     "SI": {
@@ -407,14 +419,15 @@
       "code": "EE",
       "name": "Estonia",
       "status": "red",
-      "headline": "Resisting — would accept fine (16 April 2026)",
-      "summary": "On 16 April 2026, Estonia stated it would prefer to accept an EU fine rather than implement the Directive. Position has reportedly softened slightly since — verify before publication.",
+      "headline": "Resisting — partial climbdown after 16 April 2026 statement",
+      "summary": "On 16 April 2026, Estonia's Economic Affairs Minister stated the government would rather pay European Commission infringement fines than transpose the Directive in its current form. A subsequent clarification confirmed Estonia still intends to prohibit salary history questions and provide applicants with salary range information prior to interview, so the climbdown is partial rather than full. No formal bill on record.",
       "keyDates": [
         { "label": "Government statement of non-compliance", "date": "2026-04-16" }
       ],
       "sources": [
         { "title": "Estonia seeks delay to EU equal pay rules despite a wide gender pay gap", "publisher": "Estonian World", "url": "https://estonianworld.com/business/estonia-seeks-delay-to-eu-equal-pay-rules-despite-a-wide-gender-pay-gap/" },
-        { "title": "Estonia opts for fines over implementation", "publisher": "Trusaic", "url": "https://trusaic.com/blog/sweden-halts-eu-pay-transparency-directive-transposition-seeks-delay-and-renegotiation" }
+        { "title": "Slovakia first to transpose — Estonia contrast (climbdown noted)", "publisher": "Lewis Silkin", "url": "https://www.lewissilkin.com/insights/2026/04/24/slovakia-becomes-the-first-eu-member-state-to-transpose-the-pay-transparency-directive" },
+        { "title": "EU Pay Transparency Directive Tracker — Estonia", "publisher": "Figures", "url": "https://figures.hr/solutions/pay-transparency" }
       ]
     }
   }
