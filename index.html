@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>EU Pay Transparency Directive — Member State Tracker</title>
+<meta name="description" content="Interactive dashboard tracking transposition of the EU Pay Transparency Directive across all 27 Member States." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <div class="brand-mark">KF</div>
+    <div class="brand-text">
+      <div class="brand-line">Korn Ferry</div>
+      <div class="brand-sub">Reward &amp; Pay Equity</div>
+    </div>
+  </div>
+  <div class="last-updated" id="lastUpdated"></div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1>EU Pay Transparency Directive</h1>
+    <p class="lead">Where the 27 Member States stand on transposition.</p>
+    <div class="kpi-row">
+      <div class="kpi"><span class="kpi-value" id="kpiGreen">—</span><span class="kpi-label">Transposed / on-track</span></div>
+      <div class="kpi"><span class="kpi-value" id="kpiAmber">—</span><span class="kpi-label">Draft published</span></div>
+      <div class="kpi"><span class="kpi-value" id="kpiRed">—</span><span class="kpi-label">No draft / resisting</span></div>
+      <div class="kpi kpi-deadline"><span class="kpi-value" id="kpiCountdown">—</span><span class="kpi-label">days to <strong>7 June 2026</strong></span></div>
+    </div>
+  </div>
+</section>
+
+<main class="layout">
+
+  <section class="map-card">
+    <div class="card-head">
+      <h2>EU-27 status overview</h2>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="map-wrap">
+      <div id="map"></div>
+      <div class="map-tooltip" id="tooltip" hidden></div>
+    </div>
+  </section>
+
+  <aside class="detail-card" id="detail">
+    <div class="detail-empty" id="detailEmpty">
+      <h3>Click a country</h3>
+      <p>Select a Member State on the map or in the list to see status, key dates and sources.</p>
+      <div class="quicklinks">
+        <h4>Cross-EU trackers</h4>
+        <ul id="trackerList"></ul>
+      </div>
+      <div class="quicklinks">
+        <h4>The Directive</h4>
+        <ul id="directiveList"></ul>
+      </div>
+    </div>
+    <div class="detail-content" id="detailContent" hidden></div>
+  </aside>
+
+</main>
+
+<section class="grid-section">
+  <div class="grid-head">
+    <h2>All Member States</h2>
+    <div class="filter-bar">
+      <input type="search" id="search" placeholder="Search country…" aria-label="Search country" />
+      <div class="filter-pills" id="filterPills">
+        <button class="pill is-active" data-filter="all">All</button>
+        <button class="pill" data-filter="green"><span class="dot dot-green"></span>Green</button>
+        <button class="pill" data-filter="amber"><span class="dot dot-amber"></span>Amber</button>
+        <button class="pill" data-filter="red"><span class="dot dot-red"></span>Red</button>
+      </div>
+    </div>
+  </div>
+  <div class="country-grid" id="countryGrid"></div>
+</section>
+
+<footer class="site-footer">
+  <div class="foot-inner">
+    <p class="foot-disclaimer" id="footDisclaimer"></p>
+    <p class="foot-meta">
+      Prepared by <strong>Korn Ferry</strong> — Reward &amp; Benefits Practice, EMEA.
+      Source: <a href="https://github.com/manuelstepp-crypto/eu-pay-transparency-tracker">GitHub repository</a>.
+    </p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
