@@ -6,6 +6,7 @@ const STATE = {
   selected: null,
   filter: 'all',
   search: '',
+  sort: 'status',
 };
 
 const EU27 = ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE'];
@@ -32,12 +33,20 @@ async function init() {
   STATE.topo = topo;
 
   renderHeader();
-  renderKpis();
+  renderHero();
   renderLegend();
   renderMap();
   renderGrid();
   renderQuicklinks();
+  renderLeaderboard();
+  renderMethodology();
   bindFilters();
+}
+
+function nextDateFor(country) {
+  const dates = (country.keyDates || []).map(d => d.date).filter(Boolean).sort();
+  const today = new Date().toISOString().slice(0, 10);
+  return dates.find(d => d >= today) || dates[dates.length - 1] || null;
 }
 
 function renderHeader() {
@@ -75,14 +84,29 @@ function renderHeader() {
   }
 }
 
-function renderKpis() {
+function renderHero() {
   const counts = { green: 0, amber: 0, red: 0 };
   Object.values(STATE.data.countries).forEach(c => counts[c.status]++);
-  document.getElementById('kpiGreen').textContent = counts.green;
-  document.getElementById('kpiAmber').textContent = counts.amber;
-  document.getElementById('kpiRed').textContent = counts.red;
-  const days = daysBetween(STATE.data.meta.deadlineTransposition);
-  document.getElementById('kpiCountdown').textContent = days >= 0 ? days : 'past';
+  const total = counts.green + counts.amber + counts.red;
+
+  const deadlineIso = STATE.data.meta.deadlineTransposition;
+  const deadlineLong = new Date(deadlineIso + 'T00:00:00Z')
+    .toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  document.getElementById('heroDeadline').textContent = deadlineLong;
+
+  const days = daysBetween(deadlineIso);
+  document.getElementById('heroCountdown').textContent = days >= 0 ? days : 'past';
+
+  document.getElementById('hpGreenN').textContent = counts.green;
+  document.getElementById('hpAmberN').textContent = counts.amber;
+  document.getElementById('hpRedN').textContent = counts.red;
+
+  // Animate segments in next frame so transition triggers
+  requestAnimationFrame(() => {
+    document.getElementById('hpGreen').style.width = (counts.green / total * 100) + '%';
+    document.getElementById('hpAmber').style.width = (counts.amber / total * 100) + '%';
+    document.getElementById('hpRed').style.width   = (counts.red   / total * 100) + '%';
+  });
 }
 
 function renderLegend() {
@@ -106,6 +130,44 @@ function renderQuicklinks() {
   directive.innerHTML = STATE.data.directiveSources.map(s => `
     <li><a href="${s.url}" target="_blank" rel="noopener">${s.title}<span class="pub">${s.publisher}</span></a></li>
   `).join('');
+}
+
+function renderLeaderboard() {
+  const list = document.getElementById('leaderboard');
+  const today = new Date().toISOString().slice(0, 10);
+  const items = Object.values(STATE.data.countries)
+    .map(c => ({ c, next: nextDateFor(c) }))
+    .filter(x => x.next && x.next >= today)
+    .sort((a, b) => a.next.localeCompare(b.next))
+    .slice(0, 5);
+
+  if (!items.length) { list.innerHTML = '<li style="cursor:default">No upcoming dates on record.</li>'; return; }
+
+  list.innerHTML = items.map(({ c, next }) => `
+    <li role="button" tabindex="0" data-code="${c.code}">
+      <span class="lb-dot" style="background:${STATE.data.statusLegend[c.status].color}"></span>
+      <span class="lb-name">${c.name}</span>
+      <span class="lb-date">${fmtDate(next)}</span>
+    </li>
+  `).join('');
+
+  list.querySelectorAll('li[data-code]').forEach(li => {
+    const code = li.dataset.code;
+    li.addEventListener('click', () => selectCountry(code));
+    li.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); selectCountry(code); }
+    });
+  });
+}
+
+function renderMethodology() {
+  const ul = document.getElementById('methodologyList');
+  if (!ul) return;
+  const order = ['green', 'amber', 'red'];
+  ul.innerHTML = order.map(k => {
+    const s = STATE.data.statusLegend[k];
+    return `<li><span class="m-tag ${k}">${s.label}</span><span>${s.definition || ''}</span></li>`;
+  }).join('');
 }
 
 function renderMap() {
@@ -134,6 +196,24 @@ function renderMap() {
     return STATE.data.statusLegend[c.status].color;
   };
 
+  const placeTooltip = (event) => {
+    const rect = container.getBoundingClientRect();
+    const ttRect = tooltip.getBoundingClientRect();
+    let x = event.clientX - rect.left + 14;
+    let y = event.clientY - rect.top + 14;
+    if (x + ttRect.width > rect.width - 8) x = event.clientX - rect.left - ttRect.width - 14;
+    if (y + ttRect.height > rect.height - 8) y = event.clientY - rect.top - ttRect.height - 14;
+    tooltip.style.left = Math.max(8, x) + 'px';
+    tooltip.style.top = Math.max(8, y) + 'px';
+  };
+
+  const showTooltipFor = (code) => {
+    const c = STATE.data.countries[code];
+    if (!c) return;
+    tooltip.hidden = false;
+    tooltip.innerHTML = `<strong>${c.name}</strong><span class="tt-status">${STATE.data.statusLegend[c.status].label}</span>`;
+  };
+
   svg.selectAll('path')
     .data(features)
     .join('path')
@@ -144,23 +224,30 @@ function renderMap() {
     .attr('data-code', d => d.id)
     .attr('d', path)
     .attr('fill', d => fillFor(d.id) || '#eef0f4')
-    .on('mouseenter', (event, d) => {
+    .attr('tabindex', d => EU27.includes(d.id) ? 0 : null)
+    .attr('role', d => EU27.includes(d.id) ? 'button' : null)
+    .attr('aria-label', d => {
       const c = STATE.data.countries[d.id];
-      if (!c) return;
-      tooltip.hidden = false;
-      tooltip.innerHTML = `
-        <strong>${c.name}</strong>
-        <span class="tt-status">${STATE.data.statusLegend[c.status].label}</span>
-      `;
+      return c ? `${c.name} — ${STATE.data.statusLegend[c.status].label}` : null;
     })
-    .on('mousemove', (event) => {
-      const rect = container.getBoundingClientRect();
-      const x = event.clientX - rect.left + 14;
-      const y = event.clientY - rect.top + 14;
-      tooltip.style.left = x + 'px';
-      tooltip.style.top = y + 'px';
-    })
+    .on('mouseenter', (event, d) => showTooltipFor(d.id))
+    .on('mousemove', placeTooltip)
     .on('mouseleave', () => { tooltip.hidden = true; })
+    .on('focus', function (event, d) {
+      if (!STATE.data.countries[d.id]) return;
+      showTooltipFor(d.id);
+      const bbox = this.getBoundingClientRect();
+      const rect = container.getBoundingClientRect();
+      tooltip.style.left = (bbox.left - rect.left + bbox.width / 2 + 8) + 'px';
+      tooltip.style.top = (bbox.top - rect.top + bbox.height / 2 + 8) + 'px';
+    })
+    .on('blur', () => { tooltip.hidden = true; })
+    .on('keydown', (event, d) => {
+      if ((event.key === 'Enter' || event.key === ' ') && STATE.data.countries[d.id]) {
+        event.preventDefault();
+        selectCountry(d.id);
+      }
+    })
     .on('click', (event, d) => {
       if (STATE.data.countries[d.id]) selectCountry(d.id);
     });
@@ -173,21 +260,46 @@ function renderMap() {
   }, 200));
 }
 
+function applyMapDim() {
+  const q = STATE.search;
+  document.querySelectorAll('.country').forEach(el => {
+    if (el.classList.contains('non-eu')) return;
+    const code = el.getAttribute('data-code');
+    const country = STATE.data.countries[code];
+    if (!country) return;
+    const matches = !q
+      || country.name.toLowerCase().includes(q)
+      || code.toLowerCase().includes(q)
+      || (country.headline || '').toLowerCase().includes(q);
+    el.classList.toggle('is-dim', !matches);
+  });
+}
+
 function debounce(fn, ms) {
   let t;
   return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
 }
 
-function renderGrid() {
-  const grid = document.getElementById('countryGrid');
+function sortedCountries() {
   const order = ['green','amber','red'];
-  const sorted = Object.values(STATE.data.countries).sort((a, b) => {
+  const list = Object.values(STATE.data.countries);
+  if (STATE.sort === 'alpha') {
+    return list.sort((a, b) => a.name.localeCompare(b.name));
+  }
+  if (STATE.sort === 'deadline') {
+    const far = '9999-99-99';
+    return list.sort((a, b) => (nextDateFor(a) || far).localeCompare(nextDateFor(b) || far));
+  }
+  return list.sort((a, b) => {
     const so = order.indexOf(a.status) - order.indexOf(b.status);
     if (so !== 0) return so;
     return a.name.localeCompare(b.name);
   });
+}
 
-  grid.innerHTML = sorted.map(c => `
+function renderGrid() {
+  const grid = document.getElementById('countryGrid');
+  grid.innerHTML = sortedCountries().map(c => `
     <button class="c-card s-${c.status}" data-code="${c.code}" data-status="${c.status}">
       <div class="c-top">
         <span class="c-name">${c.name}</span>
@@ -205,8 +317,12 @@ function renderGrid() {
 function bindFilters() {
   document.querySelectorAll('#filterPills .pill').forEach(p => {
     p.addEventListener('click', () => {
-      document.querySelectorAll('#filterPills .pill').forEach(x => x.classList.remove('is-active'));
+      document.querySelectorAll('#filterPills .pill').forEach(x => {
+        x.classList.remove('is-active');
+        x.setAttribute('aria-pressed', 'false');
+      });
       p.classList.add('is-active');
+      p.setAttribute('aria-pressed', 'true');
       STATE.filter = p.dataset.filter;
       applyFilter();
     });
@@ -214,7 +330,16 @@ function bindFilters() {
   document.getElementById('search').addEventListener('input', (e) => {
     STATE.search = e.target.value.trim().toLowerCase();
     applyFilter();
+    applyMapDim();
   });
+  const sortSel = document.getElementById('sortSelect');
+  if (sortSel) {
+    sortSel.addEventListener('change', (e) => {
+      STATE.sort = e.target.value;
+      renderGrid();
+      applyFilter();
+    });
+  }
 }
 
 function applyFilter() {
@@ -237,8 +362,16 @@ function selectCountry(code) {
   const c = STATE.data.countries[code];
   if (!c) return;
 
-  document.querySelectorAll('.country').forEach(el => el.classList.toggle('is-selected', el.dataset.code === code));
-  document.querySelectorAll('.c-card').forEach(el => el.classList.toggle('is-selected', el.dataset.code === code));
+  document.querySelectorAll('.country').forEach(el => {
+    const match = el.getAttribute('data-code') === code;
+    el.classList.toggle('is-selected', match);
+    if (match) el.setAttribute('aria-current', 'true'); else el.removeAttribute('aria-current');
+  });
+  document.querySelectorAll('.c-card').forEach(el => {
+    const match = el.dataset.code === code;
+    el.classList.toggle('is-selected', match);
+    if (match) el.setAttribute('aria-current', 'true'); else el.removeAttribute('aria-current');
+  });
 
   const empty = document.getElementById('detailEmpty');
   const content = document.getElementById('detailContent');

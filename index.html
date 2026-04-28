@@ -6,12 +6,25 @@
 <meta name="theme-color" content="#0a1f3d" />
 <title>EU Pay Transparency Directive — Member State Tracker</title>
 <meta name="description" content="Interactive dashboard tracking transposition of the EU Pay Transparency Directive across all 27 EU Member States." />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="EU Pay Transparency Directive — Member State Tracker" />
+<meta property="og:description" content="Where the 27 Member States stand on transposition. Live tracker with map, country detail and sources." />
+<meta property="og:url" content="https://manuelstepp-crypto.github.io/eu-pay-transparency-tracker/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="EU Pay Transparency Directive — Member State Tracker" />
+<meta name="twitter:description" content="Where the 27 Member States stand on transposition." />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a1f3d'/%3E%3Ccircle cx='32' cy='32' r='14' fill='none' stroke='%23d4a73f' stroke-width='3'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23d4a73f'/%3E%3C/svg%3E" />
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+<a class="skip-link" href="#map-card">Skip to map</a>
 
 <header class="profile-bar">
   <a class="profile" id="profileLink" href="#" target="_blank" rel="noopener">
@@ -20,23 +33,17 @@
       <span class="profile-name" id="profileName">Manuel Stepp</span>
       <span class="profile-cta">
         <svg class="li-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 0H5C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73c-.97 0-1.75-.79-1.75-1.76s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.76-1.75 1.76zM20 19h-3v-5.6c0-3.37-4-3.11-4 0V19h-3V8h3v1.77c1.4-2.59 7-2.78 7 2.48V19z"/></svg>
-        <span class="cta-text-long">Follow on LinkedIn to get weekly updates</span>
-        <span class="cta-text-short">Follow on LinkedIn</span>
+        <span class="cta-text-long">Weekly updates on LinkedIn</span>
+        <span class="cta-text-short">LinkedIn</span>
       </span>
     </span>
   </a>
-  <div class="header-right">
-    <div class="header-pitch" aria-hidden="false">
-      <span class="header-pitch-main">A 30-minute briefing on the Directive — what changes, what to do first.</span>
-      <span class="header-pitch-note">A first orientation meeting is free of charge.</span>
-    </div>
-    <a class="cta-meeting" id="meetingLink" href="#" target="_blank" rel="noopener">
-      <svg class="cta-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 2v4M16 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/></svg>
-      <span class="cta-text-long">Book a meeting</span>
-      <span class="cta-text-short">Book a meeting</span>
-      <svg class="cta-arrow" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 5l7 7-7 7"/></svg>
-    </a>
-  </div>
+  <a class="cta-meeting" id="meetingLink" href="#" target="_blank" rel="noopener">
+    <svg class="cta-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 2v4M16 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/></svg>
+    <span class="cta-text-long">Book a meeting</span>
+    <span class="cta-text-short">Meeting</span>
+    <svg class="cta-arrow" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 5l7 7-7 7"/></svg>
+  </a>
 </header>
 
 <section class="hero">
@@ -49,48 +56,63 @@
   <div class="hero-inner">
     <div class="eyebrow">Directive (EU) 2023/970 — Transposition Tracker</div>
     <h1>EU Pay Transparency<br/><em>Directive</em></h1>
-    <p class="lead">Where the 27 Member States stand on transposition.</p>
+    <p class="lead">Where the 27 Member States stand on national implementation of the directive.</p>
 
-    <div class="status-stamp">
-      <div class="status-stamp-line">
-        <span class="line"></span>
-        <span class="status-stamp-tag">Status</span>
-        <span class="line"></span>
+    <div class="hero-deadline" aria-live="polite">
+      <div class="hero-deadline-row">
+        <div class="hero-deadline-block">
+          <span class="hero-deadline-label">Transposition deadline</span>
+          <span class="hero-deadline-date" id="heroDeadline">7 June 2026</span>
+        </div>
+        <div class="hero-deadline-divider" aria-hidden="true"></div>
+        <div class="hero-deadline-block">
+          <span class="hero-deadline-label">Days remaining</span>
+          <span class="hero-deadline-count" id="heroCountdown">—</span>
+        </div>
       </div>
-      <div class="status-stamp-date" id="statusDate">28 April 2026</div>
-      <div class="status-stamp-sub">Verified across publicly available legal trackers</div>
-    </div>
-
-    <div class="kpi-row">
-      <div class="kpi"><span class="kpi-value" id="kpiGreen">—</span><span class="kpi-label">Transposed / on-track</span><span class="kpi-bar kpi-bar--green"></span></div>
-      <div class="kpi"><span class="kpi-value" id="kpiAmber">—</span><span class="kpi-label">Draft published</span><span class="kpi-bar kpi-bar--amber"></span></div>
-      <div class="kpi"><span class="kpi-value" id="kpiRed">—</span><span class="kpi-label">No draft / resisting</span><span class="kpi-bar kpi-bar--red"></span></div>
-      <div class="kpi kpi-deadline">
-        <span class="kpi-value" id="kpiCountdown">—</span>
-        <span class="kpi-label">days to <strong>7 June 2026</strong></span>
-        <span class="kpi-bar kpi-bar--accent"></span>
+      <div class="hero-progress" aria-label="Transposition progress across 27 Member States">
+        <div class="hero-progress-bar">
+          <span class="hp-seg hp-seg--green" id="hpGreen" style="width:0%" data-tip=""></span>
+          <span class="hp-seg hp-seg--amber" id="hpAmber" style="width:0%" data-tip=""></span>
+          <span class="hp-seg hp-seg--red" id="hpRed" style="width:0%" data-tip=""></span>
+        </div>
+        <div class="hero-progress-legend">
+          <span><b id="hpGreenN">—</b> transposed / on-track</span>
+          <span><b id="hpAmberN">—</b> draft published</span>
+          <span><b id="hpRedN">—</b> no draft / resisting</span>
+          <span class="hero-progress-total">of 27 Member States</span>
+        </div>
       </div>
+      <div class="hero-stamp">Last updated <time id="statusDate">28 April 2026</time> · verified across publicly available legal trackers</div>
     </div>
   </div>
 </section>
 
 <main class="layout">
 
-  <section class="map-card">
+  <section class="map-card" id="map-card">
     <div class="card-head">
       <h2>EU-27 status overview</h2>
       <div class="legend" id="legend"></div>
     </div>
     <div class="map-wrap">
-      <div id="map"></div>
+      <div id="map" role="img" aria-label="Map of the European Union showing transposition status by Member State"></div>
       <div class="map-tooltip" id="tooltip" hidden></div>
     </div>
   </section>
 
-  <aside class="detail-card" id="detail">
+  <aside class="detail-card" id="detail" aria-live="polite">
     <div class="detail-empty" id="detailEmpty">
-      <h3>Click a country</h3>
-      <p>Select a Member State on the map or in the list below to see status, key dates and sources.</p>
+      <h3>Nearest to deadline</h3>
+      <p>Top movers approaching <strong>7 June 2026</strong>. Click any country on the map or below for the full picture.</p>
+      <ol class="leaderboard" id="leaderboard"></ol>
+
+      <details class="methodology">
+        <summary>How statuses are defined</summary>
+        <ul id="methodologyList"></ul>
+        <p class="methodology-note">This page does not constitute legal advice. Each country card links the primary sources we relied on.</p>
+      </details>
+
       <div class="quicklinks">
         <h4>Cross-EU trackers</h4>
         <ul id="trackerList"></ul>
@@ -109,13 +131,21 @@
   <div class="grid-head">
     <h2>All Member States</h2>
     <div class="filter-bar">
-      <input type="search" id="search" placeholder="Search country…" aria-label="Search country" />
-      <div class="filter-pills" id="filterPills">
-        <button class="pill is-active" data-filter="all">All</button>
-        <button class="pill" data-filter="green"><span class="dot dot-green"></span>Green</button>
-        <button class="pill" data-filter="amber"><span class="dot dot-amber"></span>Amber</button>
-        <button class="pill" data-filter="red"><span class="dot dot-red"></span>Red</button>
+      <input type="search" id="search" placeholder="Search country…" aria-label="Search country" autocomplete="off" />
+      <div class="filter-pills" id="filterPills" role="group" aria-label="Filter by status">
+        <button class="pill is-active" data-filter="all" aria-pressed="true">All</button>
+        <button class="pill" data-filter="green" aria-pressed="false"><span class="dot dot-green"></span>Green</button>
+        <button class="pill" data-filter="amber" aria-pressed="false"><span class="dot dot-amber"></span>Amber</button>
+        <button class="pill" data-filter="red" aria-pressed="false"><span class="dot dot-red"></span>Red</button>
       </div>
+      <label class="sort-wrap">
+        <span class="sort-label">Sort</span>
+        <select id="sortSelect" aria-label="Sort countries">
+          <option value="status">By status</option>
+          <option value="alpha">Alphabetical</option>
+          <option value="deadline">By next date</option>
+        </select>
+      </label>
     </div>
   </div>
   <div class="country-grid" id="countryGrid"></div>
@@ -125,8 +155,7 @@
   <div class="discuss-cta">
     <div class="discuss-cta-text">
       <h3>Want to discuss what this means for your business?</h3>
-      <p>Tailored advisory for reward leaders preparing for the Directive — gap diagnostics, job architecture, and country-by-country playbooks.</p>
-      <p class="discuss-cta-note">A first orientation meeting is free of charge.</p>
+      <p>Tailored advisory for reward leaders preparing for the Directive — gap diagnostics, job architecture and country-by-country playbooks. A 30-minute first orientation meeting is free of charge.</p>
     </div>
     <a class="cta-meeting cta-meeting--lg" id="meetingLinkLg" href="#" target="_blank" rel="noopener">
       <svg class="cta-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 2v4M16 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/></svg>
@@ -142,8 +171,8 @@
   </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
-<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js" defer></script>
+<script src="app.js" defer></script>
 </body>
 </html>
