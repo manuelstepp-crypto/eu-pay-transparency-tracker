@@ -8,7 +8,7 @@
 <meta name="description" content="Interactive dashboard tracking transposition of the EU Pay Transparency Directive across all 27 EU Member States." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -25,12 +25,18 @@
       </span>
     </span>
   </a>
-  <a class="cta-meeting" id="meetingLink" href="#" target="_blank" rel="noopener">
-    <svg class="cta-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 2v4M16 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/></svg>
-    <span class="cta-text-long">Book a meeting</span>
-    <span class="cta-text-short">Book a meeting</span>
-    <svg class="cta-arrow" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 5l7 7-7 7"/></svg>
-  </a>
+  <div class="header-right">
+    <div class="header-pitch" aria-hidden="false">
+      <span class="header-pitch-main">A 30-minute briefing on the Directive — what changes, what to do first.</span>
+      <span class="header-pitch-note">A first orientation meeting is free of charge.</span>
+    </div>
+    <a class="cta-meeting" id="meetingLink" href="#" target="_blank" rel="noopener">
+      <svg class="cta-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 2v4M16 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/></svg>
+      <span class="cta-text-long">Book a meeting</span>
+      <span class="cta-text-short">Book a meeting</span>
+      <svg class="cta-arrow" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 5l7 7-7 7"/></svg>
+    </a>
+  </div>
 </header>
 
 <section class="hero">
@@ -65,20 +71,6 @@
         <span class="kpi-bar kpi-bar--accent"></span>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="discuss-band">
-  <div class="discuss-cta">
-    <div class="discuss-cta-text">
-      <h3>Want to discuss what this means for your business?</h3>
-      <p>Tailored advisory for reward leaders preparing for the Directive — gap diagnostics, job architecture, and country-by-country playbooks.</p>
-    </div>
-    <a class="cta-meeting cta-meeting--lg" id="meetingLinkLg" href="#" target="_blank" rel="noopener">
-      <svg class="cta-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 2v4M16 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/></svg>
-      Book a meeting
-      <svg class="cta-arrow" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 5l7 7-7 7"/></svg>
-    </a>
   </div>
 </section>
 
@@ -129,13 +121,24 @@
   <div class="country-grid" id="countryGrid"></div>
 </section>
 
+<section class="discuss-band">
+  <div class="discuss-cta">
+    <div class="discuss-cta-text">
+      <h3>Want to discuss what this means for your business?</h3>
+      <p>Tailored advisory for reward leaders preparing for the Directive — gap diagnostics, job architecture, and country-by-country playbooks.</p>
+      <p class="discuss-cta-note">A first orientation meeting is free of charge.</p>
+    </div>
+    <a class="cta-meeting cta-meeting--lg" id="meetingLinkLg" href="#" target="_blank" rel="noopener">
+      <svg class="cta-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 2v4M16 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/></svg>
+      Book a meeting
+      <svg class="cta-arrow" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+</section>
+
 <footer class="site-footer">
   <div class="foot-inner">
     <p class="foot-disclaimer" id="footDisclaimer"></p>
-    <p class="foot-meta">
-      Built and maintained by <a id="profileLinkFooter" href="#" target="_blank" rel="noopener"><strong id="profileNameFooter">Manuel Stepp</strong></a>.
-      Open-source on <a href="https://github.com/manuelstepp-crypto/eu-pay-transparency-tracker">GitHub</a>.
-    </p>
   </div>
 </footer>
 

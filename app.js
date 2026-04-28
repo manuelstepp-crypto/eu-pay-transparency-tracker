@@ -50,23 +50,19 @@ function renderHeader() {
   document.getElementById('footDisclaimer').textContent = disclaimer;
 
   const profileLink = document.getElementById('profileLink');
-  const profileLinkFooter = document.getElementById('profileLinkFooter');
   const profileName = document.getElementById('profileName');
-  const profileNameFooter = document.getElementById('profileNameFooter');
   const meetingLink = document.getElementById('meetingLink');
   const meetingLinkLg = document.getElementById('meetingLinkLg');
   const avatar = document.getElementById('avatar');
 
   if (author.name) {
     profileName.textContent = author.name;
-    profileNameFooter.textContent = author.name;
     const initials = author.name.split(/\s+/).map(s => s[0]).slice(0,2).join('').toUpperCase();
     avatar.textContent = initials;
     avatar.setAttribute('aria-label', author.name);
   }
   if (author.linkedinUrl) {
     profileLink.href = author.linkedinUrl;
-    profileLinkFooter.href = author.linkedinUrl;
   }
   if (author.meetingUrl && author.meetingUrl !== '#') {
     meetingLink.href = author.meetingUrl;
