@@ -74,7 +74,7 @@ def run_session(
         print(header, end="")
         fh.write(header)
 
-        with client.beta.sessions.stream(session_id=session.id) as stream:
+        with client.beta.sessions.events.stream(session_id=session.id) as stream:
             client.beta.sessions.events.send(
                 session_id=session.id,
                 events=[
