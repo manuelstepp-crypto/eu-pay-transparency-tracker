@@ -54,7 +54,7 @@ function renderHeader() {
   const profileName = document.getElementById('profileName');
   const profileNameFooter = document.getElementById('profileNameFooter');
   const meetingLink = document.getElementById('meetingLink');
-  const meetingLinkFooter = document.getElementById('meetingLinkFooter');
+  const meetingLinkLg = document.getElementById('meetingLinkLg');
   const avatar = document.getElementById('avatar');
 
   if (author.name) {
@@ -70,7 +70,7 @@ function renderHeader() {
   }
   if (author.meetingUrl && author.meetingUrl !== '#') {
     meetingLink.href = author.meetingUrl;
-    meetingLinkFooter.href = author.meetingUrl;
+    meetingLinkLg.href = author.meetingUrl;
   }
   if (author.photoUrl) {
     avatar.style.setProperty('--avatar-image', `url(${JSON.stringify(author.photoUrl)})`);
