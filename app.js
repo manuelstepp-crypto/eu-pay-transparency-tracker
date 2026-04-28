@@ -42,8 +42,41 @@ async function init() {
 
 function renderHeader() {
   const { lastUpdated, disclaimer } = STATE.data.meta;
-  document.getElementById('lastUpdated').textContent = `Status as of ${fmtDate(lastUpdated)}`;
+  const author = STATE.data.author || {};
+
+  const longFmt = new Date(lastUpdated + 'T00:00:00Z')
+    .toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  document.getElementById('statusDate').textContent = longFmt;
   document.getElementById('footDisclaimer').textContent = disclaimer;
+
+  const profileLink = document.getElementById('profileLink');
+  const profileLinkFooter = document.getElementById('profileLinkFooter');
+  const profileName = document.getElementById('profileName');
+  const profileNameFooter = document.getElementById('profileNameFooter');
+  const meetingLink = document.getElementById('meetingLink');
+  const meetingLinkFooter = document.getElementById('meetingLinkFooter');
+  const avatar = document.getElementById('avatar');
+
+  if (author.name) {
+    profileName.textContent = author.name;
+    profileNameFooter.textContent = author.name;
+    const initials = author.name.split(/\s+/).map(s => s[0]).slice(0,2).join('').toUpperCase();
+    avatar.textContent = initials;
+    avatar.setAttribute('aria-label', author.name);
+  }
+  if (author.linkedinUrl) {
+    profileLink.href = author.linkedinUrl;
+    profileLinkFooter.href = author.linkedinUrl;
+  }
+  if (author.meetingUrl && author.meetingUrl !== '#') {
+    meetingLink.href = author.meetingUrl;
+    meetingLinkFooter.href = author.meetingUrl;
+  }
+  if (author.photoUrl) {
+    avatar.style.setProperty('--avatar-image', `url(${JSON.stringify(author.photoUrl)})`);
+    avatar.classList.add('has-photo');
+    avatar.textContent = '';
+  }
 }
 
 function renderKpis() {

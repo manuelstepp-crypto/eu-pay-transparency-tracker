@@ -101,4 +101,4 @@ Country statuses are based on publicly available legal trackers and law-firm bri
 
 This dashboard is a navigation aid, not legal advice. National transpositions are evolving rapidly — verify against the linked primary sources before acting on any specific country status.
 
-Prepared by Korn Ferry — Reward & Benefits Practice, EMEA.
+Built and maintained by Manuel Stepp.

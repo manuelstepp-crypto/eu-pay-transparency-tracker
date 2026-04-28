@@ -2,36 +2,68 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0a1f3d" />
 <title>EU Pay Transparency Directive — Member State Tracker</title>
-<meta name="description" content="Interactive dashboard tracking transposition of the EU Pay Transparency Directive across all 27 Member States." />
+<meta name="description" content="Interactive dashboard tracking transposition of the EU Pay Transparency Directive across all 27 EU Member States." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap">
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<header class="site-header">
-  <div class="brand">
-    <div class="brand-mark">KF</div>
-    <div class="brand-text">
-      <div class="brand-line">Korn Ferry</div>
-      <div class="brand-sub">Reward &amp; Pay Equity</div>
-    </div>
-  </div>
-  <div class="last-updated" id="lastUpdated"></div>
+<header class="profile-bar">
+  <a class="profile" id="profileLink" href="#" target="_blank" rel="noopener">
+    <span class="avatar" id="avatar" aria-hidden="true"></span>
+    <span class="profile-text">
+      <span class="profile-name" id="profileName">Manuel Stepp</span>
+      <span class="profile-cta">
+        <svg class="li-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 0H5C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73c-.97 0-1.75-.79-1.75-1.76s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.76-1.75 1.76zM20 19h-3v-5.6c0-3.37-4-3.11-4 0V19h-3V8h3v1.77c1.4-2.59 7-2.78 7 2.48V19z"/></svg>
+        <span class="cta-text-long">Follow me on LinkedIn to get the latest news</span>
+        <span class="cta-text-short">Follow on LinkedIn</span>
+      </span>
+    </span>
+  </a>
+  <a class="cta-meeting" id="meetingLink" href="#" target="_blank" rel="noopener">
+    <svg class="cta-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 2v4M16 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/></svg>
+    <span class="cta-text-long">Book a meeting with me</span>
+    <span class="cta-text-short">Book a meeting</span>
+    <svg class="cta-arrow" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 5l7 7-7 7"/></svg>
+  </a>
 </header>
 
 <section class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-blob hero-blob--1"></div>
+    <div class="hero-blob hero-blob--2"></div>
+    <div class="hero-grid"></div>
+  </div>
+
   <div class="hero-inner">
-    <h1>EU Pay Transparency Directive</h1>
+    <div class="eyebrow">Directive (EU) 2023/970 — Transposition Tracker</div>
+    <h1>EU Pay Transparency<br/><em>Directive</em></h1>
     <p class="lead">Where the 27 Member States stand on transposition.</p>
+
+    <div class="status-stamp">
+      <div class="status-stamp-line">
+        <span class="line"></span>
+        <span class="status-stamp-tag">Status</span>
+        <span class="line"></span>
+      </div>
+      <div class="status-stamp-date" id="statusDate">28 April 2026</div>
+      <div class="status-stamp-sub">Verified across publicly available legal trackers</div>
+    </div>
+
     <div class="kpi-row">
-      <div class="kpi"><span class="kpi-value" id="kpiGreen">—</span><span class="kpi-label">Transposed / on-track</span></div>
-      <div class="kpi"><span class="kpi-value" id="kpiAmber">—</span><span class="kpi-label">Draft published</span></div>
-      <div class="kpi"><span class="kpi-value" id="kpiRed">—</span><span class="kpi-label">No draft / resisting</span></div>
-      <div class="kpi kpi-deadline"><span class="kpi-value" id="kpiCountdown">—</span><span class="kpi-label">days to <strong>7 June 2026</strong></span></div>
+      <div class="kpi"><span class="kpi-value" id="kpiGreen">—</span><span class="kpi-label">Transposed / on-track</span><span class="kpi-bar kpi-bar--green"></span></div>
+      <div class="kpi"><span class="kpi-value" id="kpiAmber">—</span><span class="kpi-label">Draft published</span><span class="kpi-bar kpi-bar--amber"></span></div>
+      <div class="kpi"><span class="kpi-value" id="kpiRed">—</span><span class="kpi-label">No draft / resisting</span><span class="kpi-bar kpi-bar--red"></span></div>
+      <div class="kpi kpi-deadline">
+        <span class="kpi-value" id="kpiCountdown">—</span>
+        <span class="kpi-label">days to <strong>7 June 2026</strong></span>
+        <span class="kpi-bar kpi-bar--accent"></span>
+      </div>
     </div>
   </div>
 </section>
@@ -52,7 +84,7 @@
   <aside class="detail-card" id="detail">
     <div class="detail-empty" id="detailEmpty">
       <h3>Click a country</h3>
-      <p>Select a Member State on the map or in the list to see status, key dates and sources.</p>
+      <p>Select a Member State on the map or in the list below to see status, key dates and sources.</p>
       <div class="quicklinks">
         <h4>Cross-EU trackers</h4>
         <ul id="trackerList"></ul>
@@ -85,10 +117,21 @@
 
 <footer class="site-footer">
   <div class="foot-inner">
+    <div class="foot-cta">
+      <div class="foot-cta-text">
+        <h3>Want to discuss what this means for your business?</h3>
+        <p>I help reward leaders prepare for the Directive — gap diagnostics, job architecture, and country-by-country playbooks.</p>
+      </div>
+      <a class="cta-meeting cta-meeting--lg" id="meetingLinkFooter" href="#" target="_blank" rel="noopener">
+        <svg class="cta-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 2v4M16 2v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/></svg>
+        Book a meeting with me
+        <svg class="cta-arrow" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+    </div>
     <p class="foot-disclaimer" id="footDisclaimer"></p>
     <p class="foot-meta">
-      Prepared by <strong>Korn Ferry</strong> — Reward &amp; Benefits Practice, EMEA.
-      Source: <a href="https://github.com/manuelstepp-crypto/eu-pay-transparency-tracker">GitHub repository</a>.
+      Built and maintained by <a id="profileLinkFooter" href="#" target="_blank" rel="noopener"><strong id="profileNameFooter">Manuel Stepp</strong></a>.
+      Open-source on <a href="https://github.com/manuelstepp-crypto/eu-pay-transparency-tracker">GitHub</a>.
     </p>
   </div>
 </footer>

@@ -6,8 +6,14 @@
     "deadlineTransposition": "2026-06-07",
     "deadlineFirstReport": "2027-06-07",
     "deadlinePhaseInComplete": "2031-06-07",
-    "preparedBy": "Korn Ferry — Reward & Benefits Practice, EMEA",
     "disclaimer": "Status and sources verified on 28 April 2026. This page does not constitute legal advice."
+  },
+  "author": {
+    "name": "Manuel Stepp",
+    "tagline": "Reward & Pay Equity Advisor",
+    "photoUrl": "",
+    "linkedinUrl": "https://www.linkedin.com/in/manuelstepp/",
+    "meetingUrl": "#"
   },
   "statusLegend": {
     "green": {
