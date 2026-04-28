@@ -412,12 +412,14 @@ a:hover { color: var(--ink-900); text-decoration: underline; }
   cursor: pointer;
   stroke: #ffffff;
   stroke-width: 0.5;
+  outline: none;
   transition: filter var(--t-fast), stroke-width var(--t-fast);
 }
+.country:focus, .country:focus-visible, .country:active { outline: none; -webkit-tap-highlight-color: transparent; }
 .country:hover { filter: brightness(1.08); stroke-width: 1.4; stroke: var(--ink-900); }
 .country.is-selected { stroke: var(--ink-900); stroke-width: 2; filter: brightness(1.05); }
 .country.non-eu { fill: #eef0f4; cursor: default; pointer-events: none; }
-.country:focus-visible { outline: none; stroke: var(--ink-900); stroke-width: 2.4; filter: brightness(1.08); }
+.country:focus-visible { stroke: var(--ink-900); stroke-width: 2.4; filter: brightness(1.08); }
 .country.is-dim { opacity: 0.18; }
 
 .map-tooltip {
