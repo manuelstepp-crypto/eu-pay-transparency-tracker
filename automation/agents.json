@@ -1,0 +1,8 @@
+{
+  "environment_id": "env_01RUKTFjQEpxG5bbfoXbkDsw",
+  "researcher_agent_id": "agent_011CaWwoKRE2htghS8t3gaZk",
+  "qa_agent_id": "agent_011CaWwoM1UrUqYF7qESbSnE",
+  "repo_url": "https://github.com/manuelstepp-crypto/eu-pay-transparency-tracker",
+  "created_at": "2026-04-29",
+  "_comment": "Anthropic Managed Agents resource IDs. IDs are not secrets — the API key in macOS Keychain (service: eu-pay-tracker-anthropic-key) is what authorizes access. GitHub PAT lives in Keychain (service: eu-pay-tracker-github-pat)."
+}

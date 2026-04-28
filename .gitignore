@@ -2,3 +2,6 @@
 .claude/
 node_modules/
 *.log
+automation/logs/
+__pycache__/
+*.pyc
