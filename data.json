@@ -42,22 +42,78 @@
     "Reversed burden of proof in equal-pay litigation"
   ],
   "directiveSources": [
-    { "title": "Directive (EU) 2023/970 — official text", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/eli/dir/2023/970/oj/eng" },
-    { "title": "Pay Transparency — policy overview", "publisher": "Council of the EU", "url": "https://www.consilium.europa.eu/en/policies/pay-transparency/" },
-    { "title": "European Commission confirms 7 June 2026 deadline holds", "publisher": "Ogletree Deakins", "url": "https://ogletree.com/insights-resources/blog-posts/european-commission-confirms-the-eu-pay-transparency-directive-implementation-deadline-remains-7-june-2026/" },
-    { "title": "First reports due 7 June 2027 (≥ 250 staff)", "publisher": "KPMG / Mirro", "url": "https://kpmg.com/xx/en/our-insights/gms-flash-alert/flash-alert-2025-148.html" },
-    { "title": "Threshold phase-in (250 / 150 / 100)", "publisher": "Coffra Group", "url": "https://www.coffra-group.com/en/publications/pay-transparency-directive-2023-970-get-ready-for-new-rules/" },
-    { "title": "The six employer pillars", "publisher": "Jackson Lewis", "url": "https://www.jacksonlewis.com/insights/how-prepare-your-company-now-eu-pay-transparency-obligations" }
+    {
+      "title": "Directive (EU) 2023/970 — official text",
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/dir/2023/970/oj/eng"
+    },
+    {
+      "title": "Pay Transparency — policy overview",
+      "publisher": "Council of the EU",
+      "url": "https://www.consilium.europa.eu/en/policies/pay-transparency/"
+    },
+    {
+      "title": "European Commission confirms 7 June 2026 deadline holds",
+      "publisher": "Ogletree Deakins",
+      "url": "https://ogletree.com/insights-resources/blog-posts/european-commission-confirms-the-eu-pay-transparency-directive-implementation-deadline-remains-7-june-2026/"
+    },
+    {
+      "title": "First reports due 7 June 2027 (≥ 250 staff)",
+      "publisher": "KPMG / Mirro",
+      "url": "https://kpmg.com/xx/en/our-insights/gms-flash-alert/flash-alert-2025-148.html"
+    },
+    {
+      "title": "Threshold phase-in (250 / 150 / 100)",
+      "publisher": "Coffra Group",
+      "url": "https://www.coffra-group.com/en/publications/pay-transparency-directive-2023-970-get-ready-for-new-rules/"
+    },
+    {
+      "title": "The six employer pillars",
+      "publisher": "Jackson Lewis",
+      "url": "https://www.jacksonlewis.com/insights/how-prepare-your-company-now-eu-pay-transparency-obligations"
+    }
   ],
   "trackers": [
-    { "title": "Transposition across 27 Member States (April 2026)", "publisher": "L&E Global", "url": "https://leglobal.law/2026/04/20/european-union-transposition-of-the-eu-pay-transparency-directive-across-27-member-states/" },
-    { "title": "Implementation across EU Member States", "publisher": "Pinsent Masons", "url": "https://www.pinsentmasons.com/out-law/guides/eu-pay-transparency-directive-eu-member-states" },
-    { "title": "Member State Transposition Monitor 2026", "publisher": "Trusaic", "url": "https://trusaic.com/resources/new-eu-pay-transparency-directive-member-state-transposition-monitor-2026/" },
-    { "title": "Transposition Status Tracker", "publisher": "Synd.io", "url": "https://synd.io/eu-pay-transparency-directive-transposition-tracker/" },
-    { "title": "Pay Transparency Tracker — country pages", "publisher": "pay-transparency-tracker.com", "url": "https://www.pay-transparency-tracker.com/" },
-    { "title": "Implementation Tracker (March 2026, PDF)", "publisher": "Addleshaw Goddard", "url": "https://www.addleshawgoddard.com/globalassets/insights/employment/eu-pay-transparency-directive-implementation-tracker.pdf" },
-    { "title": "Which countries have implemented", "publisher": "Ius Laboris", "url": "https://iuslaboris.com/insights/eu-pay-transparency-directive-which-countries-have-implemented/" },
-    { "title": "How countries are implementing (April 2026)", "publisher": "Figures.hr", "url": "https://figures.hr/post/how-countries-are-implementing-the-eu-pay-transparency-directive" }
+    {
+      "title": "Transposition across 27 Member States (April 2026)",
+      "publisher": "L&E Global",
+      "url": "https://leglobal.law/2026/04/20/european-union-transposition-of-the-eu-pay-transparency-directive-across-27-member-states/"
+    },
+    {
+      "title": "Implementation across EU Member States",
+      "publisher": "Pinsent Masons",
+      "url": "https://www.pinsentmasons.com/out-law/guides/eu-pay-transparency-directive-eu-member-states"
+    },
+    {
+      "title": "Member State Transposition Monitor 2026",
+      "publisher": "Trusaic",
+      "url": "https://trusaic.com/resources/new-eu-pay-transparency-directive-member-state-transposition-monitor-2026/"
+    },
+    {
+      "title": "Transposition Status Tracker",
+      "publisher": "Synd.io",
+      "url": "https://synd.io/eu-pay-transparency-directive-transposition-tracker/"
+    },
+    {
+      "title": "Pay Transparency Tracker — country pages",
+      "publisher": "pay-transparency-tracker.com",
+      "url": "https://www.pay-transparency-tracker.com/"
+    },
+    {
+      "title": "Implementation Tracker (March 2026, PDF)",
+      "publisher": "Addleshaw Goddard",
+      "url": "https://www.addleshawgoddard.com/globalassets/insights/employment/eu-pay-transparency-directive-implementation-tracker.pdf"
+    },
+    {
+      "title": "Which countries have implemented",
+      "publisher": "Ius Laboris",
+      "url": "https://iuslaboris.com/insights/eu-pay-transparency-directive-which-countries-have-implemented/"
+    },
+    {
+      "title": "How countries are implementing (April 2026)",
+      "publisher": "Figures.hr",
+      "url": "https://figures.hr/post/how-countries-are-implementing-the-eu-pay-transparency-directive"
+    }
   ],
   "countries": {
     "SK": {
@@ -67,14 +123,33 @@
       "headline": "First past the post — Equal Pay Act adopted 15 April 2026",
       "summary": "First Member State across the line. The Equal Pay Act enters into force on 7 June 2026 (the EU deadline). Compliant pay structures are required by 31 July 2026 — barely seven weeks later. Same-sex equal pay claims are in scope (gold-plating). First reports by 7 June 2027 cover only 1 Aug – 31 Dec 2026 (not a full calendar year). Reporting fines €4,000–€8,000, supplemented by broader Labour Inspectorate sanctioning powers.",
       "keyDates": [
-        { "label": "Act adopted by National Council", "date": "2026-04-15" },
-        { "label": "Entry into force", "date": "2026-06-07" },
-        { "label": "Compliant pay structures required", "date": "2026-07-31" },
-        { "label": "First pay-gap report (≥150 staff, covers 1 Aug–31 Dec 2026)", "date": "2027-06-07" }
+        {
+          "label": "Act adopted by National Council",
+          "date": "2026-04-15"
+        },
+        {
+          "label": "Entry into force",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Compliant pay structures required",
+          "date": "2026-07-31"
+        },
+        {
+          "label": "First pay-gap report (≥150 staff, covers 1 Aug–31 Dec 2026)",
+          "date": "2027-06-07"
+        }
       ],
       "sources": [
-        { "title": "Slovakia becomes the first EU Member State to transpose", "publisher": "Lewis Silkin", "url": "https://www.lewissilkin.com/insights/2026/04/24/slovakia-becomes-the-first-eu-member-state-to-transpose-the-pay-transparency-directive" }
-      ]
+        {
+          "title": "Slovakia becomes the first EU Member State to transpose",
+          "publisher": "Lewis Silkin",
+          "url": "https://www.lewissilkin.com/insights/2026/04/24/slovakia-becomes-the-first-eu-member-state-to-transpose-the-pay-transparency-directive"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Material update this week — see headline and key dates."
     },
     "FI": {
       "code": "FI",
@@ -83,13 +158,29 @@
       "headline": "Bill targeted to enter into force 18 May 2026",
       "summary": "Government proposal submitted 22 December 2025; consultation closed 9 February 2026; final bill expected before the EU deadline. Tracks Directive thresholds (≥100 staff).",
       "keyDates": [
-        { "label": "Government proposal submitted", "date": "2025-12-22" },
-        { "label": "Consultation closed", "date": "2026-02-09" },
-        { "label": "Targeted entry into force", "date": "2026-05-18" }
+        {
+          "label": "Government proposal submitted",
+          "date": "2025-12-22"
+        },
+        {
+          "label": "Consultation closed",
+          "date": "2026-02-09"
+        },
+        {
+          "label": "Targeted entry into force",
+          "date": "2026-05-18"
+        }
       ],
       "sources": [
-        { "title": "Finland Targeting May 18 — Transposition of EU Pay Transparency Directive", "publisher": "Trusaic", "url": "https://trusaic.com/blog/finland-targeting-may-18-transposition-of-eu-pay-transparency-directive/" }
-      ]
+        {
+          "title": "Finland Targeting May 18 — Transposition of EU Pay Transparency Directive",
+          "publisher": "Trusaic",
+          "url": "https://trusaic.com/blog/finland-targeting-may-18-transposition-of-eu-pay-transparency-directive/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "IT": {
       "code": "IT",
@@ -98,11 +189,21 @@
       "headline": "Draft legislative decree advancing through parliament",
       "summary": "Council of Ministers gave preliminary approval on 5 February 2026; expected to meet the June 2026 deadline. The decree-driven model means rapid finalisation is possible.",
       "keyDates": [
-        { "label": "Preliminary approval by Council of Ministers", "date": "2026-02-05" }
+        {
+          "label": "Preliminary approval by Council of Ministers",
+          "date": "2026-02-05"
+        }
       ],
       "sources": [
-        { "title": "Italy's Pay Transparency Decree — A Turning Point for Equal Pay", "publisher": "Littler", "url": "https://www.littler.com/news-analysis/asap/italys-pay-transparency-decree-turning-point-equal-pay" }
-      ]
+        {
+          "title": "Italy's Pay Transparency Decree — A Turning Point for Equal Pay",
+          "publisher": "Littler",
+          "url": "https://www.littler.com/news-analysis/asap/italys-pay-transparency-decree-turning-point-equal-pay"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "MT": {
       "code": "MT",
@@ -111,11 +212,21 @@
       "headline": "Partial text already in force since 27 August 2025",
       "summary": "Legal Notice 112 of 2025 brought pay-range disclosure and the salary-history ban into force early. Full alignment with the Directive expected by the deadline.",
       "keyDates": [
-        { "label": "Legal Notice 112/2025 in force", "date": "2025-08-27" }
+        {
+          "label": "Legal Notice 112/2025 in force",
+          "date": "2025-08-27"
+        }
       ],
       "sources": [
-        { "title": "Implementing the EU Pay Transparency Directive in Malta — New Obligations from 27 August 2025", "publisher": "Ogletree Deakins", "url": "https://ogletree.com/insights-resources/blog-posts/implementing-the-eu-pay-transparency-directive-in-malta-new-obligations-effective-from-27-august-2025/" }
-      ]
+        {
+          "title": "Implementing the EU Pay Transparency Directive in Malta — New Obligations from 27 August 2025",
+          "publisher": "Ogletree Deakins",
+          "url": "https://ogletree.com/insights-resources/blog-posts/implementing-the-eu-pay-transparency-directive-in-malta-new-obligations-effective-from-27-august-2025/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "NL": {
       "code": "NL",
@@ -124,12 +235,26 @@
       "headline": "Cleanest draft — entry into force slips to 1 January 2027",
       "summary": "Draft bill published; transposition will miss the EU deadline but the text is broadly considered the cleanest implementation in the bloc.",
       "keyDates": [
-        { "label": "Targeted entry into force", "date": "2027-01-01" }
+        {
+          "label": "Targeted entry into force",
+          "date": "2027-01-01"
+        }
       ],
       "sources": [
-        { "title": "Netherlands Delays Implementation of the Gender Pay Transparency Directive", "publisher": "DLA Piper", "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/netherlands-delays-implementation-of-the-gender-pay-transparency-directive" },
-        { "title": "EU Pay Transparency — Dutch implementation delayed to 2027", "publisher": "PwC Netherlands", "url": "https://www.pwc.nl/en/insights-and-publications/tax-news/wage-tax-and-social-security/eu-pay-transparency-dutch-implementation-delayed-to-2027.html" }
-      ]
+        {
+          "title": "Netherlands Delays Implementation of the Gender Pay Transparency Directive",
+          "publisher": "DLA Piper",
+          "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/netherlands-delays-implementation-of-the-gender-pay-transparency-directive"
+        },
+        {
+          "title": "EU Pay Transparency — Dutch implementation delayed to 2027",
+          "publisher": "PwC Netherlands",
+          "url": "https://www.pwc.nl/en/insights-and-publications/tax-news/wage-tax-and-social-security/eu-pay-transparency-dutch-implementation-delayed-to-2027.html"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "DK": {
       "code": "DK",
@@ -138,13 +263,29 @@
       "headline": "Draft 26 February 2026; effect 1 January 2027",
       "summary": "Draft bill published 26 February 2026; consultation ran until 27 March 2026; targeted entry into force 1 January 2027.",
       "keyDates": [
-        { "label": "Draft bill published", "date": "2026-02-26" },
-        { "label": "Consultation closed", "date": "2026-03-27" },
-        { "label": "Targeted entry into force", "date": "2027-01-01" }
+        {
+          "label": "Draft bill published",
+          "date": "2026-02-26"
+        },
+        {
+          "label": "Consultation closed",
+          "date": "2026-03-27"
+        },
+        {
+          "label": "Targeted entry into force",
+          "date": "2027-01-01"
+        }
       ],
       "sources": [
-        { "title": "Denmark's Draft Pay Transparency Law — What Employers Need to Know", "publisher": "Lewis Silkin", "url": "https://www.lewissilkin.com/insights/2026/03/10/denmarks-draft-pay-transparency-law-what-employers-need-to-know" }
-      ]
+        {
+          "title": "Denmark's Draft Pay Transparency Law — What Employers Need to Know",
+          "publisher": "Lewis Silkin",
+          "url": "https://www.lewissilkin.com/insights/2026/03/10/denmarks-draft-pay-transparency-law-what-employers-need-to-know"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "CZ": {
       "code": "CZ",
@@ -153,16 +294,42 @@
       "headline": "Public consultation closed 27 April 2026 — minimalist transposition",
       "summary": "Draft published by the Ministry of Labour on 26 March 2026; public consultation closed 27 April 2026 (week 18). Explicitly a 'minimalist transposition'. General entry into force targeted 1 January 2027, but most substantive obligations (Right to Information, pay reporting, joint pay assessments) only apply from 1 January 2028; some provisions phased in to 2031. Czechia does not intend to meet the 7 June 2026 deadline. Notable gold-plating: a dual-report structure (Ministry-prepared headline report + employer-prepared job-group report due 30 April annually) and a mandatory documented remuneration system for every employer.",
       "keyDates": [
-        { "label": "Draft presented by Ministry of Labour", "date": "2026-03-16" },
-        { "label": "Draft published for consultation", "date": "2026-03-26" },
-        { "label": "Consultation closed", "date": "2026-04-27" },
-        { "label": "Targeted general entry into force", "date": "2027-01-01" },
-        { "label": "Substantive obligations (RTI, reporting, JPA) apply", "date": "2028-01-01" }
+        {
+          "label": "Draft presented by Ministry of Labour",
+          "date": "2026-03-16"
+        },
+        {
+          "label": "Draft published for consultation",
+          "date": "2026-03-26"
+        },
+        {
+          "label": "Consultation closed",
+          "date": "2026-04-27"
+        },
+        {
+          "label": "Targeted general entry into force",
+          "date": "2027-01-01"
+        },
+        {
+          "label": "Substantive obligations (RTI, reporting, JPA) apply",
+          "date": "2028-01-01"
+        }
       ],
       "sources": [
-        { "title": "Analyzing Czechia's Draft Legislation to Transpose the EU Pay Transparency Directive", "publisher": "Trusaic", "url": "https://trusaic.com/blog/analyzing-czechias-draft-legislation-to-transpose-the-eu-pay-transparency-directive/" },
-        { "title": "Czech Republic publishes draft Pay Transparency Act: key deviations and practical issues for employers", "publisher": "Wolf Theiss", "url": "https://www.wolftheiss.com/insights/czech-republic-publishes-draft-pay-transparency-act/" }
-      ]
+        {
+          "title": "Analyzing Czechia's Draft Legislation to Transpose the EU Pay Transparency Directive",
+          "publisher": "Trusaic",
+          "url": "https://trusaic.com/blog/analyzing-czechias-draft-legislation-to-transpose-the-eu-pay-transparency-directive/"
+        },
+        {
+          "title": "Czech Republic publishes draft Pay Transparency Act: key deviations and practical issues for employers",
+          "publisher": "Wolf Theiss",
+          "url": "https://www.wolftheiss.com/insights/czech-republic-publishes-draft-pay-transparency-act/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Material update this week — see headline and key dates."
     },
     "PL": {
       "code": "PL",
@@ -171,12 +338,26 @@
       "headline": "Draft December 2025 — tighter than the Directive",
       "summary": "Draft published 16 December 2025; introduces shorter procedural deadlines than the Directive (e.g. 30 days instead of 60) and goes beyond the minimum requirements.",
       "keyDates": [
-        { "label": "Draft published", "date": "2025-12-16" }
+        {
+          "label": "Draft published",
+          "date": "2025-12-16"
+        }
       ],
       "sources": [
-        { "title": "Poland moves ahead with pay transparency", "publisher": "Lewis Silkin", "url": "https://www.lewissilkin.com/insights/2025/12/19/poland-moves-ahead-with-pay-transparency" },
-        { "title": "Polish Employers Receive Gift of EU Pay Transparency Obligations", "publisher": "Littler", "url": "https://www.littler.com/news-analysis/asap/polish-employers-receive-gift-eu-pay-transparency-obligations-recruitment" }
-      ]
+        {
+          "title": "Poland moves ahead with pay transparency",
+          "publisher": "Lewis Silkin",
+          "url": "https://www.lewissilkin.com/insights/2025/12/19/poland-moves-ahead-with-pay-transparency"
+        },
+        {
+          "title": "Polish Employers Receive Gift of EU Pay Transparency Obligations",
+          "publisher": "Littler",
+          "url": "https://www.littler.com/news-analysis/asap/polish-employers-receive-gift-eu-pay-transparency-obligations-recruitment"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "RO": {
       "code": "RO",
@@ -185,12 +366,25 @@
       "headline": "Revised draft consulted to 8 April 2026",
       "summary": "Revised draft published 30 March 2026; public consultation ran until 8 April 2026; covers both public and private sector.",
       "keyDates": [
-        { "label": "Revised draft published", "date": "2026-03-30" },
-        { "label": "Consultation closed", "date": "2026-04-08" }
+        {
+          "label": "Revised draft published",
+          "date": "2026-03-30"
+        },
+        {
+          "label": "Consultation closed",
+          "date": "2026-04-08"
+        }
       ],
       "sources": [
-        { "title": "Romania revises transposing legislation — key changes for employers", "publisher": "Lewis Silkin", "url": "https://www.lewissilkin.com/en/insights/2026/04/10/romania-revises-transposing-legislation-for-eu-pay-transparency-directive-key-changes-for-employers" }
-      ]
+        {
+          "title": "Romania revises transposing legislation — key changes for employers",
+          "publisher": "Lewis Silkin",
+          "url": "https://www.lewissilkin.com/en/insights/2026/04/10/romania-revises-transposing-legislation-for-eu-pay-transparency-directive-key-changes-for-employers"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "LT": {
       "code": "LT",
@@ -199,11 +393,21 @@
       "headline": "Draft to Tripartite Council May 2025",
       "summary": "Draft submitted to the Tripartite Council on 27 May 2025; obliges employers to take action where the gender pay gap exceeds 5%.",
       "keyDates": [
-        { "label": "Draft submitted to Tripartite Council", "date": "2025-05-27" }
+        {
+          "label": "Draft submitted to Tripartite Council",
+          "date": "2025-05-27"
+        }
       ],
       "sources": [
-        { "title": "Lithuania Set to Amend Labor Code to Align with EU Pay Transparency Directive", "publisher": "Trusaic", "url": "https://trusaic.com/blog/lithuania-set-to-amend-labor-code-to-align-with-eu-pay-transparency-directive/" }
-      ]
+        {
+          "title": "Lithuania Set to Amend Labor Code to Align with EU Pay Transparency Directive",
+          "publisher": "Trusaic",
+          "url": "https://trusaic.com/blog/lithuania-set-to-amend-labor-code-to-align-with-eu-pay-transparency-directive/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "LV": {
       "code": "LV",
@@ -212,12 +416,25 @@
       "headline": "Draft 26 March 2026 — on track",
       "summary": "Draft published 26 March 2026; consultation ran until 9 April 2026. On track to meet the EU deadline, with notable deviations from the Directive.",
       "keyDates": [
-        { "label": "Draft published", "date": "2026-03-26" },
-        { "label": "Consultation closed", "date": "2026-04-09" }
+        {
+          "label": "Draft published",
+          "date": "2026-03-26"
+        },
+        {
+          "label": "Consultation closed",
+          "date": "2026-04-09"
+        }
       ],
       "sources": [
-        { "title": "Latvia on track for timely transposition — but with notable deviations", "publisher": "Lewis Silkin", "url": "https://www.lewissilkin.com/insights/2026/04/17/latvia-on-track-for-timely-pay-transparency-directive-transposition-but-with-notable-deviations" }
-      ]
+        {
+          "title": "Latvia on track for timely transposition — but with notable deviations",
+          "publisher": "Lewis Silkin",
+          "url": "https://www.lewissilkin.com/insights/2026/04/17/latvia-on-track-for-timely-pay-transparency-directive-transposition-but-with-notable-deviations"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "CY": {
       "code": "CY",
@@ -226,11 +443,21 @@
       "headline": "Detailed draft consulted Nov–Dec 2025",
       "summary": "A detailed draft bill was issued for public consultation between November and December 2025.",
       "keyDates": [
-        { "label": "Consultation period", "date": "2025-11-01" }
+        {
+          "label": "Consultation period",
+          "date": "2025-11-01"
+        }
       ],
       "sources": [
-        { "title": "Cyprus Sets Its Course on Pay Transparency in New Draft Bill", "publisher": "Ius Laboris", "url": "https://iuslaboris.com/insights/cyprus-sets-its-course-on-pay-transparency-in-new-draft-bill/" }
-      ]
+        {
+          "title": "Cyprus Sets Its Course on Pay Transparency in New Draft Bill",
+          "publisher": "Ius Laboris",
+          "url": "https://iuslaboris.com/insights/cyprus-sets-its-course-on-pay-transparency-in-new-draft-bill/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "BG": {
       "code": "BG",
@@ -239,11 +466,21 @@
       "headline": "Adoption scheduled 29 May 2026",
       "summary": "Adoption planned in parliament for 29 May 2026, just ahead of the EU deadline.",
       "keyDates": [
-        { "label": "Planned parliamentary adoption", "date": "2026-05-29" }
+        {
+          "label": "Planned parliamentary adoption",
+          "date": "2026-05-29"
+        }
       ],
       "sources": [
-        { "title": "Bulgaria Pay Transparency Reporting Law Guide", "publisher": "Trusaic", "url": "https://trusaic.com/resources/global-pay-transparency-center/bulgaria/" }
-      ]
+        {
+          "title": "Bulgaria Pay Transparency Reporting Law Guide",
+          "publisher": "Trusaic",
+          "url": "https://trusaic.com/resources/global-pay-transparency-center/bulgaria/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "BE": {
       "code": "BE",
@@ -252,15 +489,38 @@
       "headline": "Minister Clarinval confirms full federal transposition by 7 June 2026 (week of 13 April)",
       "summary": "Belgium remains a jurisdictional patchwork: the French Community decree has been in force since 1 January 2025; the Flemish public-sector decree (approved March 2026) targets entry into force on 7 June 2026. In a Committee on Social Affairs session in the week of 13 April 2026, federal Minister Clarinval confirmed the intention to fully transpose the Directive into Belgian law by 7 June 2026. The federal private-sector draft is 'expected to circulate shortly'; no public text yet.",
       "keyDates": [
-        { "label": "French Community public-sector decree", "date": "2024-09-12" },
-        { "label": "Decree in force (public sector, French Community)", "date": "2025-01-01" },
-        { "label": "Flemish public-sector decree approved", "date": "2026-03-13" },
-        { "label": "Minister Clarinval confirms full federal transposition", "date": "2026-04-13" }
+        {
+          "label": "French Community public-sector decree",
+          "date": "2024-09-12"
+        },
+        {
+          "label": "Decree in force (public sector, French Community)",
+          "date": "2025-01-01"
+        },
+        {
+          "label": "Flemish public-sector decree approved",
+          "date": "2026-03-13"
+        },
+        {
+          "label": "Minister Clarinval confirms full federal transposition",
+          "date": "2026-04-13"
+        }
       ],
       "sources": [
-        { "title": "Decree partially transposes EU Pay Transparency Directive (Flemish public sector)", "publisher": "Deloitte Belgium", "url": "https://www.deloitte.com/be/en/services/tax/blogs/decree-partially-transposes-eu-pay-transparency-directive-for-flemish-public-sector.html" },
-        { "title": "Belgium Pay Transparency Reporting Law Guide (Minister Clarinval, week of 13 April 2026)", "publisher": "Trusaic", "url": "https://trusaic.com/resources/global-pay-transparency-center/belgium/" }
-      ]
+        {
+          "title": "Decree partially transposes EU Pay Transparency Directive (Flemish public sector)",
+          "publisher": "Deloitte Belgium",
+          "url": "https://www.deloitte.com/be/en/services/tax/blogs/decree-partially-transposes-eu-pay-transparency-directive-for-flemish-public-sector.html"
+        },
+        {
+          "title": "Belgium Pay Transparency Reporting Law Guide (Minister Clarinval, week of 13 April 2026)",
+          "publisher": "Trusaic",
+          "url": "https://trusaic.com/resources/global-pay-transparency-center/belgium/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Material update this week — see headline and key dates."
     },
     "IE": {
       "code": "IE",
@@ -269,14 +529,35 @@
       "headline": "Government confirms phased rollout — deadline will be missed (22 April 2026)",
       "summary": "Two-bill strategy: the Equality (Miscellaneous Provisions) Bill 2024 covers the salary-history ban (Article 5); a standalone Pay Transparency Bill is still in Heads-of-Bill drafting. Government has confirmed Ireland will not be fully compliant by 7 June 2026 and will introduce a phased rollout starting with pre-employment obligations. A Mason Hayes & Curran survey of 500 employers (published 22 April 2026) found over 1 in 5 view the new rules as an 'unnecessary burden' and only 31% expect a positive effect.",
       "keyDates": [
-        { "label": "General Scheme of the Equality (Misc. Provisions) Bill", "date": "2025-01-01" },
-        { "label": "MHC employer survey published", "date": "2026-04-22" }
+        {
+          "label": "General Scheme of the Equality (Misc. Provisions) Bill",
+          "date": "2025-01-01"
+        },
+        {
+          "label": "MHC employer survey published",
+          "date": "2026-04-22"
+        }
       ],
       "sources": [
-        { "title": "One in five employers see pay transparency rule as 'unnecessary burden'", "publisher": "Irish Times", "url": "https://www.irishtimes.com/business/2026/04/22/one-in-five-employers-see-pay-transparency-rule-as-unnecessary-burden/" },
-        { "title": "Employers running out of time as changes on pay transparency and retirement loom", "publisher": "Irish Times", "url": "https://www.irishtimes.com/business/work/2026/04/23/employers-running-out-of-time-as-changes-on-pay-transparency-and-retirement-loom/" },
-        { "title": "EU Pay Transparency Directive Tracker — Ireland", "publisher": "Figures", "url": "https://figures.hr/solutions/pay-transparency" }
-      ]
+        {
+          "title": "One in five employers see pay transparency rule as 'unnecessary burden'",
+          "publisher": "Irish Times",
+          "url": "https://www.irishtimes.com/business/2026/04/22/one-in-five-employers-see-pay-transparency-rule-as-unnecessary-burden/"
+        },
+        {
+          "title": "Employers running out of time as changes on pay transparency and retirement loom",
+          "publisher": "Irish Times",
+          "url": "https://www.irishtimes.com/business/work/2026/04/23/employers-running-out-of-time-as-changes-on-pay-transparency-and-retirement-loom/"
+        },
+        {
+          "title": "EU Pay Transparency Directive Tracker — Ireland",
+          "publisher": "Figures",
+          "url": "https://figures.hr/solutions/pay-transparency"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Material update this week — see headline and key dates."
     },
     "ES": {
       "code": "ES",
@@ -285,12 +566,25 @@
       "headline": "Public consultation live — 24 April to 8 May 2026",
       "summary": "Public consultation on the draft Royal Decree opened 24 April and closes 8 May 2026 (currently live, week 18). The Decree would broaden workers' rights to information and impose stricter duties on employers in job advertising, pay-setting, career progression and pay audits. Working against the 7 June 2026 deadline; full transposition by that date is not yet certain.",
       "keyDates": [
-        { "label": "Consultation opens", "date": "2026-04-24" },
-        { "label": "Consultation closes", "date": "2026-05-08" }
+        {
+          "label": "Consultation opens",
+          "date": "2026-04-24"
+        },
+        {
+          "label": "Consultation closes",
+          "date": "2026-05-08"
+        }
       ],
       "sources": [
-        { "title": "Spain moves to strengthen pay transparency and implement EU Gender Pay Transparency Directive", "publisher": "DLA Piper", "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/Spain-moves-to-strengthen-pay-transparency-and-implement-EU-Gender-Pay-Transparency-Directive" }
-      ]
+        {
+          "title": "Spain moves to strengthen pay transparency and implement EU Gender Pay Transparency Directive",
+          "publisher": "DLA Piper",
+          "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/Spain-moves-to-strengthen-pay-transparency-and-implement-EU-Gender-Pay-Transparency-Directive"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Material update this week — see headline and key dates."
     },
     "SI": {
       "code": "SI",
@@ -299,11 +593,21 @@
       "headline": "Draft published 7 November 2025 for consultation",
       "summary": "Draft transposition law published on 7 November 2025 and opened for public consultation.",
       "keyDates": [
-        { "label": "Draft published for consultation", "date": "2025-11-07" }
+        {
+          "label": "Draft published for consultation",
+          "date": "2025-11-07"
+        }
       ],
       "sources": [
-        { "title": "Slovenia — country page", "publisher": "Pay Transparency Tracker", "url": "https://www.pay-transparency-tracker.com/details/si" }
-      ]
+        {
+          "title": "Slovenia — country page",
+          "publisher": "Pay Transparency Tracker",
+          "url": "https://www.pay-transparency-tracker.com/details/si"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "DE": {
       "code": "DE",
@@ -312,11 +616,21 @@
       "headline": "Expert report November 2025; bill not yet tabled",
       "summary": "Final report of the Expert Commission published 7 November 2025, proposing a 'bureaucracy-reduced' model. No formal government bill tabled yet — the deadline is unlikely to be met.",
       "keyDates": [
-        { "label": "Final Expert Commission report", "date": "2025-11-07" }
+        {
+          "label": "Final Expert Commission report",
+          "date": "2025-11-07"
+        }
       ],
       "sources": [
-        { "title": "Final Report of the Expert Commission — Proposals for implementing the Pay Transparency Directive in Germany", "publisher": "Freshfields", "url": "https://www.freshfields.com/en/our-thinking/briefings/2025/12/final-report-of-the-expert-commission-proposals-for-implementing-the-pay-transparency-directive-in-germany" }
-      ]
+        {
+          "title": "Final Report of the Expert Commission — Proposals for implementing the Pay Transparency Directive in Germany",
+          "publisher": "Freshfields",
+          "url": "https://www.freshfields.com/en/our-thinking/briefings/2025/12/final-report-of-the-expert-commission-proposals-for-implementing-the-pay-transparency-directive-in-germany"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "FR": {
       "code": "FR",
@@ -325,15 +639,39 @@
       "headline": "Preliminary draft to social partners March 2026",
       "summary": "Preliminary draft sent to social partners on 6 March 2026; bill expected before parliament in late May 2026; entry into force targeted 1 January 2027 with key transparency provisions phased to 1 January 2028.",
       "keyDates": [
-        { "label": "Preliminary draft to social partners", "date": "2026-03-06" },
-        { "label": "Targeted entry into force", "date": "2027-01-01" },
-        { "label": "Key provisions phased in", "date": "2028-01-01" }
+        {
+          "label": "Preliminary draft to social partners",
+          "date": "2026-03-06"
+        },
+        {
+          "label": "Targeted entry into force",
+          "date": "2027-01-01"
+        },
+        {
+          "label": "Key provisions phased in",
+          "date": "2028-01-01"
+        }
       ],
       "sources": [
-        { "title": "France has disclosed a draft bill to implement the Gender Pay Transparency Directive", "publisher": "DLA Piper", "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/france-has-disclosed-a-draft-bill-to-implement-the-gender-pay-transparency-directive" },
-        { "title": "France Pay Transparency Draft Law — Key differences from the EU Directive", "publisher": "Lewis Silkin", "url": "https://www.lewissilkin.com/insights/2026/03/19/france-pay-transparency-draft-law-key-differences-from-the-eu-directive/" },
-        { "title": "France pay transparency draft law", "publisher": "Ius Laboris", "url": "https://iuslaboris.com/insights/france-pay-transparency-draft-law/" }
-      ]
+        {
+          "title": "France has disclosed a draft bill to implement the Gender Pay Transparency Directive",
+          "publisher": "DLA Piper",
+          "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/france-has-disclosed-a-draft-bill-to-implement-the-gender-pay-transparency-directive"
+        },
+        {
+          "title": "France Pay Transparency Draft Law — Key differences from the EU Directive",
+          "publisher": "Lewis Silkin",
+          "url": "https://www.lewissilkin.com/insights/2026/03/19/france-pay-transparency-draft-law-key-differences-from-the-eu-directive/"
+        },
+        {
+          "title": "France pay transparency draft law",
+          "publisher": "Ius Laboris",
+          "url": "https://iuslaboris.com/insights/france-pay-transparency-draft-law/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "AT": {
       "code": "AT",
@@ -343,8 +681,15 @@
       "summary": "The Ministry of Social Affairs is working on a draft. No formal bill has been published yet.",
       "keyDates": [],
       "sources": [
-        { "title": "EU Pay Transparency Directive — What companies in Austria need to know", "publisher": "Schulmeister Consulting", "url": "https://www.schulmeister-consulting.com/en/magazine/overview/detail/the-eu-pay-transparency-directive-what-companies-in-austria-need-to-know-now" }
-      ]
+        {
+          "title": "EU Pay Transparency Directive — What companies in Austria need to know",
+          "publisher": "Schulmeister Consulting",
+          "url": "https://www.schulmeister-consulting.com/en/magazine/overview/detail/the-eu-pay-transparency-directive-what-companies-in-austria-need-to-know-now"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "PT": {
       "code": "PT",
@@ -354,8 +699,15 @@
       "summary": "No official government activity on transposition has been announced.",
       "keyDates": [],
       "sources": [
-        { "title": "Country update — April 2026", "publisher": "L&E Global", "url": "https://leglobal.law/2026/04/20/european-union-transposition-of-the-eu-pay-transparency-directive-across-27-member-states/" }
-      ]
+        {
+          "title": "Country update — April 2026",
+          "publisher": "L&E Global",
+          "url": "https://leglobal.law/2026/04/20/european-union-transposition-of-the-eu-pay-transparency-directive-across-27-member-states/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "LU": {
       "code": "LU",
@@ -365,8 +717,15 @@
       "summary": "No known transposition steps on record.",
       "keyDates": [],
       "sources": [
-        { "title": "Member State Transposition Monitor", "publisher": "Trusaic", "url": "https://trusaic.com/resources/resources-eu-pay-transparency-directive-member-state-transposition-monitor/" }
-      ]
+        {
+          "title": "Member State Transposition Monitor",
+          "publisher": "Trusaic",
+          "url": "https://trusaic.com/resources/resources-eu-pay-transparency-directive-member-state-transposition-monitor/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "HR": {
       "code": "HR",
@@ -376,8 +735,15 @@
       "summary": "No national draft on record. Implementation is expected via amendments to the Labour Act, anticipated for spring 2026.",
       "keyDates": [],
       "sources": [
-        { "title": "Unlocking Pay Transparency in Croatia — Getting Ahead of EU Directive Implementation", "publisher": "Wolf Theiss", "url": "https://www.wolftheiss.com/insights/unlocking-pay-transparency-in-croatia-getting-ahead-of-eu-directive-implementation" }
-      ]
+        {
+          "title": "Unlocking Pay Transparency in Croatia — Getting Ahead of EU Directive Implementation",
+          "publisher": "Wolf Theiss",
+          "url": "https://www.wolftheiss.com/insights/unlocking-pay-transparency-in-croatia-getting-ahead-of-eu-directive-implementation"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "GR": {
       "code": "GR",
@@ -387,8 +753,15 @@
       "summary": "A specialist committee is preparing the framework. No published draft on record.",
       "keyDates": [],
       "sources": [
-        { "title": "Greece's EU Pay Transparency Directive Draft Still in Progress", "publisher": "Trusaic", "url": "https://trusaic.com/blog/greeces-eu-pay-transparency-directive-draft-is-still-in-progress/" }
-      ]
+        {
+          "title": "Greece's EU Pay Transparency Directive Draft Still in Progress",
+          "publisher": "Trusaic",
+          "url": "https://trusaic.com/blog/greeces-eu-pay-transparency-directive-draft-is-still-in-progress/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "HU": {
       "code": "HU",
@@ -398,8 +771,15 @@
       "summary": "No public updates and no draft on record.",
       "keyDates": [],
       "sources": [
-        { "title": "Pay Transparency Directive in Hungary", "publisher": "Accace", "url": "https://www.accace.com/pay-transparency-directive-in-hungary/" }
-      ]
+        {
+          "title": "Pay Transparency Directive in Hungary",
+          "publisher": "Accace",
+          "url": "https://www.accace.com/pay-transparency-directive-in-hungary/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "SE": {
       "code": "SE",
@@ -408,12 +788,26 @@
       "headline": "Resisting — no bill planned (26 March 2026)",
       "summary": "On 26 March 2026, the Swedish government called the Directive 'too administratively burdensome'. No bill is planned; the government is seeking renegotiation at EU level.",
       "keyDates": [
-        { "label": "Government statement of non-compliance", "date": "2026-03-26" }
+        {
+          "label": "Government statement of non-compliance",
+          "date": "2026-03-26"
+        }
       ],
       "sources": [
-        { "title": "Sweden calls for a renegotiation of the Pay Transparency Directive", "publisher": "Lewis Silkin", "url": "https://www.lewissilkin.com/insights/2026/03/27/sweden-calls-for-a-renegotiation-of-the-pay-transparency-directive" },
-        { "title": "Sweden seeks renegotiation — Is the tide turning against Brussels?", "publisher": "Ius Laboris", "url": "https://iuslaboris.com/insights/sweden-seeks-renegotiation-of-the-pay-transparency-directive-is-the-tide-turning-against-brussels/" }
-      ]
+        {
+          "title": "Sweden calls for a renegotiation of the Pay Transparency Directive",
+          "publisher": "Lewis Silkin",
+          "url": "https://www.lewissilkin.com/insights/2026/03/27/sweden-calls-for-a-renegotiation-of-the-pay-transparency-directive"
+        },
+        {
+          "title": "Sweden seeks renegotiation — Is the tide turning against Brussels?",
+          "publisher": "Ius Laboris",
+          "url": "https://iuslaboris.com/insights/sweden-seeks-renegotiation-of-the-pay-transparency-directive-is-the-tide-turning-against-brussels/"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Checked official sources, EU Commission updates and major legal trackers (Lewis Silkin, Trusaic, L&E Global, Lexology). No material change since last verification."
     },
     "EE": {
       "code": "EE",
@@ -422,13 +816,31 @@
       "headline": "Resisting — partial climbdown after 16 April 2026 statement",
       "summary": "On 16 April 2026, Estonia's Economic Affairs Minister stated the government would rather pay European Commission infringement fines than transpose the Directive in its current form. A subsequent clarification confirmed Estonia still intends to prohibit salary history questions and provide applicants with salary range information prior to interview, so the climbdown is partial rather than full. No formal bill on record.",
       "keyDates": [
-        { "label": "Government statement of non-compliance", "date": "2026-04-16" }
+        {
+          "label": "Government statement of non-compliance",
+          "date": "2026-04-16"
+        }
       ],
       "sources": [
-        { "title": "Estonia seeks delay to EU equal pay rules despite a wide gender pay gap", "publisher": "Estonian World", "url": "https://estonianworld.com/business/estonia-seeks-delay-to-eu-equal-pay-rules-despite-a-wide-gender-pay-gap/" },
-        { "title": "Slovakia first to transpose — Estonia contrast (climbdown noted)", "publisher": "Lewis Silkin", "url": "https://www.lewissilkin.com/insights/2026/04/24/slovakia-becomes-the-first-eu-member-state-to-transpose-the-pay-transparency-directive" },
-        { "title": "EU Pay Transparency Directive Tracker — Estonia", "publisher": "Figures", "url": "https://figures.hr/solutions/pay-transparency" }
-      ]
+        {
+          "title": "Estonia seeks delay to EU equal pay rules despite a wide gender pay gap",
+          "publisher": "Estonian World",
+          "url": "https://estonianworld.com/business/estonia-seeks-delay-to-eu-equal-pay-rules-despite-a-wide-gender-pay-gap/"
+        },
+        {
+          "title": "Slovakia first to transpose — Estonia contrast (climbdown noted)",
+          "publisher": "Lewis Silkin",
+          "url": "https://www.lewissilkin.com/insights/2026/04/24/slovakia-becomes-the-first-eu-member-state-to-transpose-the-pay-transparency-directive"
+        },
+        {
+          "title": "EU Pay Transparency Directive Tracker — Estonia",
+          "publisher": "Figures",
+          "url": "https://figures.hr/solutions/pay-transparency"
+        }
+      ],
+      "verifiedAt": "2026-04-28",
+      "verifiedWeek": "2026-W18",
+      "weeklyCheckSummary": "Material update this week — see headline and key dates."
     }
   }
 }

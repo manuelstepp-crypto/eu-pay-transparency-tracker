@@ -309,6 +309,7 @@ function renderGrid() {
         <span class="c-code">${c.code}</span>
       </div>
       <div class="c-headline">${c.headline}</div>
+      ${c.verifiedWeek ? `<div class="c-verified" title="${c.weeklyCheckSummary || ''}"><span class="c-verified-dot" aria-hidden="true">✓</span>Verified ${c.verifiedWeek.replace('-W', ' KW')}</div>` : ''}
     </button>
   `).join('');
 
@@ -396,6 +397,14 @@ function selectCountry(code) {
     </ul>
   `;
 
+  const verifiedHtml = c.verifiedWeek
+    ? `<div class="verified-stamp" title="${c.weeklyCheckSummary || ''}">
+         <span class="verified-icon" aria-hidden="true">✓</span>
+         <span class="verified-text">Verified <strong>${c.verifiedWeek.replace('-W', ' KW')}</strong> · ${fmtDate(c.verifiedAt)}</span>
+       </div>
+       ${c.weeklyCheckSummary ? `<p class="verified-summary">${c.weeklyCheckSummary}</p>` : ''}`
+    : '';
+
   content.innerHTML = `
     <div class="country-meta">
       <span class="flag-box">${c.code}</span>
@@ -404,6 +413,7 @@ function selectCountry(code) {
     <span class="status-badge status-${c.status}"><span class="dot dot-${c.status}"></span>${status.label}</span>
     <p class="headline">${c.headline}</p>
     <p class="summary">${c.summary}</p>
+    ${verifiedHtml}
     ${datesHtml}
     ${sourcesHtml}
   `;
