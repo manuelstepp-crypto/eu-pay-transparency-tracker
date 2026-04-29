@@ -15,6 +15,7 @@ import json
 import os
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 import anthropic
@@ -23,6 +24,10 @@ HERE = Path(__file__).parent
 CONFIG_PATH = HERE / "agents.json"
 LOG_DIR = HERE / "logs"
 LOG_DIR.mkdir(exist_ok=True)
+
+RETRY_WAIT_SECONDS = 90
+TERMINAL_OK = {"end_turn"}
+RETRYABLE_FAIL = {"retries_exhausted"}
 
 
 def keychain_get(service: str) -> str:
@@ -51,7 +56,12 @@ def run_session(
     title: str,
     log_file: Path,
     branch: str | None = None,
-) -> str:
+) -> tuple[str, str]:
+    """Run a single session to completion. Returns (session_id, stop_reason).
+
+    stop_reason is one of: end_turn, retries_exhausted, terminated, or another
+    transient idle reason. Caller decides what to do with it.
+    """
     resources: list[dict] = [
         {
             "type": "github_repository",
@@ -68,6 +78,7 @@ def run_session(
         title=title,
         resources=resources,
     )
+    stop_reason = "unknown"
 
     with log_file.open("a", encoding="utf-8") as fh:
         header = f"\n{'=' * 70}\n[{title}] session={session.id} started at {datetime.datetime.now().isoformat()}\n{'=' * 70}\n"
@@ -96,15 +107,34 @@ def run_session(
                 elif event.type == "session.status_terminated":
                     print(f"\n[{title}] terminated\n")
                     fh.write(f"\n[{title}] terminated\n")
+                    stop_reason = "terminated"
                     break
                 elif event.type == "session.status_idle":
                     if event.stop_reason.type == "requires_action":
                         continue
-                    print(f"\n[{title}] idle ({event.stop_reason.type})\n")
-                    fh.write(f"\n[{title}] idle ({event.stop_reason.type})\n")
+                    stop_reason = event.stop_reason.type
+                    print(f"\n[{title}] idle ({stop_reason})\n")
+                    fh.write(f"\n[{title}] idle ({stop_reason})\n")
                     break
 
-    return session.id
+    return session.id, stop_reason
+
+
+def run_session_with_retry(*, max_attempts: int = 2, **kwargs) -> tuple[str, str]:
+    """Run a session, retrying once after a wait if it fails on a rate limit."""
+    last_reason = "unknown"
+    for attempt in range(1, max_attempts + 1):
+        title = kwargs.get("title", "session")
+        if attempt > 1:
+            print(f"\n[{title}] attempt {attempt}/{max_attempts} after waiting {RETRY_WAIT_SECONDS}s\n")
+            time.sleep(RETRY_WAIT_SECONDS)
+        sid, stop_reason = run_session(**kwargs)
+        last_reason = stop_reason
+        if stop_reason in TERMINAL_OK:
+            return sid, stop_reason
+        if stop_reason not in RETRYABLE_FAIL:
+            return sid, stop_reason  # non-retryable failure — give up immediately
+    return sid, last_reason
 
 
 def main() -> int:
@@ -142,8 +172,8 @@ def main() -> int:
         f"6. Bei FAIL: nur Report auf Branch pushen."
     )
 
-    run_session(
-        client,
+    _, research_reason = run_session_with_retry(
+        client=client,
         agent_id=researcher_id,
         env_id=env_id,
         repo_url=repo_url,
@@ -152,9 +182,12 @@ def main() -> int:
         title=f"Research {kw}",
         log_file=log_file,
     )
+    if research_reason not in TERMINAL_OK:
+        print(f"\nResearcher did not finish cleanly (stop_reason={research_reason}). QA skipped.")
+        return 1
 
-    run_session(
-        client,
+    _, qa_reason = run_session_with_retry(
+        client=client,
         agent_id=qa_id,
         env_id=env_id,
         repo_url=repo_url,
@@ -164,6 +197,9 @@ def main() -> int:
         log_file=log_file,
         branch=branch,
     )
+    if qa_reason not in TERMINAL_OK:
+        print(f"\nQA did not finish cleanly (stop_reason={qa_reason}). Branch {branch} unmerged — review manually.")
+        return 1
 
     return 0
 
