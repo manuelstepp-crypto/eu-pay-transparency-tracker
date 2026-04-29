@@ -163,13 +163,13 @@ def main() -> int:
     )
 
     qa_kickoff = (
-        f"Führe QA-Review für Branch `{branch}` durch ({kw}).\n\n"
-        f"1. Lies alle Änderungen via `git diff main...HEAD`.\n"
-        f"2. Validiere alle Einträge in `data/claims-{kw}.json` durch URL-Fetch.\n"
-        f"3. Prüfe Vollständigkeit, Stil-Konsistenz, sachliche Korrektheit.\n"
-        f"4. Schreibe `qa/{kw}-report.md` mit `VERDICT: PASS` oder `VERDICT: FAIL` als letzter Zeile.\n"
-        f"5. Bei PASS: committe Report auf Branch, dann ff-merge auf main und push.\n"
-        f"6. Bei FAIL: nur Report auf Branch pushen."
+        f"Führe Sample-QA für Branch `{branch}` durch ({kw}).\n\n"
+        f"Folge dem Sample-Validation-Workflow aus deinem System Prompt:\n"
+        f"- Wähle 5-7 repräsentative Claims aus `data/claims-{kw}.json`\n"
+        f"- Validiere strikt sequentiell, eine URL nach der anderen\n"
+        f"- Schreibe `qa/{kw}-report.md` mit `VERDICT: PASS` oder `VERDICT: FAIL` als letzter Zeile\n"
+        f"- Bei PASS: rebase auf main falls nötig, ff-merge, push\n"
+        f"- Bei FAIL: Report auf Branch lassen, kein Merge"
     )
 
     _, research_reason = run_session_with_retry(
