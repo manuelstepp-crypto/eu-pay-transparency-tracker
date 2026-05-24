@@ -2,12 +2,12 @@
   "meta": {
     "title": "EU Pay Transparency Directive — Member State Tracker",
     "subtitle": "Where the 27 Member States Stand",
-    "lastUpdated": "2026-05-17",
-    "isoWeek": "2026-W21",
+    "lastUpdated": "2026-05-22",
+    "isoWeek": "2026-W22",
     "deadlineTransposition": "2026-06-07",
     "deadlineFirstReport": "2027-06-07",
     "deadlinePhaseInComplete": "2031-06-07",
-    "disclaimer": "Status and sources verified for ISO week 2026-W21 (17 May 2026). This page does not constitute legal advice."
+    "disclaimer": "Snapshot for ISO week 2026-W22 (22 May 2026). Italy is the only status note that changed since W21 (Gazzetta Ufficiale publication watch — see card); all other countries carry their most recent verification. This page does not constitute legal advice."
   },
   "author": {
     "name": "Manuel Stepp",
@@ -133,6 +133,12 @@
       "asOf": "2026-05-17",
       "shortLabel": "KW 21",
       "longLabel": "KW 21 · 17 May 2026"
+    },
+    {
+      "isoWeek": "2026-W22",
+      "asOf": "2026-05-22",
+      "shortLabel": "KW 22",
+      "longLabel": "KW 22 · 22 May 2026"
     }
   ],
   "history": {
@@ -578,6 +584,133 @@
           "headline": "No published draft; self-set 29 May target slipping; no Narodno Sabranie first reading"
         }
       }
+    },
+    "2026-W22": {
+      "asOf": "2026-05-22",
+      "summary": {
+        "green": 3,
+        "amber": 11,
+        "red": 13
+      },
+      "movers": [
+        {
+          "code": "IT",
+          "from": "green",
+          "to": "green",
+          "direction": "watch",
+          "headline": "Italy: decree still not in the Gazzetta Ufficiale as of 22 May — 15-day in-force window now at the wire for a 7 June date"
+        }
+      ],
+      "countries": {
+        "SK": {
+          "status": "green",
+          "headline": "Equal Pay Act adopted 15 Apr 2026; effective 7 Jun 2026 — first MS"
+        },
+        "IT": {
+          "status": "green",
+          "headline": "CdM final approval 30 Apr; Gazzetta Ufficiale still not published as of 22 May — 15-day in-force window now at the wire"
+        },
+        "MT": {
+          "status": "green",
+          "headline": "Partial transposition (LN 112/2025) in force since 27 Aug 2025; full draft pending, MEA seeks postponement"
+        },
+        "FI": {
+          "status": "amber",
+          "headline": "HE submission to Eduskunta rescheduled to Week 25 (15–21 Jun 2026); autumn scrutiny confirmed"
+        },
+        "NL": {
+          "status": "amber",
+          "headline": "Raad van State Advice 7 Apr; Tweede Kamer debate 23 Apr, motie vote 12 May; revised bill sent week of 18 May"
+        },
+        "DK": {
+          "status": "amber",
+          "headline": "Government crisis after 24 Mar election; Poulsen (V) leads royal sondering since 11 May — bill stranded, 1 Jan 2027 endangered"
+        },
+        "CZ": {
+          "status": "amber",
+          "headline": "Act in force 1 Jan 2027; reporting & joint assessment from 1 Jan 2028"
+        },
+        "PL": {
+          "status": "amber",
+          "headline": "Phase-1 binding since 24 Dec 2025; UC127 v2 published 4 May 2026 (74 articles); vacatio-legis switched to 6 months — Phase-2 now Q1 2027"
+        },
+        "RO": {
+          "status": "red",
+          "headline": "Bolojan government toppled 5 May (281-4 no-confidence vote); transposition bill stranded — deadline politically unachievable"
+        },
+        "LT": {
+          "status": "amber",
+          "headline": "Government draft 18 Mar; Seimas committee endorsed phased rollout — Phase 1 from 7 Jun 2026, Phase 2 from 1 Jan 2027"
+        },
+        "LV": {
+          "status": "amber",
+          "headline": "Stand-alone draft cleared consultation 9 Apr; awaiting Cabinet approval before Saeima — emergency-track window closing"
+        },
+        "CY": {
+          "status": "amber",
+          "headline": "'Equal Remuneration Law of 2026' still pre-plenary; election 24 May freezes business; government target adoption by Sept 2026"
+        },
+        "BE": {
+          "status": "amber",
+          "headline": "Flemish public-sector decree in force 7 Jun; CNT President Delarue (15 May): federal private-sector transposition unlikely before 2027"
+        },
+        "IE": {
+          "status": "red",
+          "headline": "17 May 2026 (RTÉ): Department reconfirms phased approach; Pay Transparency Bill absent from Summer Legislative Programme priority list"
+        },
+        "ES": {
+          "status": "amber",
+          "headline": "Consulta pública previa closed 8 May (Phase 1 of 5); BOE publication before 7 Jun ruled out — Q3/Q4 2026 most likely"
+        },
+        "SI": {
+          "status": "amber",
+          "headline": "Inter-ministerial working group ongoing; no bill registered with Državni zbor as of 17 May 2026"
+        },
+        "BG": {
+          "status": "red",
+          "headline": "No published draft; 29 May target slipping"
+        },
+        "DE": {
+          "status": "red",
+          "headline": "BMBFSFJ in internal consultation; no Referentenentwurf published"
+        },
+        "FR": {
+          "status": "red",
+          "headline": "Preliminary draft (Title I private sector) to social partners 6 Mar 2026; Title II (public sector) 31 Mar; parliamentary debate not before late 2026"
+        },
+        "AT": {
+          "status": "red",
+          "headline": "No Begutachtungsentwurf as of May 2026; spring-2026 slot missed"
+        },
+        "PT": {
+          "status": "red",
+          "headline": "Govt labour-reform proposal adopted 14 May 2026 (PTD scope unclear); no specific transposition bill in Assembleia"
+        },
+        "LU": {
+          "status": "red",
+          "headline": "Avant-projet at social partners 6 Mar; MTEESS confirms 28 Apr (Paperjam): transposition before 2027 unrealistic"
+        },
+        "HR": {
+          "status": "red",
+          "headline": "No draft published; ministry's March 2026 publication target missed"
+        },
+        "GR": {
+          "status": "red",
+          "headline": "No draft published; specialist committee still preparing framework"
+        },
+        "HU": {
+          "status": "red",
+          "headline": "Specialist committee report due 28 Feb 2026; no public draft"
+        },
+        "SE": {
+          "status": "red",
+          "headline": "Government still seeks Directive renegotiation; no bill to Riksdag"
+        },
+        "EE": {
+          "status": "red",
+          "headline": "Min. Keldo: Estonia will accept EU fine rather than transpose on time (April 2026); partial-only adoption planned"
+        }
+      }
     }
   },
   "countries": {
@@ -630,8 +763,8 @@
       "code": "IT",
       "name": "Italy",
       "status": "green",
-      "headline": "CdM final approval 30 Apr 2026; Gazzetta Ufficiale still pending per 13 May (Forme) — 15-day in-force window now squeezed",
-      "summary": "Council of Ministers gave definitive (esame definitivo) approval to the legislative decree transposing Directive 2023/970 on 30 Apr 2026, after preliminary approval on 5 Feb. Entry into force is 15 days after Gazzetta Ufficiale publication. Per 13 May 2026, the decree has not yet been published (Forme, LaMiaFinanza) — to make 7 Jun 2026, GU publication must occur by ~23 May. Valore D (Cristiana Scelza) calls for chiarimenti normativi on inconsistent metrics (bonus inclusion in reporting vs. exclusion in individual right-to-information). Italy still on track to be the second EU MS with timely transposition — but the buffer is gone.",
+      "headline": "CdM final approval 30 Apr; Gazzetta Ufficiale still not published as of 22 May — 15-day in-force window now at the wire",
+      "summary": "Council of Ministers gave definitive (esame definitivo) approval to the legislative decree transposing Directive 2023/970 on 30 Apr 2026, after preliminary approval on 5 Feb. Entry into force is 15 days after publication in the Gazzetta Ufficiale. As of 22 May 2026 the decree has still not been published — so the 15-day window for a 7 Jun 2026 in-force date is now at the wire (publication needed within roughly a day). Italy remains on course to be the second EU member state with timely transposition on the strength of the definitive CdM approval, but the buffer is gone and a short slip past 7 Jun is now possible.",
       "keyDates": [
         {
           "label": "Preliminary approval by Council of Ministers",
@@ -668,9 +801,9 @@
           "url": "https://www.lamiafinanza.it/2026/05/trasparenza-retributiva-2026-cosa-cambia-per-aziende-e-lavoratori-con-il-nuovo-decreto/"
         }
       ],
-      "verifiedAt": "2026-05-17",
-      "verifiedWeek": "2026-W21",
-      "weeklyCheckSummary": "Watch flag within GREEN: Gazzetta Ufficiale publication has not occurred per 13 May. Italy must publish by ~23 May for the 15-day in-force window to land on 7 Jun. If GU slips past 23 May, downgrade to AMBER in W22."
+      "verifiedAt": "2026-05-22",
+      "verifiedWeek": "2026-W22",
+      "weeklyCheckSummary": "W22 watch (22 May): Gazzetta Ufficiale publication still not confirmed. The 15-day in-force window has effectively closed for a 7 Jun date. Holding GREEN on the definitive CdM approval; downgrade to AMBER at the W23 cutoff if the decree has still not been published."
     },
     "MT": {
       "code": "MT",
