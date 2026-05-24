@@ -2,12 +2,12 @@
   "meta": {
     "title": "EU Pay Transparency Directive — Member State Tracker",
     "subtitle": "Where the 27 Member States Stand",
-    "lastUpdated": "2026-05-22",
+    "lastUpdated": "2026-05-24",
     "isoWeek": "2026-W22",
     "deadlineTransposition": "2026-06-07",
     "deadlineFirstReport": "2027-06-07",
     "deadlinePhaseInComplete": "2031-06-07",
-    "disclaimer": "Snapshot for ISO week 2026-W22 (22 May 2026). Italy is the only status note that changed since W21 (Gazzetta Ufficiale publication watch — see card); all other countries carry their most recent verification. This page does not constitute legal advice."
+    "disclaimer": "Snapshot for ISO week 2026-W22, re-verified 24 May 2026 in a three-pass QA. No status changes vs W21; Italy remains the only watch item (Gazzetta Ufficiale not yet published). This page does not constitute legal advice."
   },
   "author": {
     "name": "Manuel Stepp",
@@ -136,9 +136,9 @@
     },
     {
       "isoWeek": "2026-W22",
-      "asOf": "2026-05-22",
+      "asOf": "2026-05-24",
       "shortLabel": "KW 22",
-      "longLabel": "KW 22 · 22 May 2026"
+      "longLabel": "KW 22 · 24 May 2026"
     }
   ],
   "history": {
@@ -586,7 +586,7 @@
       }
     },
     "2026-W22": {
-      "asOf": "2026-05-22",
+      "asOf": "2026-05-24",
       "summary": {
         "green": 3,
         "amber": 11,
@@ -598,17 +598,17 @@
           "from": "green",
           "to": "green",
           "direction": "watch",
-          "headline": "Italy: decree still not in the Gazzetta Ufficiale as of 22 May — 15-day in-force window now at the wire for a 7 June date"
+          "headline": "Italy: decree still not in the Gazzetta Ufficiale as of 24 May — 7 June in-force timing now uncertain"
         }
       ],
       "countries": {
         "SK": {
           "status": "green",
-          "headline": "Equal Pay Act adopted 15 Apr 2026; effective 7 Jun 2026 — first MS"
+          "headline": "Equal Pay Act adopted 15 Apr; published as Act No. 76/2026 Coll. (8 May); in force 7 Jun 2026 — first MS"
         },
         "IT": {
           "status": "green",
-          "headline": "CdM final approval 30 Apr; Gazzetta Ufficiale still not published as of 22 May — 15-day in-force window now at the wire"
+          "headline": "CdM final approval 30 Apr; Gazzetta Ufficiale still not published as of 24 May — in-force timing for 7 Jun uncertain"
         },
         "MT": {
           "status": "green",
@@ -718,8 +718,8 @@
       "code": "SK",
       "name": "Slovakia",
       "status": "green",
-      "headline": "Equal Pay Act adopted 15 Apr 2026; effective 7 Jun 2026 — first MS",
-      "summary": "NR SR adopted Zákon o rovnakom odmeňovaní by constitutional majority on 15 Apr 2026; effective 7 Jun 2026. Pay-structure deadline 31 Jul 2026; first reports (250+) by 7 Jun 2027. Includes same-sex equal-pay comparator (gold-plating beyond Directive).",
+      "headline": "Equal Pay Act adopted 15 Apr; published as Act No. 76/2026 Coll. (8 May); in force 7 Jun 2026 — first MS",
+      "summary": "Slovakia became the first EU member state to adopt final transposing legislation. The NR SR adopted the Equal Pay Act on 15 Apr 2026; it was published in the Collection of Laws as Act No. 76/2026 Coll. on 8 May 2026 and comes into force on 7 Jun 2026. The pay structure must be in place by 31 Jul 2026; first gender-disaggregated reporting (250+) in respect of 2027. Scope is gold-plated with a same-sex equal-pay comparator.",
       "keyDates": [
         {
           "label": "Act adopted by National Council",
@@ -755,16 +755,16 @@
           "url": "https://www.lewissilkin.com/insights/2026/04/24/slovakia-becomes-the-first-eu-member-state-to-transpose-the-pay-transparency-directive"
         }
       ],
-      "verifiedAt": "2026-05-17",
-      "verifiedWeek": "2026-W21",
+      "verifiedAt": "2026-05-24",
+      "verifiedWeek": "2026-W22",
       "weeklyCheckSummary": "Unchanged: still the only fully-transposed MS. Awaiting Zbierka zákonov publication after presidential signature; deadline buffer comfortable."
     },
     "IT": {
       "code": "IT",
       "name": "Italy",
       "status": "green",
-      "headline": "CdM final approval 30 Apr; Gazzetta Ufficiale still not published as of 22 May — 15-day in-force window now at the wire",
-      "summary": "Council of Ministers gave definitive (esame definitivo) approval to the legislative decree transposing Directive 2023/970 on 30 Apr 2026, after preliminary approval on 5 Feb. Entry into force is 15 days after publication in the Gazzetta Ufficiale. As of 22 May 2026 the decree has still not been published — so the 15-day window for a 7 Jun 2026 in-force date is now at the wire (publication needed within roughly a day). Italy remains on course to be the second EU member state with timely transposition on the strength of the definitive CdM approval, but the buffer is gone and a short slip past 7 Jun is now possible.",
+      "headline": "CdM final approval 30 Apr; Gazzetta Ufficiale still not published as of 24 May — in-force timing for 7 Jun uncertain",
+      "summary": "Council of Ministers gave definitive (esame definitivo) approval to the legislative decree transposing Directive 2023/970 on 30 Apr 2026, after preliminary approval on 5 Feb. As of 24 May 2026 the decree has still not appeared in the Gazzetta Ufficiale. Entry into force is 15 days after publication; Italian commentary cites a 7 Jun 2026 in-force date, but with no publication yet the timing is uncertain and a short slip past 7 Jun is possible. Italy remains on course to be the second EU member state to transpose on time on the strength of the definitive CdM approval.",
       "keyDates": [
         {
           "label": "Preliminary approval by Council of Ministers",
@@ -801,9 +801,9 @@
           "url": "https://www.lamiafinanza.it/2026/05/trasparenza-retributiva-2026-cosa-cambia-per-aziende-e-lavoratori-con-il-nuovo-decreto/"
         }
       ],
-      "verifiedAt": "2026-05-22",
+      "verifiedAt": "2026-05-24",
       "verifiedWeek": "2026-W22",
-      "weeklyCheckSummary": "W22 watch (22 May): Gazzetta Ufficiale publication still not confirmed. The 15-day in-force window has effectively closed for a 7 Jun date. Holding GREEN on the definitive CdM approval; downgrade to AMBER at the W23 cutoff if the decree has still not been published."
+      "weeklyCheckSummary": "QA re-check (24 May): Gazzetta Ufficiale publication still not confirmed in any source. Holding GREEN on the definitive CdM approval; the 7 Jun in-force date is now uncertain. Downgrade to AMBER at the W23 cutoff if the decree remains unpublished."
     },
     "MT": {
       "code": "MT",
