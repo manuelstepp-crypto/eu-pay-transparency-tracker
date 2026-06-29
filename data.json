@@ -1,1921 +1,2061 @@
 {
- "meta": {
-  "title": "EU Pay Transparency Directive — Member State Tracker",
-  "subtitle": "Where the 27 Member States Stand",
-  "lastUpdated": "2026-06-22",
-  "isoWeek": "2026-W26",
-  "deadlineTransposition": "2026-06-07",
-  "deadlineFirstReport": "2027-06-07",
-  "deadlinePhaseInComplete": "2031-06-07",
-  "disclaimer": "Post-deadline snapshot for ISO week 2026-W26 (22 June 2026). The 7 June 2026 transposition deadline has passed: only 4 of 27 Member States have a full implementing law in force (Slovakia, Italy, Lithuania, Malta) — some trackers count 3, treating Lithuania's phased law as partial. The European Commission held the deadline firm and signalled no general postponement; no Directive-specific infringement letters had been issued as of late June 2026. This page does not constitute legal advice."
- },
- "author": {
-  "name": "Manuel Stepp",
-  "tagline": "Reward & Pay Equity Advisor",
-  "photoUrl": "assets/manuel-stepp.png",
-  "linkedinUrl": "https://www.linkedin.com/in/manuelstepp/",
-  "meetingUrl": "https://bookings.cloud.microsoft/bookwithme/user/5c99f6e488df484594a58c40b9cddca7%40Kornferry.com?anonymous&ismsaljsauthenabled"
- },
- "statusLegend": {
-  "green": {
-   "label": "Transposed or on-track",
-   "color": "#1f9e4d",
-   "definition": "National law adopted, or final bill confirmed to enter into force on or before 7 June 2026."
+  "meta": {
+    "title": "EU Pay Transparency Directive — Member State Tracker",
+    "subtitle": "Where the 27 Member States Stand",
+    "lastUpdated": "2026-06-29",
+    "isoWeek": "2026-W27",
+    "deadlineTransposition": "2026-06-07",
+    "deadlineFirstReport": "2027-06-07",
+    "deadlinePhaseInComplete": "2031-06-07",
+    "disclaimer": "Post-deadline snapshot for ISO week 2026-W27 (29 June 2026). The 7 June 2026 transposition deadline has passed: only 4 of 27 Member States have a full implementing law in force (Slovakia, Italy, Lithuania, Malta) — some trackers count 3, treating Lithuania's phased law as partial. No status changes this week; Greece tabled its bill in Parliament (23 Jun) and Romania registered a draft with the Senate (17 Jun), both still pre-adoption. The European Commission held the deadline firm, refused a general postponement (incl. Belgium's six-month request) and had issued no Directive-specific infringement letters as of late June 2026. This page does not constitute legal advice."
   },
-  "amber": {
-   "label": "Draft published",
-   "color": "#e87722",
-   "definition": "Bill or decree in formal consultation or before parliament; intent clear, deadline at risk."
+  "author": {
+    "name": "Manuel Stepp",
+    "tagline": "Reward & Pay Equity Advisor",
+    "photoUrl": "assets/manuel-stepp.png",
+    "linkedinUrl": "https://www.linkedin.com/in/manuelstepp/",
+    "meetingUrl": "https://bookings.cloud.microsoft/bookwithme/user/5c99f6e488df484594a58c40b9cddca7%40Kornferry.com?anonymous&ismsaljsauthenabled"
   },
-  "red": {
-   "label": "No public draft / resisting",
-   "color": "#c0392b",
-   "definition": "No formal text published, only initial steps announced — or government has signalled non-compliance."
-  }
- },
- "directivePillars": [
-  "Pay range disclosed in job ads / before interview",
-  "Right of employees to information on pay & criteria",
-  "Ban on salary-history questions of candidates",
-  "Gender pay gap reporting (≥ 100 / 150 / 250 staff)",
-  "Joint pay assessment if unjustified gap > 5%",
-  "Reversed burden of proof in equal-pay litigation"
- ],
- "directiveSources": [
-  {
-   "title": "Directive (EU) 2023/970 — official text",
-   "publisher": "EUR-Lex",
-   "url": "https://eur-lex.europa.eu/eli/dir/2023/970/oj/eng"
-  },
-  {
-   "title": "Pay Transparency — policy overview",
-   "publisher": "Council of the EU",
-   "url": "https://www.consilium.europa.eu/en/policies/pay-transparency/"
-  },
-  {
-   "title": "European Commission confirms 7 June 2026 deadline holds",
-   "publisher": "Ogletree Deakins",
-   "url": "https://ogletree.com/insights-resources/blog-posts/european-commission-confirms-the-eu-pay-transparency-directive-implementation-deadline-remains-7-june-2026/"
-  },
-  {
-   "title": "First reports due 7 June 2027 (≥ 250 staff)",
-   "publisher": "KPMG / Mirro",
-   "url": "https://kpmg.com/xx/en/our-insights/gms-flash-alert/flash-alert-2025-148.html"
-  },
-  {
-   "title": "Threshold phase-in (250 / 150 / 100)",
-   "publisher": "Coffra Group",
-   "url": "https://www.coffra-group.com/en/publications/pay-transparency-directive-2023-970-get-ready-for-new-rules/"
-  },
-  {
-   "title": "The six employer pillars",
-   "publisher": "Jackson Lewis",
-   "url": "https://www.jacksonlewis.com/insights/how-prepare-your-company-now-eu-pay-transparency-obligations"
-  }
- ],
- "trackers": [
-  {
-   "title": "Transposition across 27 Member States (April 2026)",
-   "publisher": "L&E Global",
-   "url": "https://leglobal.law/2026/04/20/european-union-transposition-of-the-eu-pay-transparency-directive-across-27-member-states/"
-  },
-  {
-   "title": "Implementation across EU Member States",
-   "publisher": "Pinsent Masons",
-   "url": "https://www.pinsentmasons.com/out-law/guides/eu-pay-transparency-directive-eu-member-states"
-  },
-  {
-   "title": "Member State Transposition Monitor 2026",
-   "publisher": "Trusaic",
-   "url": "https://trusaic.com/resources/new-eu-pay-transparency-directive-member-state-transposition-monitor-2026/"
-  },
-  {
-   "title": "Transposition Status Tracker",
-   "publisher": "Synd.io",
-   "url": "https://synd.io/eu-pay-transparency-directive-transposition-tracker/"
-  },
-  {
-   "title": "Pay Transparency Tracker — country pages",
-   "publisher": "pay-transparency-tracker.com",
-   "url": "https://www.pay-transparency-tracker.com/"
-  },
-  {
-   "title": "Implementation Tracker (March 2026, PDF)",
-   "publisher": "Addleshaw Goddard",
-   "url": "https://www.addleshawgoddard.com/globalassets/insights/employment/eu-pay-transparency-directive-implementation-tracker.pdf"
-  },
-  {
-   "title": "Which countries have implemented",
-   "publisher": "Ius Laboris",
-   "url": "https://iuslaboris.com/insights/eu-pay-transparency-directive-which-countries-have-implemented/"
-  },
-  {
-   "title": "How countries are implementing (April 2026)",
-   "publisher": "Figures.hr",
-   "url": "https://figures.hr/post/how-countries-are-implementing-the-eu-pay-transparency-directive"
-  }
- ],
- "weeks": [
-  {
-   "isoWeek": "2026-W18",
-   "asOf": "2026-04-28",
-   "shortLabel": "KW 18",
-   "longLabel": "KW 18 · 28 Apr 2026"
-  },
-  {
-   "isoWeek": "2026-W20",
-   "asOf": "2026-05-10",
-   "shortLabel": "KW 20",
-   "longLabel": "KW 20 · 10 May 2026"
-  },
-  {
-   "isoWeek": "2026-W21",
-   "asOf": "2026-05-17",
-   "shortLabel": "KW 21",
-   "longLabel": "KW 21 · 17 May 2026"
-  },
-  {
-   "isoWeek": "2026-W25",
-   "asOf": "2026-06-21",
-   "shortLabel": "KW 25",
-   "longLabel": "KW 25 · 21 Jun 2026"
-  },
-  {
-   "isoWeek": "2026-W26",
-   "asOf": "2026-06-22",
-   "shortLabel": "KW 26",
-   "longLabel": "KW 26 · 22 Jun 2026"
-  }
- ],
- "history": {
-  "2026-W18": {
-   "asOf": "2026-04-28",
-   "summary": {
-    "green": 4,
-    "amber": 13,
-    "red": 10
-   },
-   "movers": [],
-   "countries": {
-    "SK": {
-     "status": "green",
-     "headline": "First past the post — Equal Pay Act adopted 15 April 2026"
+  "statusLegend": {
+    "green": {
+      "label": "Transposed or on-track",
+      "color": "#1f9e4d",
+      "definition": "National law adopted, or final bill confirmed to enter into force on or before 7 June 2026."
     },
-    "FI": {
-     "status": "green",
-     "headline": "Bill targeted to enter into force 18 May 2026"
+    "amber": {
+      "label": "Draft published",
+      "color": "#e87722",
+      "definition": "Bill or decree in formal consultation or before parliament; intent clear, deadline at risk."
+    },
+    "red": {
+      "label": "No public draft / resisting",
+      "color": "#c0392b",
+      "definition": "No formal text published, only initial steps announced — or government has signalled non-compliance."
+    }
+  },
+  "directivePillars": [
+    "Pay range disclosed in job ads / before interview",
+    "Right of employees to information on pay & criteria",
+    "Ban on salary-history questions of candidates",
+    "Gender pay gap reporting (≥ 100 / 150 / 250 staff)",
+    "Joint pay assessment if unjustified gap > 5%",
+    "Reversed burden of proof in equal-pay litigation"
+  ],
+  "directiveSources": [
+    {
+      "title": "Directive (EU) 2023/970 — official text",
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/dir/2023/970/oj/eng"
+    },
+    {
+      "title": "Pay Transparency — policy overview",
+      "publisher": "Council of the EU",
+      "url": "https://www.consilium.europa.eu/en/policies/pay-transparency/"
+    },
+    {
+      "title": "European Commission confirms 7 June 2026 deadline holds",
+      "publisher": "Ogletree Deakins",
+      "url": "https://ogletree.com/insights-resources/blog-posts/european-commission-confirms-the-eu-pay-transparency-directive-implementation-deadline-remains-7-june-2026/"
+    },
+    {
+      "title": "First reports due 7 June 2027 (≥ 250 staff)",
+      "publisher": "KPMG / Mirro",
+      "url": "https://kpmg.com/xx/en/our-insights/gms-flash-alert/flash-alert-2025-148.html"
+    },
+    {
+      "title": "Threshold phase-in (250 / 150 / 100)",
+      "publisher": "Coffra Group",
+      "url": "https://www.coffra-group.com/en/publications/pay-transparency-directive-2023-970-get-ready-for-new-rules/"
+    },
+    {
+      "title": "The six employer pillars",
+      "publisher": "Jackson Lewis",
+      "url": "https://www.jacksonlewis.com/insights/how-prepare-your-company-now-eu-pay-transparency-obligations"
+    }
+  ],
+  "trackers": [
+    {
+      "title": "Transposition across 27 Member States (April 2026)",
+      "publisher": "L&E Global",
+      "url": "https://leglobal.law/2026/04/20/european-union-transposition-of-the-eu-pay-transparency-directive-across-27-member-states/"
+    },
+    {
+      "title": "Implementation across EU Member States",
+      "publisher": "Pinsent Masons",
+      "url": "https://www.pinsentmasons.com/out-law/guides/eu-pay-transparency-directive-eu-member-states"
+    },
+    {
+      "title": "Member State Transposition Monitor 2026",
+      "publisher": "Trusaic",
+      "url": "https://trusaic.com/resources/new-eu-pay-transparency-directive-member-state-transposition-monitor-2026/"
+    },
+    {
+      "title": "Transposition Status Tracker",
+      "publisher": "Synd.io",
+      "url": "https://synd.io/eu-pay-transparency-directive-transposition-tracker/"
+    },
+    {
+      "title": "Pay Transparency Tracker — country pages",
+      "publisher": "pay-transparency-tracker.com",
+      "url": "https://www.pay-transparency-tracker.com/"
+    },
+    {
+      "title": "Implementation Tracker (March 2026, PDF)",
+      "publisher": "Addleshaw Goddard",
+      "url": "https://www.addleshawgoddard.com/globalassets/insights/employment/eu-pay-transparency-directive-implementation-tracker.pdf"
+    },
+    {
+      "title": "Which countries have implemented",
+      "publisher": "Ius Laboris",
+      "url": "https://iuslaboris.com/insights/eu-pay-transparency-directive-which-countries-have-implemented/"
+    },
+    {
+      "title": "How countries are implementing (April 2026)",
+      "publisher": "Figures.hr",
+      "url": "https://figures.hr/post/how-countries-are-implementing-the-eu-pay-transparency-directive"
+    }
+  ],
+  "weeks": [
+    {
+      "isoWeek": "2026-W18",
+      "asOf": "2026-04-28",
+      "shortLabel": "KW 18",
+      "longLabel": "KW 18 · 28 Apr 2026"
+    },
+    {
+      "isoWeek": "2026-W20",
+      "asOf": "2026-05-10",
+      "shortLabel": "KW 20",
+      "longLabel": "KW 20 · 10 May 2026"
+    },
+    {
+      "isoWeek": "2026-W21",
+      "asOf": "2026-05-17",
+      "shortLabel": "KW 21",
+      "longLabel": "KW 21 · 17 May 2026"
+    },
+    {
+      "isoWeek": "2026-W25",
+      "asOf": "2026-06-21",
+      "shortLabel": "KW 25",
+      "longLabel": "KW 25 · 21 Jun 2026"
+    },
+    {
+      "isoWeek": "2026-W26",
+      "asOf": "2026-06-22",
+      "shortLabel": "KW 26",
+      "longLabel": "KW 26 · 22 Jun 2026"
+    },
+    {
+      "isoWeek": "2026-W27",
+      "asOf": "2026-06-29",
+      "shortLabel": "KW 27",
+      "longLabel": "KW 27 · 29 Jun 2026"
+    }
+  ],
+  "history": {
+    "2026-W18": {
+      "asOf": "2026-04-28",
+      "summary": {
+        "green": 4,
+        "amber": 13,
+        "red": 10
+      },
+      "movers": [],
+      "countries": {
+        "SK": {
+          "status": "green",
+          "headline": "First past the post — Equal Pay Act adopted 15 April 2026"
+        },
+        "FI": {
+          "status": "green",
+          "headline": "Bill targeted to enter into force 18 May 2026"
+        },
+        "IT": {
+          "status": "green",
+          "headline": "Draft legislative decree advancing through parliament"
+        },
+        "MT": {
+          "status": "green",
+          "headline": "Partial text already in force since 27 August 2025"
+        },
+        "NL": {
+          "status": "amber",
+          "headline": "Cleanest draft — entry into force slips to 1 January 2027"
+        },
+        "DK": {
+          "status": "amber",
+          "headline": "Draft 26 February 2026; effect 1 January 2027"
+        },
+        "CZ": {
+          "status": "amber",
+          "headline": "Public consultation closed 27 April 2026 — minimalist transposition"
+        },
+        "PL": {
+          "status": "amber",
+          "headline": "Draft December 2025 — tighter than the Directive"
+        },
+        "RO": {
+          "status": "amber",
+          "headline": "Revised draft consulted to 8 April 2026"
+        },
+        "LT": {
+          "status": "amber",
+          "headline": "Draft to Tripartite Council May 2025"
+        },
+        "LV": {
+          "status": "amber",
+          "headline": "Draft 26 March 2026 — on track"
+        },
+        "CY": {
+          "status": "amber",
+          "headline": "Detailed draft consulted Nov–Dec 2025"
+        },
+        "BG": {
+          "status": "amber",
+          "headline": "Adoption scheduled 29 May 2026"
+        },
+        "BE": {
+          "status": "amber",
+          "headline": "Minister Clarinval confirms full federal transposition by 7 June 2026"
+        },
+        "IE": {
+          "status": "amber",
+          "headline": "Government confirms phased rollout — deadline will be missed"
+        },
+        "ES": {
+          "status": "amber",
+          "headline": "Public consultation live — 24 April to 8 May 2026"
+        },
+        "SI": {
+          "status": "amber",
+          "headline": "Draft published 7 November 2025 for consultation"
+        },
+        "DE": {
+          "status": "red",
+          "headline": "Expert report November 2025; bill not yet tabled"
+        },
+        "FR": {
+          "status": "red",
+          "headline": "Preliminary draft to social partners March 2026"
+        },
+        "AT": {
+          "status": "red",
+          "headline": "Ministry working on draft; no published bill"
+        },
+        "PT": {
+          "status": "red",
+          "headline": "No formal activity announced"
+        },
+        "LU": {
+          "status": "red",
+          "headline": "No known transposition activity"
+        },
+        "HR": {
+          "status": "red",
+          "headline": "No domestic rules drafted"
+        },
+        "GR": {
+          "status": "red",
+          "headline": "Specialist committee preparing framework"
+        },
+        "HU": {
+          "status": "red",
+          "headline": "No public updates"
+        },
+        "SE": {
+          "status": "red",
+          "headline": "Resisting — no bill planned (26 March 2026)"
+        },
+        "EE": {
+          "status": "red",
+          "headline": "Resisting — partial climbdown after 16 April 2026 statement"
+        }
+      }
+    },
+    "2026-W20": {
+      "asOf": "2026-05-10",
+      "summary": {
+        "green": 3,
+        "amber": 13,
+        "red": 11
+      },
+      "movers": [
+        {
+          "code": "FI",
+          "from": "green",
+          "to": "amber",
+          "direction": "down",
+          "headline": "Finland will miss the deadline — bill pushed to late autumn 2026"
+        },
+        {
+          "code": "BG",
+          "from": "amber",
+          "to": "red",
+          "direction": "down",
+          "headline": "Bulgaria: 29 May target slipping — no draft tabled in National Assembly"
+        },
+        {
+          "code": "IT",
+          "from": "green",
+          "to": "green",
+          "direction": "strengthened",
+          "headline": "Italy: definitive Council of Ministers approval on 30 April — second EU country to fully transpose in time"
+        }
+      ],
+      "countries": {
+        "SK": {
+          "status": "green",
+          "headline": "First past the post — Equal Pay Act adopted 15 April 2026"
+        },
+        "IT": {
+          "status": "green",
+          "headline": "CdM final approval of legislative decree on 30 April 2026"
+        },
+        "MT": {
+          "status": "green",
+          "headline": "Partial transposition in force since 27 Aug 2025; full draft pending"
+        },
+        "FI": {
+          "status": "amber",
+          "headline": "Bill delayed: Eduskunta to receive proposal at midsummer; force late autumn 2026"
+        },
+        "NL": {
+          "status": "amber",
+          "headline": "Draft bill at Council of State; effect 1 Jan 2027 confirmed"
+        },
+        "DK": {
+          "status": "amber",
+          "headline": "Bill in consultation; election uncertainty; effect 1 Jan 2027"
+        },
+        "CZ": {
+          "status": "amber",
+          "headline": "MPSV draft 26 Mar 2026 in consultation; effective 1 Jan 2028"
+        },
+        "PL": {
+          "status": "amber",
+          "headline": "Phase-1 in force since 24 Dec 2025; full transposition draft targets 7 Jun 2026"
+        },
+        "RO": {
+          "status": "amber",
+          "headline": "Revised draft consultation closed 8 Apr; awaiting Parliament submission"
+        },
+        "LT": {
+          "status": "amber",
+          "headline": "Government approved draft 18 Mar 2026; Seimas debate ongoing, on track for 7 Jun"
+        },
+        "LV": {
+          "status": "amber",
+          "headline": "Draft law published Spring 2026; Saeima review continues"
+        },
+        "CY": {
+          "status": "amber",
+          "headline": "Draft 'Equal Remuneration Law of 2026' progressing; not yet enacted"
+        },
+        "BE": {
+          "status": "amber",
+          "headline": "Min. Clarinval reaffirms full transposition by 7 Jun 2026"
+        },
+        "IE": {
+          "status": "amber",
+          "headline": "Heads of Bill not drafted; phased transposition, no penalties for missed deadline"
+        },
+        "ES": {
+          "status": "amber",
+          "headline": "Public consultation on Real Decreto closed 8 May 2026; final text pending"
+        },
+        "SI": {
+          "status": "amber",
+          "headline": "Nov-2025 consultation draft; no published bill as of late Apr 2026"
+        },
+        "SE": {
+          "status": "red",
+          "headline": "Government still seeks Directive renegotiation; no bill to Riksdag"
+        },
+        "EE": {
+          "status": "red",
+          "headline": "Government confirms it will accept EU fine rather than transpose on time"
+        },
+        "DE": {
+          "status": "red",
+          "headline": "BMBFSFJ in internal consultation; no Referentenentwurf published"
+        },
+        "FR": {
+          "status": "red",
+          "headline": "Preliminary draft to social partners 6 Mar 2026; bill not yet tabled"
+        },
+        "AT": {
+          "status": "red",
+          "headline": "No Begutachtungsentwurf as of May 2026; spring-2026 slot missed"
+        },
+        "PT": {
+          "status": "red",
+          "headline": "No tabled draft; ACT acting on directive spirit"
+        },
+        "LU": {
+          "status": "red",
+          "headline": "Still no projet de loi filed; Q1 expectation missed"
+        },
+        "HR": {
+          "status": "red",
+          "headline": "No draft published; Croatia among the laggards"
+        },
+        "GR": {
+          "status": "red",
+          "headline": "No draft published; specialist committee still preparing framework"
+        },
+        "HU": {
+          "status": "red",
+          "headline": "Specialist committee report due 28 Feb 2026; no public draft"
+        },
+        "BG": {
+          "status": "red",
+          "headline": "No published draft; 29 May target slipping"
+        }
+      }
+    },
+    "2026-W21": {
+      "asOf": "2026-05-17",
+      "summary": {
+        "green": 3,
+        "amber": 11,
+        "red": 13
+      },
+      "movers": [
+        {
+          "code": "RO",
+          "from": "amber",
+          "to": "red",
+          "direction": "down",
+          "headline": "Bolojan government toppled 5 May (281-4 no-confidence vote); transposition bill stranded between consultation and parliament"
+        },
+        {
+          "code": "IE",
+          "from": "amber",
+          "to": "red",
+          "direction": "down",
+          "headline": "17 May 2026 RTÉ: Department reconfirms phased approach; Pay Transparency Bill absent from Summer Legislative Programme"
+        },
+        {
+          "code": "BE",
+          "from": "amber",
+          "to": "amber",
+          "direction": "warned",
+          "headline": "CNT President Delarue (15 May): 'C'est clair, on sera en retard' — federal private-sector transposition unlikely before 2027"
+        },
+        {
+          "code": "NL",
+          "from": "amber",
+          "to": "amber",
+          "direction": "strengthened",
+          "headline": "Tweede Kamer debated 23 Apr, motie vote 12 May (3/4 adopted); minister sends revised bill week of 18 May"
+        },
+        {
+          "code": "DK",
+          "from": "amber",
+          "to": "amber",
+          "direction": "warned",
+          "headline": "Folketing election 24 Mar (SocDem 21.9% — lowest since 1903); Poulsen (V) leads royal sondering since 11 May — bill stranded"
+        },
+        {
+          "code": "PL",
+          "from": "amber",
+          "to": "amber",
+          "direction": "strengthened",
+          "headline": "UC127 v2 published 4 May (74 articles, up from 59); vacatio-legis switched to 6 months — formal admission of post-deadline entry"
+        },
+        {
+          "code": "LU",
+          "from": "red",
+          "to": "red",
+          "direction": "warned",
+          "headline": "MTEESS confirms 28 April: transposition before 2027 unrealistic (Paperjam)"
+        },
+        {
+          "code": "FI",
+          "from": "amber",
+          "to": "amber",
+          "direction": "warned",
+          "headline": "HE submission to Eduskunta rescheduled to Week 25 (15–21 Jun); autumn 2026 scrutiny now official baseline"
+        },
+        {
+          "code": "IT",
+          "from": "green",
+          "to": "green",
+          "direction": "warned",
+          "headline": "Gazzetta Ufficiale publication still pending per 13 May (Forme); 15-day in-force window squeezed but 7 Jun still officially held"
+        }
+      ],
+      "countries": {
+        "SK": {
+          "status": "green",
+          "headline": "First past the post — Equal Pay Act adopted 15 April 2026; awaiting Zbierka zákonov publication"
+        },
+        "IT": {
+          "status": "green",
+          "headline": "CdM final approval 30 Apr 2026 — Gazzetta Ufficiale still pending per 13 May (Forme)"
+        },
+        "MT": {
+          "status": "green",
+          "headline": "Partial transposition (LN 112/2025) in force since 27 Aug 2025; full draft pending, MEA seeks postponement"
+        },
+        "FI": {
+          "status": "amber",
+          "headline": "HE submission to Eduskunta rescheduled to Week 25 (15–21 Jun); scrutiny now autumn 2026"
+        },
+        "NL": {
+          "status": "amber",
+          "headline": "Raad van State Advice 7 Apr; Tweede Kamer debate 23 Apr, motie 12 May; revised bill sent week of 18 May"
+        },
+        "DK": {
+          "status": "amber",
+          "headline": "Folketing election 24 Mar (SocDem 21.9%); Poulsen (V) leads royal sondering since 11 May — bill stranded"
+        },
+        "CZ": {
+          "status": "amber",
+          "headline": "Act in force 1 Jan 2027; reporting & joint assessment from 1 Jan 2028"
+        },
+        "PL": {
+          "status": "amber",
+          "headline": "UC127 v2 published 4 May (74 articles); vacatio-legis switched to 6 months — Phase-2 now Q1 2027"
+        },
+        "RO": {
+          "status": "red",
+          "headline": "Bolojan government toppled 5 May (281-4 vote); bill stranded — deadline politically unachievable"
+        },
+        "LT": {
+          "status": "amber",
+          "headline": "Government draft 18 Mar; Seimas committee endorsed phased rollout — Phase 1 from 7 Jun, Phase 2 from 1 Jan 2027"
+        },
+        "LV": {
+          "status": "amber",
+          "headline": "Draft cleared consultation 9 Apr; awaiting Cabinet approval before Saeima — emergency-track window closing"
+        },
+        "CY": {
+          "status": "amber",
+          "headline": "'Equal Remuneration Law of 2026' pre-plenary; election 24 May; government target adoption by Sept 2026"
+        },
+        "BE": {
+          "status": "amber",
+          "headline": "Flemish decree in force 7 Jun; CNT Pres. Delarue (15 May): federal transposition unlikely before 2027"
+        },
+        "IE": {
+          "status": "red",
+          "headline": "17 May 2026 (RTÉ): Department reconfirms phased approach; Bill absent from Summer Legislative Programme"
+        },
+        "ES": {
+          "status": "amber",
+          "headline": "Consulta pública previa closed 8 May (Phase 1 of 5); BOE publication before 7 Jun ruled out — Q3/Q4 2026"
+        },
+        "SI": {
+          "status": "amber",
+          "headline": "Inter-ministerial working group ongoing; no bill registered with Državni zbor as of 17 May"
+        },
+        "SE": {
+          "status": "red",
+          "headline": "Government still seeks Directive renegotiation; no bill to Riksdag"
+        },
+        "EE": {
+          "status": "red",
+          "headline": "Min. Keldo: Estonia will accept EU fine rather than transpose on time (Apr 2026)"
+        },
+        "DE": {
+          "status": "red",
+          "headline": "BMBFSFJ in internal consultation; no Referentenentwurf published"
+        },
+        "FR": {
+          "status": "red",
+          "headline": "Preliminary draft to social partners 6 Mar 2026; parliamentary debate not before late 2026"
+        },
+        "AT": {
+          "status": "red",
+          "headline": "No Begutachtungsentwurf as of May 2026; spring-2026 slot missed"
+        },
+        "PT": {
+          "status": "red",
+          "headline": "Govt labour-reform proposal 14 May (PTD scope unclear); no specific transposition bill in Assembleia"
+        },
+        "LU": {
+          "status": "red",
+          "headline": "MTEESS confirms (28 Apr, Paperjam): transposition before 2027 unrealistic"
+        },
+        "HR": {
+          "status": "red",
+          "headline": "No draft published; March 2026 publication target missed"
+        },
+        "GR": {
+          "status": "red",
+          "headline": "No draft published; specialist committee report (due 28 Feb) not public"
+        },
+        "HU": {
+          "status": "red",
+          "headline": "Implementation reportedly underway; no public draft as of 17 May 2026"
+        },
+        "BG": {
+          "status": "red",
+          "headline": "No published draft; self-set 29 May target slipping; no Narodno Sabranie first reading"
+        }
+      }
+    },
+    "2026-W25": {
+      "asOf": "2026-06-21",
+      "summary": {
+        "green": 4,
+        "amber": 14,
+        "red": 9
+      },
+      "movers": [
+        {
+          "code": "LT",
+          "from": "amber",
+          "to": "green",
+          "direction": "up",
+          "headline": "Lithuania enacted Law XV-969 on 21 May; Phase 1 in force 7 Jun — 4th MS to transpose on time"
+        },
+        {
+          "code": "GR",
+          "from": "red",
+          "to": "amber",
+          "direction": "up",
+          "headline": "Greece opened its first draft transposition law for public consultation on 3 Jun"
+        },
+        {
+          "code": "BG",
+          "from": "red",
+          "to": "amber",
+          "direction": "up",
+          "headline": "Bulgaria published a draft (PADA + Labour Code) on 19 May, consultation to 18 Jun"
+        },
+        {
+          "code": "HR",
+          "from": "red",
+          "to": "amber",
+          "direction": "up",
+          "headline": "Croatia's Labour Act amendments in final stages, heading to the Sabor"
+        },
+        {
+          "code": "RO",
+          "from": "red",
+          "to": "amber",
+          "direction": "up",
+          "headline": "Romania has a consulted draft that predates the 5 May government collapse; enactment now uncertain"
+        },
+        {
+          "code": "MT",
+          "from": "green",
+          "to": "green",
+          "direction": "strengthened",
+          "headline": "Malta completed full transposition (Legal Notice 173/2026) on 5 Jun"
+        },
+        {
+          "code": "IT",
+          "from": "green",
+          "to": "green",
+          "direction": "strengthened",
+          "headline": "Italy's decree published in the Gazzetta Ufficiale 1 Jun; in force 7 Jun"
+        }
+      ],
+      "countries": {
+        "SK": {
+          "status": "green",
+          "headline": "Act No. 76/2026 Coll. in force since 7 Jun 2026 — first EU state to transpose on time"
+        },
+        "IT": {
+          "status": "green",
+          "headline": "D.Lgs. 96/2026 published in Gazzetta Ufficiale 1 Jun; in force since 7 Jun 2026"
+        },
+        "MT": {
+          "status": "green",
+          "headline": "Full transposition via Legal Notice 173/2026 on 5 Jun 2026 — met the deadline"
+        },
+        "FI": {
+          "status": "amber",
+          "headline": "Govt bill (HE) reaching Eduskunta in W25; entry into force now late 2026/early 2027"
+        },
+        "NL": {
+          "status": "amber",
+          "headline": "Revised bill formally submitted to Tweede Kamer 21 May; targeted entry into force 1 Jan 2027"
+        },
+        "DK": {
+          "status": "amber",
+          "headline": "Draft targets 1 Jan 2027, but post-election coalition talks add uncertainty"
+        },
+        "CZ": {
+          "status": "amber",
+          "headline": "Draft in consultation; deliberate late transposition, act targeted for 1 Jan 2027"
+        },
+        "PL": {
+          "status": "amber",
+          "headline": "Phase-1 binding since Dec 2025; full UC127 act delayed toward early 2027"
+        },
+        "RO": {
+          "status": "amber",
+          "headline": "Consulted draft predates the 5 May government collapse; path to enactment now uncertain"
+        },
+        "LT": {
+          "status": "green",
+          "headline": "Seimas enacted Law XV-969 on 21 May; Phase 1 in force since 7 Jun 2026"
+        },
+        "LV": {
+          "status": "amber",
+          "headline": "Stand-alone draft cleared consultation 9 Apr; not yet enacted by Saeima — deadline missed"
+        },
+        "CY": {
+          "status": "amber",
+          "headline": "Comprehensive draft unadopted; missed deadline, target adoption by Sept 2026"
+        },
+        "BE": {
+          "status": "amber",
+          "headline": "Missed deadline; federal govt formally requested a 6-month EU extension (~1 Jun)"
+        },
+        "IE": {
+          "status": "red",
+          "headline": "Formally confirmed (26 May) it will not meet the deadline; phased, no penalties, no Bill"
+        },
+        "ES": {
+          "status": "amber",
+          "headline": "Prior public consultation closed 8 May; no draft text yet, BOE not before Q3/Q4 2026"
+        },
+        "SI": {
+          "status": "amber",
+          "headline": "Inter-ministerial drafting ongoing; no bill registered with Državni zbor — deadline missed"
+        },
+        "BG": {
+          "status": "amber",
+          "headline": "Draft (PADA + Labour Code) published 19 May, consultation to 18 Jun; not yet before Parliament"
+        },
+        "DE": {
+          "status": "red",
+          "headline": "Missed deadline; still no Referentenentwurf, BMBFSFJ in internal coordination"
+        },
+        "FR": {
+          "status": "red",
+          "headline": "Missed deadline; amended draft to social partners 4 Jun, to Council of Ministers ~25 Jun"
+        },
+        "AT": {
+          "status": "red",
+          "headline": "Missed deadline; no Begutachtungsentwurf, transposition via GlBG amendment still pre-draft"
+        },
+        "PT": {
+          "status": "red",
+          "headline": "No specific transposition law; Govt says text 'being finalised,' broad labour reform in Assembleia"
+        },
+        "LU": {
+          "status": "red",
+          "headline": "Missed deadline; no projet de loi, draft not expected before H2 2026"
+        },
+        "HR": {
+          "status": "amber",
+          "headline": "Labour Act amendments in final stages late May, heading to the Sabor — deadline missed"
+        },
+        "GR": {
+          "status": "amber",
+          "headline": "Draft law opened for public consultation 3 Jun (closed 17 Jun) — first published text"
+        },
+        "HU": {
+          "status": "red",
+          "headline": "No public draft legislation; deadline missed outright"
+        },
+        "SE": {
+          "status": "red",
+          "headline": "Withdrew its draft (26 Mar) and seeks EU renegotiation; no bill to the Riksdag"
+        },
+        "EE": {
+          "status": "red",
+          "headline": "No draft text; minister says Estonia would rather pay a fine than transpose in full"
+        }
+      }
+    },
+    "2026-W26": {
+      "asOf": "2026-06-22",
+      "summary": {
+        "green": 4,
+        "amber": 14,
+        "red": 9
+      },
+      "movers": [],
+      "countries": {
+        "SK": {
+          "status": "green",
+          "headline": "Act No. 76/2026 Coll. in force since 7 Jun 2026 — first EU state to transpose on time"
+        },
+        "IT": {
+          "status": "green",
+          "headline": "D.Lgs. 96/2026 published in Gazzetta Ufficiale 1 Jun; in force since 7 Jun 2026"
+        },
+        "MT": {
+          "status": "green",
+          "headline": "Full transposition via Legal Notice 173/2026 on 5 Jun 2026 — met the deadline"
+        },
+        "FI": {
+          "status": "amber",
+          "headline": "Govt bill (HE) reaching Eduskunta in W25; entry into force now late 2026/early 2027"
+        },
+        "NL": {
+          "status": "amber",
+          "headline": "Revised bill formally submitted to Tweede Kamer 21 May; targeted entry into force 1 Jan 2027"
+        },
+        "DK": {
+          "status": "amber",
+          "headline": "Draft targets 1 Jan 2027, but post-election coalition talks add uncertainty"
+        },
+        "CZ": {
+          "status": "amber",
+          "headline": "Draft in consultation; deliberate late transposition, act targeted for 1 Jan 2027"
+        },
+        "PL": {
+          "status": "amber",
+          "headline": "Phase-1 binding since Dec 2025; full UC127 act delayed toward early 2027"
+        },
+        "RO": {
+          "status": "amber",
+          "headline": "Consulted draft predates the 5 May government collapse; path to enactment now uncertain"
+        },
+        "LT": {
+          "status": "green",
+          "headline": "Seimas enacted Law XV-969 on 21 May; Phase 1 in force since 7 Jun 2026"
+        },
+        "LV": {
+          "status": "amber",
+          "headline": "Stand-alone draft cleared consultation 9 Apr; not yet enacted by Saeima — deadline missed"
+        },
+        "CY": {
+          "status": "amber",
+          "headline": "Comprehensive draft unadopted; missed deadline, target adoption by Sept 2026"
+        },
+        "BE": {
+          "status": "amber",
+          "headline": "Missed deadline; federal govt formally requested a 6-month EU extension (~1 Jun)"
+        },
+        "IE": {
+          "status": "red",
+          "headline": "Formally confirmed (26 May) it will not meet the deadline; phased, no penalties, no Bill"
+        },
+        "ES": {
+          "status": "amber",
+          "headline": "Prior public consultation closed 8 May; no draft text yet, BOE not before Q3/Q4 2026"
+        },
+        "SI": {
+          "status": "amber",
+          "headline": "Inter-ministerial drafting ongoing; no bill registered with Državni zbor — deadline missed"
+        },
+        "BG": {
+          "status": "amber",
+          "headline": "Draft consultation closed 18 Jun; no bill yet tabled in the National Assembly — deadline missed"
+        },
+        "DE": {
+          "status": "red",
+          "headline": "Missed deadline; still no Referentenentwurf, BMBFSFJ in internal coordination"
+        },
+        "FR": {
+          "status": "red",
+          "headline": "Missed deadline; draft cleared Conseil d'État, public-sector articles to CCFP 18 Jun; not yet adopted"
+        },
+        "AT": {
+          "status": "red",
+          "headline": "Missed deadline; no Begutachtungsentwurf, transposition via GlBG amendment still pre-draft"
+        },
+        "PT": {
+          "status": "red",
+          "headline": "No specific transposition law; Govt says text 'being finalised,' broad labour reform in Assembleia"
+        },
+        "LU": {
+          "status": "red",
+          "headline": "Missed deadline; no bill tabled; parliamentary exchange of views on directive set for 24 Jun"
+        },
+        "HR": {
+          "status": "amber",
+          "headline": "Labour Act PTD amendments still in final prep before the Sabor; no vote yet — deadline missed"
+        },
+        "GR": {
+          "status": "amber",
+          "headline": "Draft consultation closed 17 Jun; not yet submitted to Parliament for a vote — deadline missed"
+        },
+        "HU": {
+          "status": "red",
+          "headline": "No public draft legislation; deadline missed outright"
+        },
+        "SE": {
+          "status": "red",
+          "headline": "Withdrew its draft (26 Mar) and seeks EU renegotiation; no bill to the Riksdag"
+        },
+        "EE": {
+          "status": "red",
+          "headline": "No draft text; minister says Estonia would rather pay a fine than transpose in full"
+        }
+      }
+    },
+    "2026-W27": {
+      "asOf": "2026-06-29",
+      "summary": {
+        "green": 4,
+        "amber": 14,
+        "red": 9
+      },
+      "movers": [
+        {
+          "code": "GR",
+          "from": "amber",
+          "to": "amber",
+          "direction": "strengthened",
+          "headline": "Transposition bill tabled in Parliament 23 Jun — now before parliament, awaiting vote"
+        },
+        {
+          "code": "RO",
+          "from": "amber",
+          "to": "amber",
+          "direction": "strengthened",
+          "headline": "Draft law registered with the Senate 17 Jun — moved from stalled path to before parliament"
+        }
+      ],
+      "countries": {
+        "SK": {
+          "status": "green",
+          "headline": "Act No. 76/2026 Coll. in force since 7 Jun 2026 — first EU state to transpose on time"
+        },
+        "IT": {
+          "status": "green",
+          "headline": "D.Lgs. 96/2026 published in Gazzetta Ufficiale 1 Jun; in force since 7 Jun 2026"
+        },
+        "MT": {
+          "status": "green",
+          "headline": "Full transposition via Legal Notice 173/2026 on 5 Jun 2026 — met the deadline"
+        },
+        "FI": {
+          "status": "amber",
+          "headline": "Govt bill (HE) before Eduskunta since W25; entry into force expected late 2026/early 2027"
+        },
+        "NL": {
+          "status": "amber",
+          "headline": "Implementation bill before Tweede Kamer since 21 May; committee report stage 24 Jun; target 1 Jan 2027"
+        },
+        "DK": {
+          "status": "amber",
+          "headline": "Draft targets 1 Jan 2027, but post-election coalition talks add uncertainty"
+        },
+        "CZ": {
+          "status": "amber",
+          "headline": "Draft in consultation; deliberate late transposition, act targeted for 1 Jan 2027"
+        },
+        "PL": {
+          "status": "amber",
+          "headline": "Phase-1 binding since Dec 2025; full UC127 act delayed toward early 2027"
+        },
+        "RO": {
+          "status": "amber",
+          "headline": "Draft law registered with the Senate 17 Jun — now before parliament; recess from 1 Jul"
+        },
+        "LT": {
+          "status": "green",
+          "headline": "Seimas enacted Law XV-969 on 21 May; Phase 1 in force since 7 Jun 2026"
+        },
+        "LV": {
+          "status": "amber",
+          "headline": "Stand-alone draft cleared consultation 9 Apr; not yet enacted by Saeima — deadline missed"
+        },
+        "CY": {
+          "status": "amber",
+          "headline": "Comprehensive draft unadopted; missed deadline, target adoption by Sept 2026"
+        },
+        "BE": {
+          "status": "amber",
+          "headline": "Missed deadline; 6-month EU extension request still pending — Commission signals no postponement"
+        },
+        "IE": {
+          "status": "red",
+          "headline": "Formally confirmed (26 May) it will not meet the deadline; phased, no penalties, no Bill"
+        },
+        "ES": {
+          "status": "amber",
+          "headline": "Prior public consultation closed 8 May; no draft text yet, BOE not before Q3/Q4 2026"
+        },
+        "SI": {
+          "status": "amber",
+          "headline": "Inter-ministerial drafting ongoing; no bill registered with Državni zbor — deadline missed"
+        },
+        "BG": {
+          "status": "amber",
+          "headline": "Draft consultation closed 18 Jun; no bill tabled in the National Assembly yet — deadline missed"
+        },
+        "DE": {
+          "status": "red",
+          "headline": "Missed deadline; still no Referentenentwurf, BMBFSFJ in internal coordination"
+        },
+        "FR": {
+          "status": "red",
+          "headline": "Missed deadline; draft cleared Conseil d'État, public-sector articles to CCFP 18 Jun; not yet adopted"
+        },
+        "AT": {
+          "status": "red",
+          "headline": "Missed deadline; no Begutachtungsentwurf, transposition via GlBG amendment still pre-draft"
+        },
+        "PT": {
+          "status": "red",
+          "headline": "No specific transposition law; Govt says text 'being finalised,' broad labour reform in Assembleia"
+        },
+        "LU": {
+          "status": "red",
+          "headline": "Missed deadline; no bill tabled; transposition draft now expected only in H2 2026"
+        },
+        "HR": {
+          "status": "amber",
+          "headline": "Labour Act PTD amendments still in final prep before the Sabor; no vote yet — deadline missed"
+        },
+        "GR": {
+          "status": "amber",
+          "headline": "Transposition bill tabled in Parliament 23 Jun after consultation closed 17 Jun — awaiting vote"
+        },
+        "HU": {
+          "status": "red",
+          "headline": "No public draft legislation; deadline missed outright"
+        },
+        "SE": {
+          "status": "red",
+          "headline": "Withdrew its draft (26 Mar) and seeks EU renegotiation; no bill to the Riksdag"
+        },
+        "EE": {
+          "status": "red",
+          "headline": "No draft text; minister says Estonia would rather pay a fine than transpose in full"
+        }
+      }
+    }
+  },
+  "countries": {
+    "SK": {
+      "code": "SK",
+      "name": "Slovakia",
+      "status": "green",
+      "headline": "Act No. 76/2026 Coll. in force since 7 Jun 2026 — first EU state to transpose on time",
+      "summary": "Slovakia's Equal Pay Act (No. 76/2026 Coll.) — adopted by the National Council on 15 Apr 2026, signed by President Pellegrini 23 Apr and published in the Collection of Laws 8 May — entered into force on 7 June 2026 as scheduled. Slovakia is one of only four Member States with a full implementing law in force. First milestones: pay structures by 31 Jul 2026; first gender pay-gap reports (150+ employees) by 7 Jun 2027.",
+      "keyDates": [
+        {
+          "label": "Adopted by National Council",
+          "date": "2026-04-15"
+        },
+        {
+          "label": "Signed by President",
+          "date": "2026-04-23"
+        },
+        {
+          "label": "Published in Zbierka zákonov",
+          "date": "2026-05-08"
+        },
+        {
+          "label": "Entry into force",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Pay-structure compliance",
+          "date": "2026-07-31"
+        },
+        {
+          "label": "First report (150+)",
+          "date": "2027-06-07"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Equal Pay Act passed in Slovakia to implement the Gender Pay Transparency Directive",
+          "publisher": "DLA Piper",
+          "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/equal-pay-act-passed-to-implement-gender-pay-transparency-directive"
+        },
+        {
+          "title": "Equal Pay for Men and Women: New Employer Obligations Effective from 7 June 2026",
+          "publisher": "Legate",
+          "url": "https://www.legate.sk/en/news/equal-pay-for-men-and-women-new-employer-obligations-effective-from-7-june-2026/"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Act No. 76/2026 Coll. remains in force; first reports (150+) due 7 Jun 2027."
     },
     "IT": {
-     "status": "green",
-     "headline": "Draft legislative decree advancing through parliament"
+      "code": "IT",
+      "name": "Italy",
+      "status": "green",
+      "headline": "D.Lgs. 96/2026 published in Gazzetta Ufficiale 1 Jun; in force since 7 Jun 2026",
+      "summary": "The W21/W22 watch item is resolved: Legislative Decree No. 96 of 7 May 2026 was published in Gazzetta Ufficiale No. 125 on 1 June 2026 and entered into force on 7 June 2026. Italy is one of only four Member States to meet the deadline. Pre-hire pay-disclosure duties and the ban on salary-history questions apply immediately; pay-secrecy clauses are void; gender pay-gap reporting is staggered (≥150 employees by 7 Jun 2027, 100–149 by 7 Jun 2031).",
+      "keyDates": [
+        {
+          "label": "Council of Ministers final approval",
+          "date": "2026-04-30"
+        },
+        {
+          "label": "Decree signed (D.Lgs. 96/2026)",
+          "date": "2026-05-07"
+        },
+        {
+          "label": "Published in Gazzetta Ufficiale n.125",
+          "date": "2026-06-01"
+        },
+        {
+          "label": "Entry into force",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "First reporting (≥150)",
+          "date": "2027-06-07"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Italy Implements the EU Pay Transparency Directive: A Guide to the Final Decree",
+          "publisher": "Littler",
+          "url": "https://www.littler.com/news-analysis/asap/italy-implements-eu-pay-transparency-directive-guide-final-decree"
+        },
+        {
+          "title": "Pubblicazione in Gazzetta Ufficiale del D.Lgs. n. 96/2026",
+          "publisher": "WST Legal",
+          "url": "https://www.wstlegal.eu/it/pubblicazione-in-gazzetta-ufficiale-del-d-lgs-n-96-2026-di-attuazione-della-direttiva-ue-2023-970-sulla-trasparenza-retributiva/"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. D.Lgs. 96/2026 remains the in-force implementing law (100+ reporting)."
     },
     "MT": {
-     "status": "green",
-     "headline": "Partial text already in force since 27 August 2025"
-    },
-    "NL": {
-     "status": "amber",
-     "headline": "Cleanest draft — entry into force slips to 1 January 2027"
-    },
-    "DK": {
-     "status": "amber",
-     "headline": "Draft 26 February 2026; effect 1 January 2027"
-    },
-    "CZ": {
-     "status": "amber",
-     "headline": "Public consultation closed 27 April 2026 — minimalist transposition"
-    },
-    "PL": {
-     "status": "amber",
-     "headline": "Draft December 2025 — tighter than the Directive"
-    },
-    "RO": {
-     "status": "amber",
-     "headline": "Revised draft consulted to 8 April 2026"
-    },
-    "LT": {
-     "status": "amber",
-     "headline": "Draft to Tripartite Council May 2025"
-    },
-    "LV": {
-     "status": "amber",
-     "headline": "Draft 26 March 2026 — on track"
-    },
-    "CY": {
-     "status": "amber",
-     "headline": "Detailed draft consulted Nov–Dec 2025"
-    },
-    "BG": {
-     "status": "amber",
-     "headline": "Adoption scheduled 29 May 2026"
-    },
-    "BE": {
-     "status": "amber",
-     "headline": "Minister Clarinval confirms full federal transposition by 7 June 2026"
-    },
-    "IE": {
-     "status": "amber",
-     "headline": "Government confirms phased rollout — deadline will be missed"
-    },
-    "ES": {
-     "status": "amber",
-     "headline": "Public consultation live — 24 April to 8 May 2026"
-    },
-    "SI": {
-     "status": "amber",
-     "headline": "Draft published 7 November 2025 for consultation"
-    },
-    "DE": {
-     "status": "red",
-     "headline": "Expert report November 2025; bill not yet tabled"
-    },
-    "FR": {
-     "status": "red",
-     "headline": "Preliminary draft to social partners March 2026"
-    },
-    "AT": {
-     "status": "red",
-     "headline": "Ministry working on draft; no published bill"
-    },
-    "PT": {
-     "status": "red",
-     "headline": "No formal activity announced"
-    },
-    "LU": {
-     "status": "red",
-     "headline": "No known transposition activity"
-    },
-    "HR": {
-     "status": "red",
-     "headline": "No domestic rules drafted"
-    },
-    "GR": {
-     "status": "red",
-     "headline": "Specialist committee preparing framework"
-    },
-    "HU": {
-     "status": "red",
-     "headline": "No public updates"
-    },
-    "SE": {
-     "status": "red",
-     "headline": "Resisting — no bill planned (26 March 2026)"
-    },
-    "EE": {
-     "status": "red",
-     "headline": "Resisting — partial climbdown after 16 April 2026 statement"
-    }
-   }
-  },
-  "2026-W20": {
-   "asOf": "2026-05-10",
-   "summary": {
-    "green": 3,
-    "amber": 13,
-    "red": 11
-   },
-   "movers": [
-    {
-     "code": "FI",
-     "from": "green",
-     "to": "amber",
-     "direction": "down",
-     "headline": "Finland will miss the deadline — bill pushed to late autumn 2026"
-    },
-    {
-     "code": "BG",
-     "from": "amber",
-     "to": "red",
-     "direction": "down",
-     "headline": "Bulgaria: 29 May target slipping — no draft tabled in National Assembly"
-    },
-    {
-     "code": "IT",
-     "from": "green",
-     "to": "green",
-     "direction": "strengthened",
-     "headline": "Italy: definitive Council of Ministers approval on 30 April — second EU country to fully transpose in time"
-    }
-   ],
-   "countries": {
-    "SK": {
-     "status": "green",
-     "headline": "First past the post — Equal Pay Act adopted 15 April 2026"
-    },
-    "IT": {
-     "status": "green",
-     "headline": "CdM final approval of legislative decree on 30 April 2026"
-    },
-    "MT": {
-     "status": "green",
-     "headline": "Partial transposition in force since 27 Aug 2025; full draft pending"
+      "code": "MT",
+      "name": "Malta",
+      "status": "green",
+      "headline": "Full transposition via Legal Notice 173/2026 on 5 Jun 2026 — met the deadline",
+      "summary": "Malta completed full transposition on 5 June 2026 with Legal Notice 173 of 2026 (Equal Pay (Transparency and Reporting) Regulations), building on the partial LN 112/2025 in force since 27 Aug 2025. The earlier employer-association push for postponement did not materialise. Workers must receive pay information within 8 days; employers with ≥25 staff must document pay-setting criteria; gender pay-gap reporting applies from 100+ employees. Malta is one of only four Member States to meet the deadline.",
+      "keyDates": [
+        {
+          "label": "Partial transposition (LN 112/2025) in force",
+          "date": "2025-08-27"
+        },
+        {
+          "label": "Full transposition (LN 173/2026) published",
+          "date": "2026-06-05"
+        },
+        {
+          "label": "Entry into force",
+          "date": "2026-06-07"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Malta implements the Pay Transparency Directive",
+          "publisher": "Ius Laboris",
+          "url": "https://iuslaboris.com/insights/malta-implements-the-pay-transparency-directive/"
+        },
+        {
+          "title": "The New Equal Pay Regulations 2026 Published",
+          "publisher": "Mamo TCV Advocates",
+          "url": "https://www.mamotcv.com/insights/the-new-equal-pay-regulations-2026-published-implementing-the-eu-pay-transparency-directive-in-malta/"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Legal Notice 173/2026 remains in force with immediate effect."
     },
     "FI": {
-     "status": "amber",
-     "headline": "Bill delayed: Eduskunta to receive proposal at midsummer; force late autumn 2026"
+      "code": "FI",
+      "name": "Finland",
+      "status": "amber",
+      "headline": "Govt bill (HE) before Eduskunta since W25; entry into force expected late 2026/early 2027",
+      "summary": "Finland missed the 7 June deadline. The government proposal amending the Equality Act is reaching the Eduskunta in mid–late June 2026 (Week 25, as flagged in W21), but trackers stop short of confirming a registered HE number. Autumn parliamentary scrutiny is expected, with national entry into force likely late 2026/early 2027. The bill keeps a 100+ threshold for EU public reporting and 30+ for internal pay surveys, with negligence fees of €5,000–€80,000.",
+      "keyDates": [
+        {
+          "label": "Govt proposal (consultation draft)",
+          "date": "2025-12-22"
+        },
+        {
+          "label": "Consultation closed",
+          "date": "2026-02-09"
+        },
+        {
+          "label": "HE to Eduskunta (Week 25)",
+          "date": "2026-06-18"
+        },
+        {
+          "label": "Expected entry into force",
+          "date": "late 2026 / early 2027"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Transposition Deadline Has Passed And Most Member States Missed It",
+          "publisher": "DCI Consulting",
+          "url": "https://blog.dciconsult.com/the-transposition-deadline-has-passed"
+        },
+        {
+          "title": "Työryhmän esitys palkka-avoimuusdirektiivin täytäntöönpanoksi etenee",
+          "publisher": "Valtioneuvosto",
+          "url": "https://valtioneuvosto.fi/-/1271139/tyoryhman-esitys-palkka-avoimuusdirektiivin-taytantoonpanoksi-etenee"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: govt bill (HE) before Eduskunta since W25; entry into force expected late 2026/early 2027."
     },
     "NL": {
-     "status": "amber",
-     "headline": "Draft bill at Council of State; effect 1 Jan 2027 confirmed"
+      "code": "NL",
+      "name": "Netherlands",
+      "status": "amber",
+      "headline": "Implementation bill before Tweede Kamer since 21 May; committee report stage 24 Jun; target 1 Jan 2027",
+      "summary": "The Netherlands missed the deadline but advanced procedurally: on 21 May 2026 the minister formally submitted the revised implementation bill (dossier 36949) to the Tweede Kamer, following the Raad van State advice of 7 April. The bill is now before parliament awaiting substantive debate; targeted entry into force remains 1 Jan 2027. The Commission rejected the earlier Dutch postponement request in December 2025.",
+      "keyDates": [
+        {
+          "label": "Bill submitted to Tweede Kamer (no. 36949)",
+          "date": "2026-05-21"
+        },
+        {
+          "label": "Transposition deadline (missed)",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "SZW committee report stage",
+          "date": "2026-06-24"
+        },
+        {
+          "label": "Targeted entry into force",
+          "date": "2027-01-01"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wetsvoorstel 36949 – Wet implementatie Richtlijn loontransparantie mannen en vrouwen",
+          "publisher": "Tweede Kamer der Staten-Generaal",
+          "url": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel%3A36949"
+        },
+        {
+          "title": "Dutch pay transparency legislative proposal: Submitted to Parliament",
+          "publisher": "Freshfields",
+          "url": "https://www.freshfields.com/en/our-thinking/blogs/risk-and-compliance/dutch-pay-transparency-legislative-proposal-submitted-to-parliament-102mxc2"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: bill before Tweede Kamer since 21 May; committee report stage reached 24 Jun; target 1 Jan 2027."
     },
     "DK": {
-     "status": "amber",
-     "headline": "Bill in consultation; election uncertainty; effect 1 Jan 2027"
+      "code": "DK",
+      "name": "Denmark",
+      "status": "amber",
+      "headline": "Draft targets 1 Jan 2027, but post-election coalition talks add uncertainty",
+      "summary": "Denmark missed the deadline as planned. The Ministry of Employment's draft (published 26 Feb 2026, consultation closed 27 Mar) still targets entry into force 1 Jan 2027, with first reporting 1 Sep 2028 on 2027 data. The 24 March snap election and subsequent coalition negotiations create explicit uncertainty around that timeline.",
+      "keyDates": [
+        {
+          "label": "Draft published / consultation opened",
+          "date": "2026-02-26"
+        },
+        {
+          "label": "General election",
+          "date": "2026-03-24"
+        },
+        {
+          "label": "Consultation closed",
+          "date": "2026-03-27"
+        },
+        {
+          "label": "Targeted entry into force",
+          "date": "2027-01-01"
+        },
+        {
+          "label": "First reporting (on 2027 data)",
+          "date": "2028-09-01"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Transposition Deadline Has Passed And Most Member States Missed It",
+          "publisher": "DCI Consulting",
+          "url": "https://blog.dciconsult.com/the-transposition-deadline-has-passed"
+        },
+        {
+          "title": "Denmark: Transposing the EU Pay Transparency Directive",
+          "publisher": "WTW",
+          "url": "https://www.wtwco.com/en-us/insights/2026/04/denmark-transposing-the-eu-pay-transparency-directive"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Post-consultation bill stalled by coalition talks; 1 Jan 2027 target intact."
     },
     "CZ": {
-     "status": "amber",
-     "headline": "MPSV draft 26 Mar 2026 in consultation; effective 1 Jan 2028"
+      "code": "CZ",
+      "name": "Czech Republic",
+      "status": "amber",
+      "headline": "Draft in consultation; deliberate late transposition, act targeted for 1 Jan 2027",
+      "summary": "Czechia deliberately chose not to meet the 7 June deadline. The draft Labour Code amendment (published 26 Mar 2026) remains in the legislative process, not yet in the Sbírka zákonů, with a minimalist transposition effective 1 Jan 2027 and reporting/joint-assessment obligations phased to 2028 (150+) and 2031 (100–149).",
+      "keyDates": [
+        {
+          "label": "Draft published",
+          "date": "2026-03-26"
+        },
+        {
+          "label": "Act expected effective",
+          "date": "2027-01-01"
+        },
+        {
+          "label": "Reporting & joint assessment (150+)",
+          "date": "2028-01-01"
+        },
+        {
+          "label": "Reporting (100–149)",
+          "date": "2031-01-01"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Czechia charts its own course on Pay Transparency Directive transposition",
+          "publisher": "Lewis Silkin",
+          "url": "https://www.lewissilkin.com/insights/2026/05/01/czechia-charts-its-own-course-on-pay-transparency-directive-transposition"
+        },
+        {
+          "title": "EU Pay Transparency Directive Implementation in the Czech Republic and Slovakia",
+          "publisher": "Ogletree Deakins",
+          "url": "https://ogletree.com/insights-resources/blog-posts/eu-pay-transparency-directive-implementation-in-the-czech-republic-and-slovakia/"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Draft still in consultation; effective date targeted 1 Jan 2027."
     },
     "PL": {
-     "status": "amber",
-     "headline": "Phase-1 in force since 24 Dec 2025; full transposition draft targets 7 Jun 2026"
+      "code": "PL",
+      "name": "Poland",
+      "status": "amber",
+      "headline": "Phase-1 binding since Dec 2025; full UC127 act delayed toward early 2027",
+      "summary": "No new statute by the deadline. Recruitment-stage transparency rules have been binding since 24 Dec 2025, but the full implementing act (UC127) remains in consultation; the Ministry of Family, Labour and Social Policy signals a delayed entry into force with an extended vacatio legis, possibly into early 2027, citing unresolved equality-body provisions.",
+      "keyDates": [
+        {
+          "label": "Phase-1 (recruitment) binding",
+          "date": "2025-12-24"
+        },
+        {
+          "label": "Revised UC127 draft published",
+          "date": "2026-05-04"
+        },
+        {
+          "label": "Full-act entry into force (expected)",
+          "date": "2027-Q1"
+        }
+      ],
+      "sources": [
+        {
+          "title": "HR in the Know 6/2026: Pay Transparency",
+          "publisher": "Addleshaw Goddard",
+          "url": "https://www.addleshawgoddard.com/en/insights/insights-briefings/2026/employment/hr-in-the-know-62026-pay-transparency-key-information-following-public-consultations-ministry-family-labour-social-policy/"
+        },
+        {
+          "title": "7 June 2026 Has Passed – When Will Employees Be Able to Ask About Pay?",
+          "publisher": "Thedy & Partners",
+          "url": "https://www.thedy.pl/en/pay-transparency-directive-poland-implementation-2027/"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Phase-1 rules binding since Dec 2025; full UC127 act expected toward 2027."
     },
     "RO": {
-     "status": "amber",
-     "headline": "Revised draft consultation closed 8 Apr; awaiting Parliament submission"
+      "code": "RO",
+      "name": "Romania",
+      "status": "amber",
+      "headline": "Draft law registered with the Senate 17 Jun — now before parliament; recess from 1 Jul",
+      "summary": "Romania has a fully consulted draft (published 30 Mar 2026, consultation closed 8 Apr) adding Romania-specific features. The draft predates the collapse of the Bolojan government, removed by a 281-4 no-confidence vote on 5 May 2026; with a limited-powers caretaker in place, the path to enactment is now uncertain. Classified amber on the existence of a complete draft, though progress is politically fragile.",
+      "keyDates": [
+        {
+          "label": "Revised government draft published / consulted",
+          "date": "2026-03-30"
+        },
+        {
+          "label": "Transposition deadline (missed)",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Draft law registered with Senate (first chamber)",
+          "date": "2026-06-17"
+        },
+        {
+          "label": "Parliamentary recess begins",
+          "date": "2026-07-01"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Romania: Draft law implementing the Gender Pay Transparency Directive currently before Parliament (update)",
+          "publisher": "DLA Piper",
+          "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/romania-draft-law-implementing-the-gender-pay-transparency-directive-currently-before-parliament"
+        },
+        {
+          "title": "Romania revises transposing legislation for EU Pay Transparency Directive: key changes for employers",
+          "publisher": "Lewis Silkin",
+          "url": "https://www.lewissilkin.com/insights/2026/04/10/romania-revises-transposing-legislation-for-eu-pay-transparency-directive-key-changes-for-employers"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 change: draft law registered with the Senate 17 Jun — now formally before parliament; recess from 1 Jul."
     },
     "LT": {
-     "status": "amber",
-     "headline": "Government approved draft 18 Mar 2026; Seimas debate ongoing, on track for 7 Jun"
+      "code": "LT",
+      "name": "Lithuania",
+      "status": "green",
+      "headline": "Seimas enacted Law XV-969 on 21 May; Phase 1 in force since 7 Jun 2026",
+      "summary": "Lithuania moved from committee-endorsed draft to enacted law: the Seimas passed Labour Code amendments (Law No. XV-969) on 21 May 2026, making it one of only four Member States to meet the deadline. Phase 1 provisions — the salary-history ban and rights to pay information — took effect 7 June 2026. Employers must align pay systems by 31 Dec 2026, and monthly data submission to SoDRA (which will calculate the pay-gap metrics) begins 1 Jan 2027. The law exceeds the minimum, e.g. remuneration-policy duties regardless of employer size. Note: most trackers count Lithuania among the four on-time transposers, though some (e.g. DCI Consulting) classify its phased law as partial.",
+      "keyDates": [
+        {
+          "label": "Seimas enactment (Law XV-969)",
+          "date": "2026-05-21"
+        },
+        {
+          "label": "Phase 1 in force",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Pay-system alignment deadline",
+          "date": "2026-12-31"
+        },
+        {
+          "label": "SoDRA monthly reporting begins",
+          "date": "2027-01-01"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Implementation of the EU Pay Transparency Directive in Lithuania",
+          "publisher": "Sorainen",
+          "url": "https://www.sorainen.com/publications/implementation-of-the-eu-pay-transparency-directive-in-lithuania-key-requirements-for-employers/"
+        },
+        {
+          "title": "EU Pay Transparency Directive: who actually transposed by 7 June",
+          "publisher": "Remote Work Europe",
+          "url": "https://remoteworkeurope.eu/insights/pay-transparency-transposition-tracker/"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Law XV-969 Phase 1 in force; pay-criteria alignment due 31 Dec 2026 (phased)."
     },
     "LV": {
-     "status": "amber",
-     "headline": "Draft law published Spring 2026; Saeima review continues"
+      "code": "LV",
+      "name": "Latvia",
+      "status": "amber",
+      "headline": "Stand-alone draft cleared consultation 9 Apr; not yet enacted by Saeima — deadline missed",
+      "summary": "Latvia missed the deadline. The Ministry of Welfare's stand-alone draft cleared consultation on 9 April 2026, but no Cabinet approval or Saeima first reading is confirmed as of mid-June. The draft deviates from the Directive — pay disclosure in job adverts, a narrower 'pay' definition, fewer evaluation criteria, and a 1 June annual reporting deadline.",
+      "keyDates": [
+        {
+          "label": "Draft published",
+          "date": "2026-03-26"
+        },
+        {
+          "label": "Consultation closed",
+          "date": "2026-04-09"
+        },
+        {
+          "label": "Cabinet/Saeima progress",
+          "date": "not confirmed (as of 2026-06)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Latvia on track for timely Pay Transparency Directive transposition – with notable deviations",
+          "publisher": "Lewis Silkin",
+          "url": "https://www.lewissilkin.com/insights/2026/04/17/latvia-on-track-for-timely-pay-transparency-directive-transposition-but-with-notable-deviations"
+        },
+        {
+          "title": "The Transposition Deadline Has Passed And Most Member States Missed It",
+          "publisher": "DCI Consulting",
+          "url": "https://blog.dciconsult.com/the-transposition-deadline-has-passed"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Stand-alone draft past consultation (9 Apr); awaiting Cabinet then Saeima."
     },
     "CY": {
-     "status": "amber",
-     "headline": "Draft 'Equal Remuneration Law of 2026' progressing; not yet enacted"
+      "code": "CY",
+      "name": "Cyprus",
+      "status": "amber",
+      "headline": "Comprehensive draft unadopted; missed deadline, target adoption by Sept 2026",
+      "summary": "Despite a strong, beyond-minimum draft (criminal sanctions up to 6 months / €10,000, officer liability), Cyprus failed to adopt in time — no enacted law as of mid-June. The bill passed legal-technical review and committees but was not put to the plenary before the deadline, with the 24 May election context contributing to slippage. Target adoption remains 2026.",
+      "keyDates": [
+        {
+          "label": "Updated draft",
+          "date": "2026-01-26"
+        },
+        {
+          "label": "Committee opinion deadline",
+          "date": "2026-03-18"
+        },
+        {
+          "label": "Deadline missed",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Government target adoption",
+          "date": "2026-09-30"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cyprus sets its course on pay transparency in new draft bill",
+          "publisher": "Ius Laboris",
+          "url": "https://iuslaboris.com/insights/cyprus-sets-its-course-on-pay-transparency-in-new-draft-bill/"
+        },
+        {
+          "title": "Did Member States Meet the Deadline? Status of Implementation",
+          "publisher": "Littler",
+          "url": "https://www.littler.com/news-analysis/asap/did-member-states-meet-deadline-status-implementation-eu-pay-transparency"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Comprehensive draft still unadopted; target adoption ~Sept 2026."
     },
     "BE": {
-     "status": "amber",
-     "headline": "Min. Clarinval reaffirms full transposition by 7 Jun 2026"
+      "code": "BE",
+      "name": "Belgium",
+      "status": "amber",
+      "headline": "Missed deadline; 6-month EU extension request still pending — Commission signals no postponement",
+      "summary": "Belgium missed the 7 June deadline for federal private-sector transposition and, around 1 June, formally wrote to the Commission requesting a six-month postponement and asking it to refrain from infringement action, citing roughly 30 unanswered questions. The Commission has signalled it will not grant a general delay. Only regional public-sector measures (Wallonia–Brussels Federation; Flemish public sector) are adopted.",
+      "keyDates": [
+        {
+          "label": "Federal 6-month extension request to Commission",
+          "date": "2026-06-01"
+        },
+        {
+          "label": "Deadline missed (federal private sector)",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Regional public-sector measures in force",
+          "date": "2026-06-07"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belgium Seeks Extension for EU Pay Transparency Directive",
+          "publisher": "Baker McKenzie",
+          "url": "https://www.bakermckenzie.com/en/insight/publications/2026/06/belgium-seeks-extension-for-eu-pay-transparency-directive"
+        },
+        {
+          "title": "Belgium requests an additional six months to transpose the Directive",
+          "publisher": "Partena Professional",
+          "url": "https://www.partena-professional.be/en/belgium-requests-additional-six-months-transpose-european-pay-transparency-directive"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Six-month extension request still pending; Commission signals no postponement."
     },
     "IE": {
-     "status": "amber",
-     "headline": "Heads of Bill not drafted; phased transposition, no penalties for missed deadline"
+      "code": "IE",
+      "name": "Ireland",
+      "status": "red",
+      "headline": "Formally confirmed (26 May) it will not meet the deadline; phased, no penalties, no Bill",
+      "summary": "Ireland hardened its non-compliance: in a written answer to a Parliamentary Question on 26 May 2026, the Minister formally confirmed it will not transpose by 7 June — among the first to publicly acknowledge a missed deadline. Implementation will be phased, employers will not be penalised near-term, and the Gender Pay Gap Portal will run for the November 2026 reporting cycle. No transposing Bill is enacted.",
+      "keyDates": [
+        {
+          "label": "'No penalties' reported (Irish Times)",
+          "date": "2026-03-10"
+        },
+        {
+          "label": "Minister PQ confirmation",
+          "date": "2026-05-26"
+        },
+        {
+          "label": "Deadline missed",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Gender Pay Gap Portal reporting cycle",
+          "date": "2026-11-01"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ireland confirms it will not meet 7 June 2026 transposition deadline",
+          "publisher": "McCann FitzGerald",
+          "url": "https://www.mccannfitzgerald.com/knowledge/employment/eu-pay-transparency-directive-ireland-confirms-it-will-not-meet-7-june-2026-transposition-deadline"
+        },
+        {
+          "title": "Employers won't be 'penalised' as Ireland to miss deadline",
+          "publisher": "Irish Times",
+          "url": "https://www.irishtimes.com/business/work/2026/03/10/employers-wont-be-penalised-as-ireland-to-miss-deadline-to-introduce-eu-pay-transparency-law/"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Govt confirmed (26 May) it will miss the deadline; phased, no penalties, no Bill."
     },
     "ES": {
-     "status": "amber",
-     "headline": "Public consultation on Real Decreto closed 8 May 2026; final text pending"
+      "code": "ES",
+      "name": "Spain",
+      "status": "amber",
+      "headline": "Prior public consultation closed 8 May; no draft text yet, BOE not before Q3/Q4 2026",
+      "summary": "Little forward motion. The prior public consultation (consulta pública previa) on a Royal Decree closed 8 May 2026; the draft text is still in drafting, with public-hearing and Council of Ministers phases to come. Spain missed the deadline; BOE publication is expected no earlier than Q3/Q4 2026, with most obligations enforceable in 2027.",
+      "keyDates": [
+        {
+          "label": "Consulta pública previa closed",
+          "date": "2026-05-08"
+        },
+        {
+          "label": "Draft Royal Decree text",
+          "date": "pending"
+        },
+        {
+          "label": "Expected BOE publication",
+          "date": "2026-Q3/Q4"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Spain moves to strengthen pay transparency and implement the EU Directive",
+          "publisher": "DLA Piper",
+          "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/Spain-moves-to-strengthen-pay-transparency-and-implement-EU-Gender-Pay-Transparency-Directive"
+        },
+        {
+          "title": "Cuenta atrás para la trasposición de la Directiva de Transparencia Retributiva",
+          "publisher": "Bird & Bird",
+          "url": "https://www.twobirds.com/es/insights/2026/spain/transparencia-retributiva"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Prior consultation closed 8 May; no draft articulado yet; BOE Q3/Q4 2026."
     },
     "SI": {
-     "status": "amber",
-     "headline": "Nov-2025 consultation draft; no published bill as of late Apr 2026"
-    },
-    "SE": {
-     "status": "red",
-     "headline": "Government still seeks Directive renegotiation; no bill to Riksdag"
-    },
-    "EE": {
-     "status": "red",
-     "headline": "Government confirms it will accept EU fine rather than transpose on time"
-    },
-    "DE": {
-     "status": "red",
-     "headline": "BMBFSFJ in internal consultation; no Referentenentwurf published"
-    },
-    "FR": {
-     "status": "red",
-     "headline": "Preliminary draft to social partners 6 Mar 2026; bill not yet tabled"
-    },
-    "AT": {
-     "status": "red",
-     "headline": "No Begutachtungsentwurf as of May 2026; spring-2026 slot missed"
-    },
-    "PT": {
-     "status": "red",
-     "headline": "No tabled draft; ACT acting on directive spirit"
-    },
-    "LU": {
-     "status": "red",
-     "headline": "Still no projet de loi filed; Q1 expectation missed"
-    },
-    "HR": {
-     "status": "red",
-     "headline": "No draft published; Croatia among the laggards"
-    },
-    "GR": {
-     "status": "red",
-     "headline": "No draft published; specialist committee still preparing framework"
-    },
-    "HU": {
-     "status": "red",
-     "headline": "Specialist committee report due 28 Feb 2026; no public draft"
+      "code": "SI",
+      "name": "Slovenia",
+      "status": "amber",
+      "headline": "Inter-ministerial drafting ongoing; no bill registered with Državni zbor — deadline missed",
+      "summary": "Little movement. No official draft has been published and no bill is registered with the National Assembly; the inter-ministerial working group is still preparing. A partial measure obliging applicant pay information has been in force since 27 Aug 2025, but the bulk of the Directive remains untransposed — placing Slovenia at the amber/red boundary.",
+      "keyDates": [
+        {
+          "label": "Partial measure in force",
+          "date": "2025-08-27"
+        },
+        {
+          "label": "Deadline missed",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Official draft / bill",
+          "date": "not yet registered"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pay transparency in Slovenia: upcoming obligations and impact on employers",
+          "publisher": "Wolf Theiss",
+          "url": "https://www.wolftheiss.com/insights/pay-transparency-in-slovenia-upcoming-obligations-and-impact-on-employers-2/"
+        },
+        {
+          "title": "EU Pay Transparency Directive: who actually transposed by 7 June",
+          "publisher": "Remote Work Europe",
+          "url": "https://remoteworkeurope.eu/insights/pay-transparency-transposition-tracker/"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Inter-ministerial drafting only; no bill registered with the Državni zbor."
     },
     "BG": {
-     "status": "red",
-     "headline": "No published draft; 29 May target slipping"
-    }
-   }
-  },
-  "2026-W21": {
-   "asOf": "2026-05-17",
-   "summary": {
-    "green": 3,
-    "amber": 11,
-    "red": 13
-   },
-   "movers": [
-    {
-     "code": "RO",
-     "from": "amber",
-     "to": "red",
-     "direction": "down",
-     "headline": "Bolojan government toppled 5 May (281-4 no-confidence vote); transposition bill stranded between consultation and parliament"
-    },
-    {
-     "code": "IE",
-     "from": "amber",
-     "to": "red",
-     "direction": "down",
-     "headline": "17 May 2026 RTÉ: Department reconfirms phased approach; Pay Transparency Bill absent from Summer Legislative Programme"
-    },
-    {
-     "code": "BE",
-     "from": "amber",
-     "to": "amber",
-     "direction": "warned",
-     "headline": "CNT President Delarue (15 May): 'C'est clair, on sera en retard' — federal private-sector transposition unlikely before 2027"
-    },
-    {
-     "code": "NL",
-     "from": "amber",
-     "to": "amber",
-     "direction": "strengthened",
-     "headline": "Tweede Kamer debated 23 Apr, motie vote 12 May (3/4 adopted); minister sends revised bill week of 18 May"
-    },
-    {
-     "code": "DK",
-     "from": "amber",
-     "to": "amber",
-     "direction": "warned",
-     "headline": "Folketing election 24 Mar (SocDem 21.9% — lowest since 1903); Poulsen (V) leads royal sondering since 11 May — bill stranded"
-    },
-    {
-     "code": "PL",
-     "from": "amber",
-     "to": "amber",
-     "direction": "strengthened",
-     "headline": "UC127 v2 published 4 May (74 articles, up from 59); vacatio-legis switched to 6 months — formal admission of post-deadline entry"
-    },
-    {
-     "code": "LU",
-     "from": "red",
-     "to": "red",
-     "direction": "warned",
-     "headline": "MTEESS confirms 28 April: transposition before 2027 unrealistic (Paperjam)"
-    },
-    {
-     "code": "FI",
-     "from": "amber",
-     "to": "amber",
-     "direction": "warned",
-     "headline": "HE submission to Eduskunta rescheduled to Week 25 (15–21 Jun); autumn 2026 scrutiny now official baseline"
-    },
-    {
-     "code": "IT",
-     "from": "green",
-     "to": "green",
-     "direction": "warned",
-     "headline": "Gazzetta Ufficiale publication still pending per 13 May (Forme); 15-day in-force window squeezed but 7 Jun still officially held"
-    }
-   ],
-   "countries": {
-    "SK": {
-     "status": "green",
-     "headline": "First past the post — Equal Pay Act adopted 15 April 2026; awaiting Zbierka zákonov publication"
-    },
-    "IT": {
-     "status": "green",
-     "headline": "CdM final approval 30 Apr 2026 — Gazzetta Ufficiale still pending per 13 May (Forme)"
-    },
-    "MT": {
-     "status": "green",
-     "headline": "Partial transposition (LN 112/2025) in force since 27 Aug 2025; full draft pending, MEA seeks postponement"
-    },
-    "FI": {
-     "status": "amber",
-     "headline": "HE submission to Eduskunta rescheduled to Week 25 (15–21 Jun); scrutiny now autumn 2026"
-    },
-    "NL": {
-     "status": "amber",
-     "headline": "Raad van State Advice 7 Apr; Tweede Kamer debate 23 Apr, motie 12 May; revised bill sent week of 18 May"
-    },
-    "DK": {
-     "status": "amber",
-     "headline": "Folketing election 24 Mar (SocDem 21.9%); Poulsen (V) leads royal sondering since 11 May — bill stranded"
-    },
-    "CZ": {
-     "status": "amber",
-     "headline": "Act in force 1 Jan 2027; reporting & joint assessment from 1 Jan 2028"
-    },
-    "PL": {
-     "status": "amber",
-     "headline": "UC127 v2 published 4 May (74 articles); vacatio-legis switched to 6 months — Phase-2 now Q1 2027"
-    },
-    "RO": {
-     "status": "red",
-     "headline": "Bolojan government toppled 5 May (281-4 vote); bill stranded — deadline politically unachievable"
-    },
-    "LT": {
-     "status": "amber",
-     "headline": "Government draft 18 Mar; Seimas committee endorsed phased rollout — Phase 1 from 7 Jun, Phase 2 from 1 Jan 2027"
-    },
-    "LV": {
-     "status": "amber",
-     "headline": "Draft cleared consultation 9 Apr; awaiting Cabinet approval before Saeima — emergency-track window closing"
-    },
-    "CY": {
-     "status": "amber",
-     "headline": "'Equal Remuneration Law of 2026' pre-plenary; election 24 May; government target adoption by Sept 2026"
-    },
-    "BE": {
-     "status": "amber",
-     "headline": "Flemish decree in force 7 Jun; CNT Pres. Delarue (15 May): federal transposition unlikely before 2027"
-    },
-    "IE": {
-     "status": "red",
-     "headline": "17 May 2026 (RTÉ): Department reconfirms phased approach; Bill absent from Summer Legislative Programme"
-    },
-    "ES": {
-     "status": "amber",
-     "headline": "Consulta pública previa closed 8 May (Phase 1 of 5); BOE publication before 7 Jun ruled out — Q3/Q4 2026"
-    },
-    "SI": {
-     "status": "amber",
-     "headline": "Inter-ministerial working group ongoing; no bill registered with Državni zbor as of 17 May"
-    },
-    "SE": {
-     "status": "red",
-     "headline": "Government still seeks Directive renegotiation; no bill to Riksdag"
-    },
-    "EE": {
-     "status": "red",
-     "headline": "Min. Keldo: Estonia will accept EU fine rather than transpose on time (Apr 2026)"
+      "code": "BG",
+      "name": "Bulgaria",
+      "status": "amber",
+      "headline": "Draft consultation closed 18 Jun; no bill tabled in the National Assembly yet — deadline missed",
+      "summary": "Upgrade from red. On 19 May 2026 Bulgaria published a draft transposition amending the Protection Against Discrimination Act and the Labour Code, with public consultation to 18 June. As of 21 June it had not yet had a first reading in the National Assembly; the deadline was missed. CPAD is the monitoring body; reporting phases from 7 Jun 2027 (150+) and 7 Jun 2031 (100–149).",
+      "keyDates": [
+        {
+          "label": "Draft published",
+          "date": "2026-05-19"
+        },
+        {
+          "label": "Deadline missed",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Consultation closed",
+          "date": "2026-06-18"
+        },
+        {
+          "label": "Reporting (150+)",
+          "date": "2027-06-07"
+        },
+        {
+          "label": "Reporting (100–149)",
+          "date": "2031-06-07"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bulgaria's Draft Implementation of the EU Pay Transparency Directive",
+          "publisher": "PayGap.com",
+          "url": "https://www.paygap.com/articles/bulgarias-draft-implementation-of-the-eu-pay-transparency-directive-what-employers-should-know"
+        },
+        {
+          "title": "Bulgaria Publishes Draft Transposition of EU Pay Transparency Directive",
+          "publisher": "DCI Consulting",
+          "url": "https://blog.dciconsult.com/bulgaria-pay-transparency-directive"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: consultation closed 18 Jun; still no bill before the National Assembly. Status held amber."
     },
     "DE": {
-     "status": "red",
-     "headline": "BMBFSFJ in internal consultation; no Referentenentwurf published"
+      "code": "DE",
+      "name": "Germany",
+      "status": "red",
+      "headline": "Missed deadline; still no Referentenentwurf, BMBFSFJ in internal coordination",
+      "summary": "Germany missed the deadline with no published draft (Referentenentwurf). The deadline lapsed with the existing Entgelttransparenzgesetz unchanged; the BMBFSFJ continues internal coordination, working from the expert commission's final report of 7 Nov 2025 before opening the legislative process. Borderline amber/red — kept red as no bill text exists.",
+      "keyDates": [
+        {
+          "label": "Expert commission final report",
+          "date": "2025-11-07"
+        },
+        {
+          "label": "Deadline missed, no draft",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Referentenentwurf still not published",
+          "date": "2026-06-21"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Abschlussbericht der Kommission 'Bürokratiearme Umsetzung der Entgelttransparenzrichtlinie'",
+          "publisher": "BMBFSFJ",
+          "url": "https://www.bmbfsfj.bund.de/bmbfsfj/aktuelles/pressemitteilungen/abschlussbericht-der-kommission-buerokratiearme-umsetzung-der-entgelttransparenzrichtlinie--274262"
+        },
+        {
+          "title": "Germany: The EU Pay Transparency Directive",
+          "publisher": "Osborne Clarke",
+          "url": "https://www.osborneclarke.com/insights/germany-eu-pay-transparency-directive"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Still no Referentenentwurf; BMBFSFJ in internal coordination."
     },
     "FR": {
-     "status": "red",
-     "headline": "Preliminary draft to social partners 6 Mar 2026; parliamentary debate not before late 2026"
+      "code": "FR",
+      "name": "France",
+      "status": "red",
+      "headline": "Missed deadline; draft cleared Conseil d'État, public-sector articles to CCFP 18 Jun; not yet adopted",
+      "summary": "France missed the deadline but is moving: on 4 June 2026 the Labour Minister sent social partners an expanded second draft (22 articles), with the text going to the Conseil d'État and expected at the Council of Ministers around 25 June. Entry into force would be progressive between late 2026 and 1 January 2028, contingent on parliamentary adoption. No formal bill is yet before parliament — kept red.",
+      "keyDates": [
+        {
+          "label": "First draft to social partners",
+          "date": "2026-03-06"
+        },
+        {
+          "label": "Amended draft to social partners",
+          "date": "2026-06-04"
+        },
+        {
+          "label": "Expected to Council of Ministers",
+          "date": "2026-06-25"
+        },
+        {
+          "label": "Targeted entry into force",
+          "date": "late 2026 → 2028-01-01"
+        }
+      ],
+      "sources": [
+        {
+          "title": "France Releases an Amended Draft Law to Implement the Pay Transparency Directive",
+          "publisher": "Littler",
+          "url": "https://www.littler.com/news-analysis/asap/france-releases-amended-draft-law-implement-pay-transparency-directive"
+        },
+        {
+          "title": "Transparence salariale : le gouvernement dévoile une nouvelle version du projet de loi",
+          "publisher": "Lexia Conseil",
+          "url": "https://www.lexia-conseil.fr/transparence-salariale-le-gouvernement-devoile-une-nouvelle-version-du-projet-de-loi-de-transposition-de-la-directive-europeenne/"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Bill at Conseil d'État; public-sector articles to CCFP 18 Jun; not yet enacted."
     },
     "AT": {
-     "status": "red",
-     "headline": "No Begutachtungsentwurf as of May 2026; spring-2026 slot missed"
+      "code": "AT",
+      "name": "Austria",
+      "status": "red",
+      "headline": "Missed deadline; no Begutachtungsentwurf, transposition via GlBG amendment still pre-draft",
+      "summary": "Austria missed the deadline with no consultation draft. Transposition is expected via an omnibus amendment to the Gleichbehandlungsgesetz (job postings, pay transparency, income report), but this remains pre-draft. Commentators note many Directive provisions take practical effect from 7 June anyway given the missed deadline.",
+      "keyDates": [
+        {
+          "label": "Spring-2026 consultation slot missed",
+          "date": "2026-05-31"
+        },
+        {
+          "label": "Deadline missed, no Begutachtungsentwurf",
+          "date": "2026-06-07"
+        }
+      ],
+      "sources": [
+        {
+          "title": "EU-Entgelttransparenz-Richtlinie: Ist sie ab 7. Juni 2026 direkt anwendbar?",
+          "publisher": "KPMG Law Austria",
+          "url": "https://www.kpmg-law.at/eu-entgelttransparenz-richtlinie-wenn-umsetzungsfrist-verstreicht/"
+        },
+        {
+          "title": "EU Pay Transparency Directive: implementation across EU member states",
+          "publisher": "Pinsent Masons",
+          "url": "https://www.pinsentmasons.com/out-law/guides/eu-pay-transparency-directive-eu-member-states"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. No Begutachtungsentwurf published; transposition via GlBG amendment pre-draft."
     },
     "PT": {
-     "status": "red",
-     "headline": "Govt labour-reform proposal 14 May (PTD scope unclear); no specific transposition bill in Assembleia"
+      "code": "PT",
+      "name": "Portugal",
+      "status": "red",
+      "headline": "No specific transposition law; Govt says text 'being finalised,' broad labour reform in Assembleia",
+      "summary": "Portugal missed the deadline with no specific transposition law. Around 1 June the Ministry of Labour said transposition was 'being finalised' and would soon enter the legislative circuit. The only vehicle in motion is a broader labour-law reform submitted to the Assembleia, whose EUPTD scope is unclear; the labour inspectorate is reportedly acting on the directive's 'spirit'.",
+      "keyDates": [
+        {
+          "label": "Govt labour-reform proposal",
+          "date": "2026-05-14"
+        },
+        {
+          "label": "Govt: transposition 'being finalised'",
+          "date": "2026-06-01"
+        },
+        {
+          "label": "Deadline missed",
+          "date": "2026-06-07"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Salários mais transparentes? Governo ainda a 'ultimar' transposição da diretiva",
+          "publisher": "ECO/Sapo",
+          "url": "https://eco.sapo.pt/2026/06/01/salarios-mais-transparentes-governo-ainda-a-ultimar-transposicao-da-diretiva-europeia/"
+        },
+        {
+          "title": "The Transposition Deadline Has Passed And Most Member States Missed It",
+          "publisher": "DCI Consulting",
+          "url": "https://blog.dciconsult.com/the-transposition-deadline-has-passed"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. No specific transposition law; Govt says text 'being finalised'."
     },
     "LU": {
-     "status": "red",
-     "headline": "MTEESS confirms (28 Apr, Paperjam): transposition before 2027 unrealistic"
+      "code": "LU",
+      "name": "Luxembourg",
+      "status": "red",
+      "headline": "Missed deadline; no bill tabled; transposition draft now expected only in H2 2026",
+      "summary": "Luxembourg missed the deadline with no projet de loi published. Per the Ministry of Labour (MTEESS), draft legislation is not expected before the second half of 2026, consistent with the assessment that transposition before 2027 is unrealistic.",
+      "keyDates": [
+        {
+          "label": "Deadline missed, no projet de loi",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Draft legislation expected (per MTEESS)",
+          "date": "2026-H2"
+        }
+      ],
+      "sources": [
+        {
+          "title": "EU Pay Transparency Directive: Key implications and next steps for employers",
+          "publisher": "CMS Luxembourg",
+          "url": "https://cms.law/en/lux/legal-updates/EU-Pay-Transparency-Directive-Key-implications-and-next-steps-for-employers"
+        },
+        {
+          "title": "EU Pay Transparency Directive: What Luxembourg employers must do",
+          "publisher": "Deloitte Luxembourg",
+          "url": "https://www.deloitte.com/lu/en/our-thinking/future-of-advice/eu-pay-transparency-directive.html"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. No bill tabled; draft now expected only in H2 2026."
     },
     "HR": {
-     "status": "red",
-     "headline": "No draft published; March 2026 publication target missed"
+      "code": "HR",
+      "name": "Croatia",
+      "status": "amber",
+      "headline": "Labour Act PTD amendments still in final prep before the Sabor; no vote yet — deadline missed",
+      "summary": "Upgrade from red. Labour Minister Alen Ružić said at end-May 2026 that Labour Act (ZOR) amendments transposing the Directive were in final preparation before submission to the Sabor; the March publication target was missed and the legislative process was not complete by 7 June. The text will cover salary ranges in job ads, information rights, and gender pay-gap reporting for larger employers.",
+      "keyDates": [
+        {
+          "label": "Original publication target (missed)",
+          "date": "2026-03-31"
+        },
+        {
+          "label": "Minister confirms final stages",
+          "date": "2026-05-31"
+        },
+        {
+          "label": "Deadline missed",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Submission to Sabor",
+          "date": "pending"
+        }
+      ],
+      "sources": [
+        {
+          "title": "New EU salary transparency rules begin, Croatia still finalising implementation",
+          "publisher": "Croatia Week",
+          "url": "https://www.croatiaweek.com/croatia-eu-pay-transparency-rules-gender-pay-gap-2026/"
+        },
+        {
+          "title": "EU Pay Transparency Directive: implementation across EU member states",
+          "publisher": "Pinsent Masons",
+          "url": "https://www.pinsentmasons.com/out-law/guides/eu-pay-transparency-directive-eu-member-states"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Labour Act amendments still in final prep before the Sabor; no vote yet."
     },
     "GR": {
-     "status": "red",
-     "headline": "No draft published; specialist committee report (due 28 Feb) not public"
+      "code": "GR",
+      "name": "Greece",
+      "status": "amber",
+      "headline": "Transposition bill tabled in Parliament 23 Jun after consultation closed 17 Jun — awaiting vote",
+      "summary": "Significant change from W21 (was red, no text). On 3 June 2026 the Ministry of Labour published a draft transposition law for public consultation, running through 17 June. It incorporates 65 social-partner proposals, gives the Greek Ombudsman a prominent enforcement role, sets a transitional first-reporting period (≥150 employees, to 31 Dec 2026), and triggers joint pay assessment for unjustified gaps ≥5%.",
+      "keyDates": [
+        {
+          "label": "Draft published / consultation opened",
+          "date": "2026-06-03"
+        },
+        {
+          "label": "Transposition deadline (missed)",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Consultation closed",
+          "date": "2026-06-17"
+        },
+        {
+          "label": "Bill submitted to Parliament",
+          "date": "2026-06-23"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Greece unveils draft Pay Transparency law: a new compliance agenda for employers",
+          "publisher": "PayGap.com",
+          "url": "https://www.paygap.com/articles/greece-unveils-draft-pay-transparency-law-a-new-compliance-agenda-foremployers"
+        },
+        {
+          "title": "Did Member States Meet the Deadline? Status of Implementation of the EU Pay Transparency Directive",
+          "publisher": "Littler",
+          "url": "https://www.littler.com/news-analysis/asap/did-member-states-meet-deadline-status-implementation-eu-pay-transparency"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 change: transposition bill tabled in Parliament 23 Jun after consultation closed 17 Jun; awaiting vote."
     },
     "HU": {
-     "status": "red",
-     "headline": "Implementation reportedly underway; no public draft as of 17 May 2026"
-    },
-    "BG": {
-     "status": "red",
-     "headline": "No published draft; self-set 29 May target slipping; no Narodno Sabranie first reading"
-    }
-   }
-  },
-  "2026-W25": {
-   "asOf": "2026-06-21",
-   "summary": {
-    "green": 4,
-    "amber": 14,
-    "red": 9
-   },
-   "movers": [
-    {
-     "code": "LT",
-     "from": "amber",
-     "to": "green",
-     "direction": "up",
-     "headline": "Lithuania enacted Law XV-969 on 21 May; Phase 1 in force 7 Jun — 4th MS to transpose on time"
-    },
-    {
-     "code": "GR",
-     "from": "red",
-     "to": "amber",
-     "direction": "up",
-     "headline": "Greece opened its first draft transposition law for public consultation on 3 Jun"
-    },
-    {
-     "code": "BG",
-     "from": "red",
-     "to": "amber",
-     "direction": "up",
-     "headline": "Bulgaria published a draft (PADA + Labour Code) on 19 May, consultation to 18 Jun"
-    },
-    {
-     "code": "HR",
-     "from": "red",
-     "to": "amber",
-     "direction": "up",
-     "headline": "Croatia's Labour Act amendments in final stages, heading to the Sabor"
-    },
-    {
-     "code": "RO",
-     "from": "red",
-     "to": "amber",
-     "direction": "up",
-     "headline": "Romania has a consulted draft that predates the 5 May government collapse; enactment now uncertain"
-    },
-    {
-     "code": "MT",
-     "from": "green",
-     "to": "green",
-     "direction": "strengthened",
-     "headline": "Malta completed full transposition (Legal Notice 173/2026) on 5 Jun"
-    },
-    {
-     "code": "IT",
-     "from": "green",
-     "to": "green",
-     "direction": "strengthened",
-     "headline": "Italy's decree published in the Gazzetta Ufficiale 1 Jun; in force 7 Jun"
-    }
-   ],
-   "countries": {
-    "SK": {
-     "status": "green",
-     "headline": "Act No. 76/2026 Coll. in force since 7 Jun 2026 — first EU state to transpose on time"
-    },
-    "IT": {
-     "status": "green",
-     "headline": "D.Lgs. 96/2026 published in Gazzetta Ufficiale 1 Jun; in force since 7 Jun 2026"
-    },
-    "MT": {
-     "status": "green",
-     "headline": "Full transposition via Legal Notice 173/2026 on 5 Jun 2026 — met the deadline"
-    },
-    "FI": {
-     "status": "amber",
-     "headline": "Govt bill (HE) reaching Eduskunta in W25; entry into force now late 2026/early 2027"
-    },
-    "NL": {
-     "status": "amber",
-     "headline": "Revised bill formally submitted to Tweede Kamer 21 May; targeted entry into force 1 Jan 2027"
-    },
-    "DK": {
-     "status": "amber",
-     "headline": "Draft targets 1 Jan 2027, but post-election coalition talks add uncertainty"
-    },
-    "CZ": {
-     "status": "amber",
-     "headline": "Draft in consultation; deliberate late transposition, act targeted for 1 Jan 2027"
-    },
-    "PL": {
-     "status": "amber",
-     "headline": "Phase-1 binding since Dec 2025; full UC127 act delayed toward early 2027"
-    },
-    "RO": {
-     "status": "amber",
-     "headline": "Consulted draft predates the 5 May government collapse; path to enactment now uncertain"
-    },
-    "LT": {
-     "status": "green",
-     "headline": "Seimas enacted Law XV-969 on 21 May; Phase 1 in force since 7 Jun 2026"
-    },
-    "LV": {
-     "status": "amber",
-     "headline": "Stand-alone draft cleared consultation 9 Apr; not yet enacted by Saeima — deadline missed"
-    },
-    "CY": {
-     "status": "amber",
-     "headline": "Comprehensive draft unadopted; missed deadline, target adoption by Sept 2026"
-    },
-    "BE": {
-     "status": "amber",
-     "headline": "Missed deadline; federal govt formally requested a 6-month EU extension (~1 Jun)"
-    },
-    "IE": {
-     "status": "red",
-     "headline": "Formally confirmed (26 May) it will not meet the deadline; phased, no penalties, no Bill"
-    },
-    "ES": {
-     "status": "amber",
-     "headline": "Prior public consultation closed 8 May; no draft text yet, BOE not before Q3/Q4 2026"
-    },
-    "SI": {
-     "status": "amber",
-     "headline": "Inter-ministerial drafting ongoing; no bill registered with Državni zbor — deadline missed"
-    },
-    "BG": {
-     "status": "amber",
-     "headline": "Draft (PADA + Labour Code) published 19 May, consultation to 18 Jun; not yet before Parliament"
-    },
-    "DE": {
-     "status": "red",
-     "headline": "Missed deadline; still no Referentenentwurf, BMBFSFJ in internal coordination"
-    },
-    "FR": {
-     "status": "red",
-     "headline": "Missed deadline; amended draft to social partners 4 Jun, to Council of Ministers ~25 Jun"
-    },
-    "AT": {
-     "status": "red",
-     "headline": "Missed deadline; no Begutachtungsentwurf, transposition via GlBG amendment still pre-draft"
-    },
-    "PT": {
-     "status": "red",
-     "headline": "No specific transposition law; Govt says text 'being finalised,' broad labour reform in Assembleia"
-    },
-    "LU": {
-     "status": "red",
-     "headline": "Missed deadline; no projet de loi, draft not expected before H2 2026"
-    },
-    "HR": {
-     "status": "amber",
-     "headline": "Labour Act amendments in final stages late May, heading to the Sabor — deadline missed"
-    },
-    "GR": {
-     "status": "amber",
-     "headline": "Draft law opened for public consultation 3 Jun (closed 17 Jun) — first published text"
-    },
-    "HU": {
-     "status": "red",
-     "headline": "No public draft legislation; deadline missed outright"
+      "code": "HU",
+      "name": "Hungary",
+      "status": "red",
+      "headline": "No public draft legislation; deadline missed outright",
+      "summary": "Hungary missed the deadline outright with no publicly available draft. Work is reportedly underway but nothing appears in legal trackers; in the absence of transposing law, existing rules (Labour Code equal-pay provisions, Equal Treatment Act, GDPR) govern in the interim.",
+      "keyDates": [
+        {
+          "label": "Deadline missed",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Public draft",
+          "date": "none as of 2026-06-21"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hungary may miss deadline for transposing EU's Pay Transparency Directive",
+          "publisher": "CMS",
+          "url": "https://cms.law/en/hun/legal-updates/hungary-may-miss-deadline-for-transposing-eu-s-pay-transparency-directive-what-should-hungarian-employers-expect"
+        },
+        {
+          "title": "Pay Transparency in Hungary: Implementation and HR processes",
+          "publisher": "Grant Thornton Hungary",
+          "url": "https://grantthornton.hu/en/news/pay-transparency-part-1-where-does-hungarian-implementation-stand"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. No public draft legislation; deadline missed outright."
     },
     "SE": {
-     "status": "red",
-     "headline": "Withdrew its draft (26 Mar) and seeks EU renegotiation; no bill to the Riksdag"
+      "code": "SE",
+      "name": "Sweden",
+      "status": "red",
+      "headline": "Withdrew its draft (26 Mar) and seeks EU renegotiation; no bill to the Riksdag",
+      "summary": "Sweden remains the most defiant: after delaying entry into force to 1 Jan 2027, it paused transposition entirely on 26 March 2026, withdrew its proposal, and is pursuing renegotiation/postponement at EU level, citing overlap with the Discrimination Act. No bill has been submitted to the Riksdag; 1 Jan 2027 is only a fallback if renegotiation fails.",
+      "keyDates": [
+        {
+          "label": "Delayed entry into force to 1 Jan 2027",
+          "date": "2026-03-11"
+        },
+        {
+          "label": "Paused/withdrew, seeking renegotiation",
+          "date": "2026-03-26"
+        },
+        {
+          "label": "Bill to Riksdag",
+          "date": "none"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sweden seeks renegotiation of the Pay Transparency Directive",
+          "publisher": "Ius Laboris",
+          "url": "https://iuslaboris.com/insights/sweden-seeks-renegotiation-of-the-pay-transparency-directive-is-the-tide-turning-against-brussels/"
+        },
+        {
+          "title": "Sweden will not implement EU Pay Transparency Directive on time",
+          "publisher": "Pinsent Masons",
+          "url": "https://www.pinsentmasons.com/out-law/news/sweden-not-implement-eu-pay-transparency-directive"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. Draft withdrawn (26 Mar); seeks EU renegotiation; no bill to the Riksdag."
     },
     "EE": {
-     "status": "red",
-     "headline": "No draft text; minister says Estonia would rather pay a fine than transpose in full"
+      "code": "EE",
+      "name": "Estonia",
+      "status": "red",
+      "headline": "No draft text; minister says Estonia would rather pay a fine than transpose in full",
+      "summary": "Estonia missed the deadline with no published draft. On 16 April 2026 the Economy Minister (Erkki Keldo) said Estonia would seek postponement and 'would rather pay a fine than meet the deadline,' citing administrative burden, with only limited pre-employment elements signalled. No legislative text has been released.",
+      "keyDates": [
+        {
+          "label": "Keldo statement (fine over compliance)",
+          "date": "2026-04-16"
+        },
+        {
+          "label": "Deadline missed",
+          "date": "2026-06-07"
+        },
+        {
+          "label": "Published draft",
+          "date": "none"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Estonia says no to EU's equal pay directive",
+          "publisher": "ERR News",
+          "url": "https://news.err.ee/1609997176/estonia-says-no-to-eu-s-equal-pay-directive"
+        },
+        {
+          "title": "The Transposition Deadline Has Passed And Most Member States Missed It",
+          "publisher": "DCI Consulting",
+          "url": "https://blog.dciconsult.com/the-transposition-deadline-has-passed"
+        }
+      ],
+      "verifiedAt": "2026-06-29",
+      "verifiedWeek": "2026-W27",
+      "weeklyCheckSummary": "W27 check: no change. No public bill text; minister favours paying a fine over full transposition."
     }
-   }
-  },
-  "2026-W26": {
-   "asOf": "2026-06-22",
-   "summary": {
-    "green": 4,
-    "amber": 14,
-    "red": 9
-   },
-   "movers": [],
-   "countries": {
-    "SK": {
-     "status": "green",
-     "headline": "Act No. 76/2026 Coll. in force since 7 Jun 2026 — first EU state to transpose on time"
-    },
-    "IT": {
-     "status": "green",
-     "headline": "D.Lgs. 96/2026 published in Gazzetta Ufficiale 1 Jun; in force since 7 Jun 2026"
-    },
-    "MT": {
-     "status": "green",
-     "headline": "Full transposition via Legal Notice 173/2026 on 5 Jun 2026 — met the deadline"
-    },
-    "FI": {
-     "status": "amber",
-     "headline": "Govt bill (HE) reaching Eduskunta in W25; entry into force now late 2026/early 2027"
-    },
-    "NL": {
-     "status": "amber",
-     "headline": "Revised bill formally submitted to Tweede Kamer 21 May; targeted entry into force 1 Jan 2027"
-    },
-    "DK": {
-     "status": "amber",
-     "headline": "Draft targets 1 Jan 2027, but post-election coalition talks add uncertainty"
-    },
-    "CZ": {
-     "status": "amber",
-     "headline": "Draft in consultation; deliberate late transposition, act targeted for 1 Jan 2027"
-    },
-    "PL": {
-     "status": "amber",
-     "headline": "Phase-1 binding since Dec 2025; full UC127 act delayed toward early 2027"
-    },
-    "RO": {
-     "status": "amber",
-     "headline": "Consulted draft predates the 5 May government collapse; path to enactment now uncertain"
-    },
-    "LT": {
-     "status": "green",
-     "headline": "Seimas enacted Law XV-969 on 21 May; Phase 1 in force since 7 Jun 2026"
-    },
-    "LV": {
-     "status": "amber",
-     "headline": "Stand-alone draft cleared consultation 9 Apr; not yet enacted by Saeima — deadline missed"
-    },
-    "CY": {
-     "status": "amber",
-     "headline": "Comprehensive draft unadopted; missed deadline, target adoption by Sept 2026"
-    },
-    "BE": {
-     "status": "amber",
-     "headline": "Missed deadline; federal govt formally requested a 6-month EU extension (~1 Jun)"
-    },
-    "IE": {
-     "status": "red",
-     "headline": "Formally confirmed (26 May) it will not meet the deadline; phased, no penalties, no Bill"
-    },
-    "ES": {
-     "status": "amber",
-     "headline": "Prior public consultation closed 8 May; no draft text yet, BOE not before Q3/Q4 2026"
-    },
-    "SI": {
-     "status": "amber",
-     "headline": "Inter-ministerial drafting ongoing; no bill registered with Državni zbor — deadline missed"
-    },
-    "BG": {
-     "status": "amber",
-     "headline": "Draft consultation closed 18 Jun; no bill yet tabled in the National Assembly — deadline missed"
-    },
-    "DE": {
-     "status": "red",
-     "headline": "Missed deadline; still no Referentenentwurf, BMBFSFJ in internal coordination"
-    },
-    "FR": {
-     "status": "red",
-     "headline": "Missed deadline; draft cleared Conseil d'État, public-sector articles to CCFP 18 Jun; not yet adopted"
-    },
-    "AT": {
-     "status": "red",
-     "headline": "Missed deadline; no Begutachtungsentwurf, transposition via GlBG amendment still pre-draft"
-    },
-    "PT": {
-     "status": "red",
-     "headline": "No specific transposition law; Govt says text 'being finalised,' broad labour reform in Assembleia"
-    },
-    "LU": {
-     "status": "red",
-     "headline": "Missed deadline; no bill tabled; parliamentary exchange of views on directive set for 24 Jun"
-    },
-    "HR": {
-     "status": "amber",
-     "headline": "Labour Act PTD amendments still in final prep before the Sabor; no vote yet — deadline missed"
-    },
-    "GR": {
-     "status": "amber",
-     "headline": "Draft consultation closed 17 Jun; not yet submitted to Parliament for a vote — deadline missed"
-    },
-    "HU": {
-     "status": "red",
-     "headline": "No public draft legislation; deadline missed outright"
-    },
-    "SE": {
-     "status": "red",
-     "headline": "Withdrew its draft (26 Mar) and seeks EU renegotiation; no bill to the Riksdag"
-    },
-    "EE": {
-     "status": "red",
-     "headline": "No draft text; minister says Estonia would rather pay a fine than transpose in full"
-    }
-   }
   }
- },
- "countries": {
-  "SK": {
-   "code": "SK",
-   "name": "Slovakia",
-   "status": "green",
-   "headline": "Act No. 76/2026 Coll. in force since 7 Jun 2026 — first EU state to transpose on time",
-   "summary": "Slovakia's Equal Pay Act (No. 76/2026 Coll.) — adopted by the National Council on 15 Apr 2026, signed by President Pellegrini 23 Apr and published in the Collection of Laws 8 May — entered into force on 7 June 2026 as scheduled. Slovakia is one of only four Member States with a full implementing law in force. First milestones: pay structures by 31 Jul 2026; first gender pay-gap reports (150+ employees) by 7 Jun 2027.",
-   "keyDates": [
-    {
-     "label": "Adopted by National Council",
-     "date": "2026-04-15"
-    },
-    {
-     "label": "Signed by President",
-     "date": "2026-04-23"
-    },
-    {
-     "label": "Published in Zbierka zákonov",
-     "date": "2026-05-08"
-    },
-    {
-     "label": "Entry into force",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Pay-structure compliance",
-     "date": "2026-07-31"
-    },
-    {
-     "label": "First report (150+)",
-     "date": "2027-06-07"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Equal Pay Act passed in Slovakia to implement the Gender Pay Transparency Directive",
-     "publisher": "DLA Piper",
-     "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/equal-pay-act-passed-to-implement-gender-pay-transparency-directive"
-    },
-    {
-     "title": "Equal Pay for Men and Women: New Employer Obligations Effective from 7 June 2026",
-     "publisher": "Legate",
-     "url": "https://www.legate.sk/en/news/equal-pay-for-men-and-women-new-employer-obligations-effective-from-7-june-2026/"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: confirmed Act No. 76/2026 Coll. in force; no change vs W25."
-  },
-  "IT": {
-   "code": "IT",
-   "name": "Italy",
-   "status": "green",
-   "headline": "D.Lgs. 96/2026 published in Gazzetta Ufficiale 1 Jun; in force since 7 Jun 2026",
-   "summary": "The W21/W22 watch item is resolved: Legislative Decree No. 96 of 7 May 2026 was published in Gazzetta Ufficiale No. 125 on 1 June 2026 and entered into force on 7 June 2026. Italy is one of only four Member States to meet the deadline. Pre-hire pay-disclosure duties and the ban on salary-history questions apply immediately; pay-secrecy clauses are void; gender pay-gap reporting is staggered (≥150 employees by 7 Jun 2027, 100–149 by 7 Jun 2031).",
-   "keyDates": [
-    {
-     "label": "Council of Ministers final approval",
-     "date": "2026-04-30"
-    },
-    {
-     "label": "Decree signed (D.Lgs. 96/2026)",
-     "date": "2026-05-07"
-    },
-    {
-     "label": "Published in Gazzetta Ufficiale n.125",
-     "date": "2026-06-01"
-    },
-    {
-     "label": "Entry into force",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "First reporting (≥150)",
-     "date": "2027-06-07"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Italy Implements the EU Pay Transparency Directive: A Guide to the Final Decree",
-     "publisher": "Littler",
-     "url": "https://www.littler.com/news-analysis/asap/italy-implements-eu-pay-transparency-directive-guide-final-decree"
-    },
-    {
-     "title": "Pubblicazione in Gazzetta Ufficiale del D.Lgs. n. 96/2026",
-     "publisher": "WST Legal",
-     "url": "https://www.wstlegal.eu/it/pubblicazione-in-gazzetta-ufficiale-del-d-lgs-n-96-2026-di-attuazione-della-direttiva-ue-2023-970-sulla-trasparenza-retributiva/"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: D.Lgs. 96/2026 confirmed in force since 7 Jun; no change vs W25."
-  },
-  "MT": {
-   "code": "MT",
-   "name": "Malta",
-   "status": "green",
-   "headline": "Full transposition via Legal Notice 173/2026 on 5 Jun 2026 — met the deadline",
-   "summary": "Malta completed full transposition on 5 June 2026 with Legal Notice 173 of 2026 (Equal Pay (Transparency and Reporting) Regulations), building on the partial LN 112/2025 in force since 27 Aug 2025. The earlier employer-association push for postponement did not materialise. Workers must receive pay information within 8 days; employers with ≥25 staff must document pay-setting criteria; gender pay-gap reporting applies from 100+ employees. Malta is one of only four Member States to meet the deadline.",
-   "keyDates": [
-    {
-     "label": "Partial transposition (LN 112/2025) in force",
-     "date": "2025-08-27"
-    },
-    {
-     "label": "Full transposition (LN 173/2026) published",
-     "date": "2026-06-05"
-    },
-    {
-     "label": "Entry into force",
-     "date": "2026-06-07"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Malta implements the Pay Transparency Directive",
-     "publisher": "Ius Laboris",
-     "url": "https://iuslaboris.com/insights/malta-implements-the-pay-transparency-directive/"
-    },
-    {
-     "title": "The New Equal Pay Regulations 2026 Published",
-     "publisher": "Mamo TCV Advocates",
-     "url": "https://www.mamotcv.com/insights/the-new-equal-pay-regulations-2026-published-implementing-the-eu-pay-transparency-directive-in-malta/"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: Legal Notice 173/2026 confirmed in force; no change vs W25."
-  },
-  "FI": {
-   "code": "FI",
-   "name": "Finland",
-   "status": "amber",
-   "headline": "Govt bill (HE) reaching Eduskunta in W25; entry into force now late 2026/early 2027",
-   "summary": "Finland missed the 7 June deadline. The government proposal amending the Equality Act is reaching the Eduskunta in mid–late June 2026 (Week 25, as flagged in W21), but trackers stop short of confirming a registered HE number. Autumn parliamentary scrutiny is expected, with national entry into force likely late 2026/early 2027. The bill keeps a 100+ threshold for EU public reporting and 30+ for internal pay surveys, with negligence fees of €5,000–€80,000.",
-   "keyDates": [
-    {
-     "label": "Govt proposal (consultation draft)",
-     "date": "2025-12-22"
-    },
-    {
-     "label": "Consultation closed",
-     "date": "2026-02-09"
-    },
-    {
-     "label": "HE to Eduskunta (Week 25)",
-     "date": "2026-06-18"
-    },
-    {
-     "label": "Expected entry into force",
-     "date": "late 2026 / early 2027"
-    }
-   ],
-   "sources": [
-    {
-     "title": "The Transposition Deadline Has Passed And Most Member States Missed It",
-     "publisher": "DCI Consulting",
-     "url": "https://blog.dciconsult.com/the-transposition-deadline-has-passed"
-    },
-    {
-     "title": "Työryhmän esitys palkka-avoimuusdirektiivin täytäntöönpanoksi etenee",
-     "publisher": "Valtioneuvosto",
-     "url": "https://valtioneuvosto.fi/-/1271139/tyoryhman-esitys-palkka-avoimuusdirektiivin-taytantoonpanoksi-etenee"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: govt proposal finalised but not yet confirmed tabled in Eduskunta; no status change."
-  },
-  "NL": {
-   "code": "NL",
-   "name": "Netherlands",
-   "status": "amber",
-   "headline": "Revised bill formally submitted to Tweede Kamer 21 May; targeted entry into force 1 Jan 2027",
-   "summary": "The Netherlands missed the deadline but advanced procedurally: on 21 May 2026 the minister formally submitted the revised implementation bill (dossier 36949) to the Tweede Kamer, following the Raad van State advice of 7 April. The bill is now before parliament awaiting substantive debate; targeted entry into force remains 1 Jan 2027. The Commission rejected the earlier Dutch postponement request in December 2025.",
-   "keyDates": [
-    {
-     "label": "Raad van State advice",
-     "date": "2026-04-07"
-    },
-    {
-     "label": "Bill submitted to Tweede Kamer (36949)",
-     "date": "2026-05-21"
-    },
-    {
-     "label": "Deadline missed (bill not yet adopted)",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Targeted entry into force",
-     "date": "2027-01-01"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Meer openheid over loonkloof tussen mannen en vrouwen",
-     "publisher": "Rijksoverheid.nl",
-     "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/05/21/meer-openheid-over-loonkloof-tussen-mannen-en-vrouwen"
-    },
-    {
-     "title": "Wetsvoorstel 36949 – Wet implementatie Richtlijn loontransparantie",
-     "publisher": "Tweede Kamer",
-     "url": "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel%3A36949"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: bill still before Tweede Kamer (submitted 21 May); target 1 Jan 2027. No change."
-  },
-  "DK": {
-   "code": "DK",
-   "name": "Denmark",
-   "status": "amber",
-   "headline": "Draft targets 1 Jan 2027, but post-election coalition talks add uncertainty",
-   "summary": "Denmark missed the deadline as planned. The Ministry of Employment's draft (published 26 Feb 2026, consultation closed 27 Mar) still targets entry into force 1 Jan 2027, with first reporting 1 Sep 2028 on 2027 data. The 24 March snap election and subsequent coalition negotiations create explicit uncertainty around that timeline.",
-   "keyDates": [
-    {
-     "label": "Draft published / consultation opened",
-     "date": "2026-02-26"
-    },
-    {
-     "label": "General election",
-     "date": "2026-03-24"
-    },
-    {
-     "label": "Consultation closed",
-     "date": "2026-03-27"
-    },
-    {
-     "label": "Targeted entry into force",
-     "date": "2027-01-01"
-    },
-    {
-     "label": "First reporting (on 2027 data)",
-     "date": "2028-09-01"
-    }
-   ],
-   "sources": [
-    {
-     "title": "The Transposition Deadline Has Passed And Most Member States Missed It",
-     "publisher": "DCI Consulting",
-     "url": "https://blog.dciconsult.com/the-transposition-deadline-has-passed"
-    },
-    {
-     "title": "Denmark: Transposing the EU Pay Transparency Directive",
-     "publisher": "WTW",
-     "url": "https://www.wtwco.com/en-us/insights/2026/04/denmark-transposing-the-eu-pay-transparency-directive"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: draft targets 1 Jan 2027; no enacted text; no change vs W25."
-  },
-  "CZ": {
-   "code": "CZ",
-   "name": "Czech Republic",
-   "status": "amber",
-   "headline": "Draft in consultation; deliberate late transposition, act targeted for 1 Jan 2027",
-   "summary": "Czechia deliberately chose not to meet the 7 June deadline. The draft Labour Code amendment (published 26 Mar 2026) remains in the legislative process, not yet in the Sbírka zákonů, with a minimalist transposition effective 1 Jan 2027 and reporting/joint-assessment obligations phased to 2028 (150+) and 2031 (100–149).",
-   "keyDates": [
-    {
-     "label": "Draft published",
-     "date": "2026-03-26"
-    },
-    {
-     "label": "Act expected effective",
-     "date": "2027-01-01"
-    },
-    {
-     "label": "Reporting & joint assessment (150+)",
-     "date": "2028-01-01"
-    },
-    {
-     "label": "Reporting (100–149)",
-     "date": "2031-01-01"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Czechia charts its own course on Pay Transparency Directive transposition",
-     "publisher": "Lewis Silkin",
-     "url": "https://www.lewissilkin.com/insights/2026/05/01/czechia-charts-its-own-course-on-pay-transparency-directive-transposition"
-    },
-    {
-     "title": "EU Pay Transparency Directive Implementation in the Czech Republic and Slovakia",
-     "publisher": "Ogletree Deakins",
-     "url": "https://ogletree.com/insights-resources/blog-posts/eu-pay-transparency-directive-implementation-in-the-czech-republic-and-slovakia/"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: draft in consultation, targeted 1 Jan 2027; no parliamentary tabling. No change."
-  },
-  "PL": {
-   "code": "PL",
-   "name": "Poland",
-   "status": "amber",
-   "headline": "Phase-1 binding since Dec 2025; full UC127 act delayed toward early 2027",
-   "summary": "No new statute by the deadline. Recruitment-stage transparency rules have been binding since 24 Dec 2025, but the full implementing act (UC127) remains in consultation; the Ministry of Family, Labour and Social Policy signals a delayed entry into force with an extended vacatio legis, possibly into early 2027, citing unresolved equality-body provisions.",
-   "keyDates": [
-    {
-     "label": "Phase-1 (recruitment) binding",
-     "date": "2025-12-24"
-    },
-    {
-     "label": "Revised UC127 draft published",
-     "date": "2026-05-04"
-    },
-    {
-     "label": "Full-act entry into force (expected)",
-     "date": "2027-Q1"
-    }
-   ],
-   "sources": [
-    {
-     "title": "HR in the Know 6/2026: Pay Transparency",
-     "publisher": "Addleshaw Goddard",
-     "url": "https://www.addleshawgoddard.com/en/insights/insights-briefings/2026/employment/hr-in-the-know-62026-pay-transparency-key-information-following-public-consultations-ministry-family-labour-social-policy/"
-    },
-    {
-     "title": "7 June 2026 Has Passed – When Will Employees Be Able to Ask About Pay?",
-     "publisher": "Thedy & Partners",
-     "url": "https://www.thedy.pl/en/pay-transparency-directive-poland-implementation-2027/"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: Phase-1 recruitment rules binding; full UC127 act unenacted, risk of slip to 2027. No change."
-  },
-  "RO": {
-   "code": "RO",
-   "name": "Romania",
-   "status": "amber",
-   "headline": "Consulted draft predates the 5 May government collapse; path to enactment now uncertain",
-   "summary": "Romania has a fully consulted draft (published 30 Mar 2026, consultation closed 8 Apr) adding Romania-specific features. The draft predates the collapse of the Bolojan government, removed by a 281-4 no-confidence vote on 5 May 2026; with a limited-powers caretaker in place, the path to enactment is now uncertain. Classified amber on the existence of a complete draft, though progress is politically fragile.",
-   "keyDates": [
-    {
-     "label": "Revised draft published",
-     "date": "2026-03-30"
-    },
-    {
-     "label": "Consultation closed",
-     "date": "2026-04-08"
-    },
-    {
-     "label": "Government toppled (no-confidence 281–4)",
-     "date": "2026-05-05"
-    },
-    {
-     "label": "Deadline missed",
-     "date": "2026-06-07"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Romania revises transposing legislation for EU Pay Transparency Directive",
-     "publisher": "Lewis Silkin",
-     "url": "https://www.lewissilkin.com/insights/2026/04/10/romania-revises-transposing-legislation-for-eu-pay-transparency-directive-key-changes-for-employers"
-    },
-    {
-     "title": "Romania dispatch: Bolojan government removed by successful vote of no confidence",
-     "publisher": "JURIST",
-     "url": "https://www.jurist.org/news/2026/05/romania-dispatch-bolojan-government-removed-by-successful-vote-of-no-confidence/"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: revised draft awaiting parliamentary submission; path uncertain. No change."
-  },
-  "LT": {
-   "code": "LT",
-   "name": "Lithuania",
-   "status": "green",
-   "headline": "Seimas enacted Law XV-969 on 21 May; Phase 1 in force since 7 Jun 2026",
-   "summary": "Lithuania moved from committee-endorsed draft to enacted law: the Seimas passed Labour Code amendments (Law No. XV-969) on 21 May 2026, making it one of only four Member States to meet the deadline. Phase 1 provisions — the salary-history ban and rights to pay information — took effect 7 June 2026. Employers must align pay systems by 31 Dec 2026, and monthly data submission to SoDRA (which will calculate the pay-gap metrics) begins 1 Jan 2027. The law exceeds the minimum, e.g. remuneration-policy duties regardless of employer size. Note: most trackers count Lithuania among the four on-time transposers, though some (e.g. DCI Consulting) classify its phased law as partial.",
-   "keyDates": [
-    {
-     "label": "Seimas enactment (Law XV-969)",
-     "date": "2026-05-21"
-    },
-    {
-     "label": "Phase 1 in force",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Pay-system alignment deadline",
-     "date": "2026-12-31"
-    },
-    {
-     "label": "SoDRA monthly reporting begins",
-     "date": "2027-01-01"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Implementation of the EU Pay Transparency Directive in Lithuania",
-     "publisher": "Sorainen",
-     "url": "https://www.sorainen.com/publications/implementation-of-the-eu-pay-transparency-directive-in-lithuania-key-requirements-for-employers/"
-    },
-    {
-     "title": "EU Pay Transparency Directive: who actually transposed by 7 June",
-     "publisher": "Remote Work Europe",
-     "url": "https://remoteworkeurope.eu/insights/pay-transparency-transposition-tracker/"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: Law XV-969 Phase 1 in force; reporting from 1 Jan 2027. No change vs W25."
-  },
-  "LV": {
-   "code": "LV",
-   "name": "Latvia",
-   "status": "amber",
-   "headline": "Stand-alone draft cleared consultation 9 Apr; not yet enacted by Saeima — deadline missed",
-   "summary": "Latvia missed the deadline. The Ministry of Welfare's stand-alone draft cleared consultation on 9 April 2026, but no Cabinet approval or Saeima first reading is confirmed as of mid-June. The draft deviates from the Directive — pay disclosure in job adverts, a narrower 'pay' definition, fewer evaluation criteria, and a 1 June annual reporting deadline.",
-   "keyDates": [
-    {
-     "label": "Draft published",
-     "date": "2026-03-26"
-    },
-    {
-     "label": "Consultation closed",
-     "date": "2026-04-09"
-    },
-    {
-     "label": "Cabinet/Saeima progress",
-     "date": "not confirmed (as of 2026-06)"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Latvia on track for timely Pay Transparency Directive transposition – with notable deviations",
-     "publisher": "Lewis Silkin",
-     "url": "https://www.lewissilkin.com/insights/2026/04/17/latvia-on-track-for-timely-pay-transparency-directive-transposition-but-with-notable-deviations"
-    },
-    {
-     "title": "The Transposition Deadline Has Passed And Most Member States Missed It",
-     "publisher": "DCI Consulting",
-     "url": "https://blog.dciconsult.com/the-transposition-deadline-has-passed"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: stand-alone draft cleared consultation; not yet enacted by Saeima. No change."
-  },
-  "CY": {
-   "code": "CY",
-   "name": "Cyprus",
-   "status": "amber",
-   "headline": "Comprehensive draft unadopted; missed deadline, target adoption by Sept 2026",
-   "summary": "Despite a strong, beyond-minimum draft (criminal sanctions up to 6 months / €10,000, officer liability), Cyprus failed to adopt in time — no enacted law as of mid-June. The bill passed legal-technical review and committees but was not put to the plenary before the deadline, with the 24 May election context contributing to slippage. Target adoption remains 2026.",
-   "keyDates": [
-    {
-     "label": "Updated draft",
-     "date": "2026-01-26"
-    },
-    {
-     "label": "Committee opinion deadline",
-     "date": "2026-03-18"
-    },
-    {
-     "label": "Deadline missed",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Government target adoption",
-     "date": "2026-09-30"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Cyprus sets its course on pay transparency in new draft bill",
-     "publisher": "Ius Laboris",
-     "url": "https://iuslaboris.com/insights/cyprus-sets-its-course-on-pay-transparency-in-new-draft-bill/"
-    },
-    {
-     "title": "Did Member States Meet the Deadline? Status of Implementation",
-     "publisher": "Littler",
-     "url": "https://www.littler.com/news-analysis/asap/did-member-states-meet-deadline-status-implementation-eu-pay-transparency"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: revised draft in Attorney-General review; not yet at Council of Ministers. No change."
-  },
-  "BE": {
-   "code": "BE",
-   "name": "Belgium",
-   "status": "amber",
-   "headline": "Missed deadline; federal govt formally requested a 6-month EU extension (~1 Jun)",
-   "summary": "Belgium missed the 7 June deadline for federal private-sector transposition and, around 1 June, formally wrote to the Commission requesting a six-month postponement and asking it to refrain from infringement action, citing roughly 30 unanswered questions. The Commission has signalled it will not grant a general delay. Only regional public-sector measures (Wallonia–Brussels Federation; Flemish public sector) are adopted.",
-   "keyDates": [
-    {
-     "label": "Federal 6-month extension request to Commission",
-     "date": "2026-06-01"
-    },
-    {
-     "label": "Deadline missed (federal private sector)",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Regional public-sector measures in force",
-     "date": "2026-06-07"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Belgium Seeks Extension for EU Pay Transparency Directive",
-     "publisher": "Baker McKenzie",
-     "url": "https://www.bakermckenzie.com/en/insight/publications/2026/06/belgium-seeks-extension-for-eu-pay-transparency-directive"
-    },
-    {
-     "title": "Belgium requests an additional six months to transpose the Directive",
-     "publisher": "Partena Professional",
-     "url": "https://www.partena-professional.be/en/belgium-requests-additional-six-months-transpose-european-pay-transparency-directive"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: 6-month extension request pending; Commission signals no general postponement. No change."
-  },
-  "IE": {
-   "code": "IE",
-   "name": "Ireland",
-   "status": "red",
-   "headline": "Formally confirmed (26 May) it will not meet the deadline; phased, no penalties, no Bill",
-   "summary": "Ireland hardened its non-compliance: in a written answer to a Parliamentary Question on 26 May 2026, the Minister formally confirmed it will not transpose by 7 June — among the first to publicly acknowledge a missed deadline. Implementation will be phased, employers will not be penalised near-term, and the Gender Pay Gap Portal will run for the November 2026 reporting cycle. No transposing Bill is enacted.",
-   "keyDates": [
-    {
-     "label": "'No penalties' reported (Irish Times)",
-     "date": "2026-03-10"
-    },
-    {
-     "label": "Minister PQ confirmation",
-     "date": "2026-05-26"
-    },
-    {
-     "label": "Deadline missed",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Gender Pay Gap Portal reporting cycle",
-     "date": "2026-11-01"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Ireland confirms it will not meet 7 June 2026 transposition deadline",
-     "publisher": "McCann FitzGerald",
-     "url": "https://www.mccannfitzgerald.com/knowledge/employment/eu-pay-transparency-directive-ireland-confirms-it-will-not-meet-7-june-2026-transposition-deadline"
-    },
-    {
-     "title": "Employers won't be 'penalised' as Ireland to miss deadline",
-     "publisher": "Irish Times",
-     "url": "https://www.irishtimes.com/business/work/2026/03/10/employers-wont-be-penalised-as-ireland-to-miss-deadline-to-introduce-eu-pay-transparency-law/"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: confirmed will not meet deadline; no Bill published, off summer priority list. No change."
-  },
-  "ES": {
-   "code": "ES",
-   "name": "Spain",
-   "status": "amber",
-   "headline": "Prior public consultation closed 8 May; no draft text yet, BOE not before Q3/Q4 2026",
-   "summary": "Little forward motion. The prior public consultation (consulta pública previa) on a Royal Decree closed 8 May 2026; the draft text is still in drafting, with public-hearing and Council of Ministers phases to come. Spain missed the deadline; BOE publication is expected no earlier than Q3/Q4 2026, with most obligations enforceable in 2027.",
-   "keyDates": [
-    {
-     "label": "Consulta pública previa closed",
-     "date": "2026-05-08"
-    },
-    {
-     "label": "Draft Royal Decree text",
-     "date": "pending"
-    },
-    {
-     "label": "Expected BOE publication",
-     "date": "2026-Q3/Q4"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Spain moves to strengthen pay transparency and implement the EU Directive",
-     "publisher": "DLA Piper",
-     "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/Spain-moves-to-strengthen-pay-transparency-and-implement-EU-Gender-Pay-Transparency-Directive"
-    },
-    {
-     "title": "Cuenta atrás para la trasposición de la Directiva de Transparencia Retributiva",
-     "publisher": "Bird & Bird",
-     "url": "https://www.twobirds.com/es/insights/2026/spain/transparencia-retributiva"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: prior consultation closed 8 May; no draft text published; BOE not before Q3/Q4 2026. No change."
-  },
-  "SI": {
-   "code": "SI",
-   "name": "Slovenia",
-   "status": "amber",
-   "headline": "Inter-ministerial drafting ongoing; no bill registered with Državni zbor — deadline missed",
-   "summary": "Little movement. No official draft has been published and no bill is registered with the National Assembly; the inter-ministerial working group is still preparing. A partial measure obliging applicant pay information has been in force since 27 Aug 2025, but the bulk of the Directive remains untransposed — placing Slovenia at the amber/red boundary.",
-   "keyDates": [
-    {
-     "label": "Partial measure in force",
-     "date": "2025-08-27"
-    },
-    {
-     "label": "Deadline missed",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Official draft / bill",
-     "date": "not yet registered"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Pay transparency in Slovenia: upcoming obligations and impact on employers",
-     "publisher": "Wolf Theiss",
-     "url": "https://www.wolftheiss.com/insights/pay-transparency-in-slovenia-upcoming-obligations-and-impact-on-employers-2/"
-    },
-    {
-     "title": "EU Pay Transparency Directive: who actually transposed by 7 June",
-     "publisher": "Remote Work Europe",
-     "url": "https://remoteworkeurope.eu/insights/pay-transparency-transposition-tracker/"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: pre-draft; no bill registered with Državni zbor. No change vs W25."
-  },
-  "BG": {
-   "code": "BG",
-   "name": "Bulgaria",
-   "status": "amber",
-   "headline": "Draft consultation closed 18 Jun; no bill yet tabled in the National Assembly — deadline missed",
-   "summary": "Upgrade from red. On 19 May 2026 Bulgaria published a draft transposition amending the Protection Against Discrimination Act and the Labour Code, with public consultation to 18 June. As of 21 June it had not yet had a first reading in the National Assembly; the deadline was missed. CPAD is the monitoring body; reporting phases from 7 Jun 2027 (150+) and 7 Jun 2031 (100–149).",
-   "keyDates": [
-    {
-     "label": "Draft published",
-     "date": "2026-05-19"
-    },
-    {
-     "label": "Deadline missed",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Consultation closed",
-     "date": "2026-06-18"
-    },
-    {
-     "label": "Reporting (150+)",
-     "date": "2027-06-07"
-    },
-    {
-     "label": "Reporting (100–149)",
-     "date": "2031-06-07"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Bulgaria's Draft Implementation of the EU Pay Transparency Directive",
-     "publisher": "PayGap.com",
-     "url": "https://www.paygap.com/articles/bulgarias-draft-implementation-of-the-eu-pay-transparency-directive-what-employers-should-know"
-    },
-    {
-     "title": "Bulgaria Publishes Draft Transposition of EU Pay Transparency Directive",
-     "publisher": "DCI Consulting",
-     "url": "https://blog.dciconsult.com/bulgaria-pay-transparency-directive"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: consultation closed 18 Jun; no bill tabled in the National Assembly yet. Status holds amber."
-  },
-  "DE": {
-   "code": "DE",
-   "name": "Germany",
-   "status": "red",
-   "headline": "Missed deadline; still no Referentenentwurf, BMBFSFJ in internal coordination",
-   "summary": "Germany missed the deadline with no published draft (Referentenentwurf). The deadline lapsed with the existing Entgelttransparenzgesetz unchanged; the BMBFSFJ continues internal coordination, working from the expert commission's final report of 7 Nov 2025 before opening the legislative process. Borderline amber/red — kept red as no bill text exists.",
-   "keyDates": [
-    {
-     "label": "Expert commission final report",
-     "date": "2025-11-07"
-    },
-    {
-     "label": "Deadline missed, no draft",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Referentenentwurf still not published",
-     "date": "2026-06-21"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Abschlussbericht der Kommission 'Bürokratiearme Umsetzung der Entgelttransparenzrichtlinie'",
-     "publisher": "BMBFSFJ",
-     "url": "https://www.bmbfsfj.bund.de/bmbfsfj/aktuelles/pressemitteilungen/abschlussbericht-der-kommission-buerokratiearme-umsetzung-der-entgelttransparenzrichtlinie--274262"
-    },
-    {
-     "title": "Germany: The EU Pay Transparency Directive",
-     "publisher": "Osborne Clarke",
-     "url": "https://www.osborneclarke.com/insights/germany-eu-pay-transparency-directive"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: no Referentenentwurf; BMBFSFJ still in internal coordination. No change."
-  },
-  "FR": {
-   "code": "FR",
-   "name": "France",
-   "status": "red",
-   "headline": "Missed deadline; draft cleared Conseil d'État, public-sector articles to CCFP 18 Jun; not yet adopted",
-   "summary": "France missed the deadline but is moving: on 4 June 2026 the Labour Minister sent social partners an expanded second draft (22 articles), with the text going to the Conseil d'État and expected at the Council of Ministers around 25 June. Entry into force would be progressive between late 2026 and 1 January 2028, contingent on parliamentary adoption. No formal bill is yet before parliament — kept red.",
-   "keyDates": [
-    {
-     "label": "First draft to social partners",
-     "date": "2026-03-06"
-    },
-    {
-     "label": "Amended draft to social partners",
-     "date": "2026-06-04"
-    },
-    {
-     "label": "Expected to Council of Ministers",
-     "date": "2026-06-25"
-    },
-    {
-     "label": "Targeted entry into force",
-     "date": "late 2026 → 2028-01-01"
-    }
-   ],
-   "sources": [
-    {
-     "title": "France Releases an Amended Draft Law to Implement the Pay Transparency Directive",
-     "publisher": "Littler",
-     "url": "https://www.littler.com/news-analysis/asap/france-releases-amended-draft-law-implement-pay-transparency-directive"
-    },
-    {
-     "title": "Transparence salariale : le gouvernement dévoile une nouvelle version du projet de loi",
-     "publisher": "Lexia Conseil",
-     "url": "https://www.lexia-conseil.fr/transparence-salariale-le-gouvernement-devoile-une-nouvelle-version-du-projet-de-loi-de-transposition-de-la-directive-europeenne/"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: draft cleared Conseil d'État, public-sector articles to CCFP 18 Jun; Council of Ministers passage not yet occurred. Holds red."
-  },
-  "AT": {
-   "code": "AT",
-   "name": "Austria",
-   "status": "red",
-   "headline": "Missed deadline; no Begutachtungsentwurf, transposition via GlBG amendment still pre-draft",
-   "summary": "Austria missed the deadline with no consultation draft. Transposition is expected via an omnibus amendment to the Gleichbehandlungsgesetz (job postings, pay transparency, income report), but this remains pre-draft. Commentators note many Directive provisions take practical effect from 7 June anyway given the missed deadline.",
-   "keyDates": [
-    {
-     "label": "Spring-2026 consultation slot missed",
-     "date": "2026-05-31"
-    },
-    {
-     "label": "Deadline missed, no Begutachtungsentwurf",
-     "date": "2026-06-07"
-    }
-   ],
-   "sources": [
-    {
-     "title": "EU-Entgelttransparenz-Richtlinie: Ist sie ab 7. Juni 2026 direkt anwendbar?",
-     "publisher": "KPMG Law Austria",
-     "url": "https://www.kpmg-law.at/eu-entgelttransparenz-richtlinie-wenn-umsetzungsfrist-verstreicht/"
-    },
-    {
-     "title": "EU Pay Transparency Directive: implementation across EU member states",
-     "publisher": "Pinsent Masons",
-     "url": "https://www.pinsentmasons.com/out-law/guides/eu-pay-transparency-directive-eu-member-states"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: no Begutachtungsentwurf; transposition via GlBG still pre-draft. No change."
-  },
-  "PT": {
-   "code": "PT",
-   "name": "Portugal",
-   "status": "red",
-   "headline": "No specific transposition law; Govt says text 'being finalised,' broad labour reform in Assembleia",
-   "summary": "Portugal missed the deadline with no specific transposition law. Around 1 June the Ministry of Labour said transposition was 'being finalised' and would soon enter the legislative circuit. The only vehicle in motion is a broader labour-law reform submitted to the Assembleia, whose EUPTD scope is unclear; the labour inspectorate is reportedly acting on the directive's 'spirit'.",
-   "keyDates": [
-    {
-     "label": "Govt labour-reform proposal",
-     "date": "2026-05-14"
-    },
-    {
-     "label": "Govt: transposition 'being finalised'",
-     "date": "2026-06-01"
-    },
-    {
-     "label": "Deadline missed",
-     "date": "2026-06-07"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Salários mais transparentes? Governo ainda a 'ultimar' transposição da diretiva",
-     "publisher": "ECO/Sapo",
-     "url": "https://eco.sapo.pt/2026/06/01/salarios-mais-transparentes-governo-ainda-a-ultimar-transposicao-da-diretiva-europeia/"
-    },
-    {
-     "title": "The Transposition Deadline Has Passed And Most Member States Missed It",
-     "publisher": "DCI Consulting",
-     "url": "https://blog.dciconsult.com/the-transposition-deadline-has-passed"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: no adopted transposition law; party proposals in Labour Committee. No change."
-  },
-  "LU": {
-   "code": "LU",
-   "name": "Luxembourg",
-   "status": "red",
-   "headline": "Missed deadline; no bill tabled; parliamentary exchange of views on directive set for 24 Jun",
-   "summary": "Luxembourg missed the deadline with no projet de loi published. Per the Ministry of Labour (MTEESS), draft legislation is not expected before the second half of 2026, consistent with the assessment that transposition before 2027 is unrealistic.",
-   "keyDates": [
-    {
-     "label": "Deadline missed, no projet de loi",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Draft legislation expected (per MTEESS)",
-     "date": "2026-H2"
-    }
-   ],
-   "sources": [
-    {
-     "title": "EU Pay Transparency Directive: Key implications and next steps for employers",
-     "publisher": "CMS Luxembourg",
-     "url": "https://cms.law/en/lux/legal-updates/EU-Pay-Transparency-Directive-Key-implications-and-next-steps-for-employers"
-    },
-    {
-     "title": "EU Pay Transparency Directive: What Luxembourg employers must do",
-     "publisher": "Deloitte Luxembourg",
-     "url": "https://www.deloitte.com/lu/en/our-thinking/future-of-advice/eu-pay-transparency-directive.html"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: no projet de loi tabled; Commission du Travail to hold an exchange of views on the directive 24 Jun. Holds red."
-  },
-  "HR": {
-   "code": "HR",
-   "name": "Croatia",
-   "status": "amber",
-   "headline": "Labour Act PTD amendments still in final prep before the Sabor; no vote yet — deadline missed",
-   "summary": "Upgrade from red. Labour Minister Alen Ružić said at end-May 2026 that Labour Act (ZOR) amendments transposing the Directive were in final preparation before submission to the Sabor; the March publication target was missed and the legislative process was not complete by 7 June. The text will cover salary ranges in job ads, information rights, and gender pay-gap reporting for larger employers.",
-   "keyDates": [
-    {
-     "label": "Original publication target (missed)",
-     "date": "2026-03-31"
-    },
-    {
-     "label": "Minister confirms final stages",
-     "date": "2026-05-31"
-    },
-    {
-     "label": "Deadline missed",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Submission to Sabor",
-     "date": "pending"
-    }
-   ],
-   "sources": [
-    {
-     "title": "New EU salary transparency rules begin, Croatia still finalising implementation",
-     "publisher": "Croatia Week",
-     "url": "https://www.croatiaweek.com/croatia-eu-pay-transparency-rules-gender-pay-gap-2026/"
-    },
-    {
-     "title": "EU Pay Transparency Directive: implementation across EU member states",
-     "publisher": "Pinsent Masons",
-     "url": "https://www.pinsentmasons.com/out-law/guides/eu-pay-transparency-directive-eu-member-states"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: correction — no Sabor vote occurred; amendments still in final prep at end-May. Holds amber."
-  },
-  "GR": {
-   "code": "GR",
-   "name": "Greece",
-   "status": "amber",
-   "headline": "Draft consultation closed 17 Jun; not yet submitted to Parliament for a vote — deadline missed",
-   "summary": "Significant change from W21 (was red, no text). On 3 June 2026 the Ministry of Labour published a draft transposition law for public consultation, running through 17 June. It incorporates 65 social-partner proposals, gives the Greek Ombudsman a prominent enforcement role, sets a transitional first-reporting period (≥150 employees, to 31 Dec 2026), and triggers joint pay assessment for unjustified gaps ≥5%.",
-   "keyDates": [
-    {
-     "label": "Draft law to public consultation",
-     "date": "2026-06-03"
-    },
-    {
-     "label": "Deadline missed",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Consultation closed",
-     "date": "2026-06-17"
-    },
-    {
-     "label": "Transitional first reporting (≥150)",
-     "date": "2026-12-31"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Greece unveils draft Pay Transparency law: A new compliance agenda for employers",
-     "publisher": "PayGap.com",
-     "url": "https://www.paygap.com/articles/greece-unveils-draft-pay-transparency-law-a-new-compliance-agenda-foremployers"
-    },
-    {
-     "title": "Gender Pay Equality Bill Opens for Public Consultation",
-     "publisher": "Athens Times",
-     "url": "https://athens-times.com/gender-pay-equality-bill-opens-for-public-consultation/"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: consultation closed 17 Jun; not yet submitted to Parliament. Status holds amber."
-  },
-  "HU": {
-   "code": "HU",
-   "name": "Hungary",
-   "status": "red",
-   "headline": "No public draft legislation; deadline missed outright",
-   "summary": "Hungary missed the deadline outright with no publicly available draft. Work is reportedly underway but nothing appears in legal trackers; in the absence of transposing law, existing rules (Labour Code equal-pay provisions, Equal Treatment Act, GDPR) govern in the interim.",
-   "keyDates": [
-    {
-     "label": "Deadline missed",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Public draft",
-     "date": "none as of 2026-06-21"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Hungary may miss deadline for transposing EU's Pay Transparency Directive",
-     "publisher": "CMS",
-     "url": "https://cms.law/en/hun/legal-updates/hungary-may-miss-deadline-for-transposing-eu-s-pay-transparency-directive-what-should-hungarian-employers-expect"
-    },
-    {
-     "title": "Pay Transparency in Hungary: Implementation and HR processes",
-     "publisher": "Grant Thornton Hungary",
-     "url": "https://grantthornton.hu/en/news/pay-transparency-part-1-where-does-hungarian-implementation-stand"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: no public draft legislation; deadline missed outright. No change."
-  },
-  "SE": {
-   "code": "SE",
-   "name": "Sweden",
-   "status": "red",
-   "headline": "Withdrew its draft (26 Mar) and seeks EU renegotiation; no bill to the Riksdag",
-   "summary": "Sweden remains the most defiant: after delaying entry into force to 1 Jan 2027, it paused transposition entirely on 26 March 2026, withdrew its proposal, and is pursuing renegotiation/postponement at EU level, citing overlap with the Discrimination Act. No bill has been submitted to the Riksdag; 1 Jan 2027 is only a fallback if renegotiation fails.",
-   "keyDates": [
-    {
-     "label": "Delayed entry into force to 1 Jan 2027",
-     "date": "2026-03-11"
-    },
-    {
-     "label": "Paused/withdrew, seeking renegotiation",
-     "date": "2026-03-26"
-    },
-    {
-     "label": "Bill to Riksdag",
-     "date": "none"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Sweden seeks renegotiation of the Pay Transparency Directive",
-     "publisher": "Ius Laboris",
-     "url": "https://iuslaboris.com/insights/sweden-seeks-renegotiation-of-the-pay-transparency-directive-is-the-tide-turning-against-brussels/"
-    },
-    {
-     "title": "Sweden will not implement EU Pay Transparency Directive on time",
-     "publisher": "Pinsent Masons",
-     "url": "https://www.pinsentmasons.com/out-law/news/sweden-not-implement-eu-pay-transparency-directive"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: no bill to the Riksdag; still seeking EU renegotiation. No change."
-  },
-  "EE": {
-   "code": "EE",
-   "name": "Estonia",
-   "status": "red",
-   "headline": "No draft text; minister says Estonia would rather pay a fine than transpose in full",
-   "summary": "Estonia missed the deadline with no published draft. On 16 April 2026 the Economy Minister (Erkki Keldo) said Estonia would seek postponement and 'would rather pay a fine than meet the deadline,' citing administrative burden, with only limited pre-employment elements signalled. No legislative text has been released.",
-   "keyDates": [
-    {
-     "label": "Keldo statement (fine over compliance)",
-     "date": "2026-04-16"
-    },
-    {
-     "label": "Deadline missed",
-     "date": "2026-06-07"
-    },
-    {
-     "label": "Published draft",
-     "date": "none"
-    }
-   ],
-   "sources": [
-    {
-     "title": "Estonia says no to EU's equal pay directive",
-     "publisher": "ERR News",
-     "url": "https://news.err.ee/1609997176/estonia-says-no-to-eu-s-equal-pay-directive"
-    },
-    {
-     "title": "The Transposition Deadline Has Passed And Most Member States Missed It",
-     "publisher": "DCI Consulting",
-     "url": "https://blog.dciconsult.com/the-transposition-deadline-has-passed"
-    }
-   ],
-   "verifiedAt": "2026-06-22",
-   "verifiedWeek": "2026-W26",
-   "weeklyCheckSummary": "W26 check: no draft text; minister prefers a fine over full transposition. No change."
-  }
- }
 }
